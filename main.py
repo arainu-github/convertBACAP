@@ -3,11 +3,11 @@ import json
 import os
 import shutil
 
-if os.path.isdir("data"):
-    shutil.rmtree("data")
-shutil.copytree("before_translate","data")
+if os.path.isdir("BACAP"):
+    shutil.rmtree("BACAP")
+shutil.copytree("before_translate","BACAP")
 
-dirs = glob.glob("data/data/*")
+dirs = glob.glob("BACAP/data/*")
 with open("ja_jp.json") as f:
     lang_data = json.load(f)
 for i in dirs:
