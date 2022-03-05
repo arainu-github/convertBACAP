@@ -26,7 +26,7 @@ for i in dirs:
                         d["display"]["title"]["translate"] = lang_data[title]
                     else:
                         lang_data[title] = title
-                    desc = d["display"]["title"]["translate"]
+                    desc = d["display"]["description"]["translate"]
                     if desc in lang_data:
                         d["display"]["description"]["translate"] = lang_data[desc]
                     else:
