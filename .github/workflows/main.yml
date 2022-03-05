@@ -25,5 +25,5 @@ jobs:
             server: ${{ secrets.SSH_SERVER }}
             ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
             local_path: './BACAP.zip'
-            remote_path: '/var/minecraft/survival/world/datapacks/BACAP.zip'
+            remote_path: '/var/minecraft/survival/world/datapacks/'
             args: '-o ConnectTimeout=5'
