@@ -17,7 +17,7 @@ jobs:
         - name: Run Python
           run: "python ./main.py"
         - name: compose zip
-          run: "zip -r BACAP.zip BACAP/*"
+          run: "cd BACAP && zip -r ../BACAP.zip * && cd ../"
         - name: deploy file
           uses: wlixcc/SFTP-Deploy-Action@v1.2.1
           with:
