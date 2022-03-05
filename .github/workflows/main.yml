@@ -24,6 +24,6 @@ jobs:
             username: ${{ secrets.SSH_USERNAME }}
             server: ${{ secrets.SSH_SERVER }}
             ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
-            local_path: './BACAP'
+            local_path: './BACAP/*'
             remote_path: '/var/minecraft/survival/world/datapacks'
             args: '-o ConnectTimeout=5'
