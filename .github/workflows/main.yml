@@ -16,14 +16,14 @@ jobs:
             architecture: 'x64'
         - name: Run Python
           run: "python ./main.py"
-        - name: test
-          run: "ls -al"
+        - name: compose zip
+          run: "zip -r BACAP/* BACAP.zip"
         - name: deploy file
           uses: wlixcc/SFTP-Deploy-Action@v1.2.1
           with:
             username: ${{ secrets.SSH_USERNAME }}
             server: ${{ secrets.SSH_SERVER }}
             ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
-            local_path: './BACAP/'
-            remote_path: '/var/minecraft/survival/world/datapacks/BACAP'
+            local_path: './BACAP.zip'
+            remote_path: '/var/minecraft/survival/world/datapacks/BACAP.zip'
             args: '-o ConnectTimeout=5'
