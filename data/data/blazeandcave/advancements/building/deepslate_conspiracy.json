@@ -3,23 +3,27 @@
         "icon": {
             "item": "minecraft:deepslate_tiles"
         },
-        "title": {"translate":"Deepslate Conspiracy"},
-        "description": {"translate":"Craft all forms of Deepslate, Polished Deepslate, Deepslate Bricks and Deepslate Tiles"},
+        "title": {
+            "translate": "Deepslate Conspiracy"
+        },
+        "description": {
+            "translate": "Deepslate Conspiracy"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:building/fake_stronghold",
     "rewards": {
         "function": "bc_rewards:building/deepslate_conspiracy"
-    },		
+    },
     "criteria": {
         "deepslate": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:deepslate"
-						]
+                        "items": [
+                            "minecraft:deepslate"
+                        ]
                     }
                 ]
             }
@@ -29,9 +33,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cobbled_deepslate"
-						]
+                        "items": [
+                            "minecraft:cobbled_deepslate"
+                        ]
                     }
                 ]
             }
@@ -41,9 +45,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cobbled_deepslate_slab"
-						]
+                        "items": [
+                            "minecraft:cobbled_deepslate_slab"
+                        ]
                     }
                 ]
             }
@@ -53,9 +57,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cobbled_deepslate_stairs"
-						]
+                        "items": [
+                            "minecraft:cobbled_deepslate_stairs"
+                        ]
                     }
                 ]
             }
@@ -65,9 +69,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cobbled_deepslate_wall"
-						]
+                        "items": [
+                            "minecraft:cobbled_deepslate_wall"
+                        ]
                     }
                 ]
             }
@@ -77,9 +81,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:polished_deepslate"
-						]
+                        "items": [
+                            "minecraft:polished_deepslate"
+                        ]
                     }
                 ]
             }
@@ -89,9 +93,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:polished_deepslate_slab"
-						]
+                        "items": [
+                            "minecraft:polished_deepslate_slab"
+                        ]
                     }
                 ]
             }
@@ -101,9 +105,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:polished_deepslate_stairs"
-						]
+                        "items": [
+                            "minecraft:polished_deepslate_stairs"
+                        ]
                     }
                 ]
             }
@@ -113,9 +117,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:polished_deepslate_wall"
-						]
+                        "items": [
+                            "minecraft:polished_deepslate_wall"
+                        ]
                     }
                 ]
             }
@@ -125,9 +129,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:deepslate_bricks"
-						]
+                        "items": [
+                            "minecraft:deepslate_bricks"
+                        ]
                     }
                 ]
             }
@@ -137,9 +141,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:deepslate_brick_slab"
-						]
+                        "items": [
+                            "minecraft:deepslate_brick_slab"
+                        ]
                     }
                 ]
             }
@@ -149,9 +153,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:deepslate_brick_stairs"
-						]
+                        "items": [
+                            "minecraft:deepslate_brick_stairs"
+                        ]
                     }
                 ]
             }
@@ -161,9 +165,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:deepslate_brick_wall"
-						]
+                        "items": [
+                            "minecraft:deepslate_brick_wall"
+                        ]
                     }
                 ]
             }
@@ -173,9 +177,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:deepslate_tiles"
-						]
+                        "items": [
+                            "minecraft:deepslate_tiles"
+                        ]
                     }
                 ]
             }
@@ -185,9 +189,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:deepslate_tile_slab"
-						]
+                        "items": [
+                            "minecraft:deepslate_tile_slab"
+                        ]
                     }
                 ]
             }
@@ -197,9 +201,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:deepslate_tile_stairs"
-						]
+                        "items": [
+                            "minecraft:deepslate_tile_stairs"
+                        ]
                     }
                 ]
             }
@@ -209,9 +213,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:deepslate_tile_wall"
-						]
+                        "items": [
+                            "minecraft:deepslate_tile_wall"
+                        ]
                     }
                 ]
             }
@@ -221,9 +225,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:chiseled_deepslate"
-						]
+                        "items": [
+                            "minecraft:chiseled_deepslate"
+                        ]
                     }
                 ]
             }
@@ -233,9 +237,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cracked_deepslate_bricks"
-						]
+                        "items": [
+                            "minecraft:cracked_deepslate_bricks"
+                        ]
                     }
                 ]
             }
@@ -245,12 +249,12 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cracked_deepslate_tiles"
-						]
+                        "items": [
+                            "minecraft:cracked_deepslate_tiles"
+                        ]
                     }
                 ]
             }
         }
-	}		
+    }
 }

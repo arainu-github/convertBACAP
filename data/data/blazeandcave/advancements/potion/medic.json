@@ -3,14 +3,18 @@
         "icon": {
             "item": "minecraft:glistering_melon_slice"
         },
-        "title": {"translate":"Medic!"},
-        "description": {"translate":"Brew a healing potion"},
+        "title": {
+            "translate": "メディック！"
+        },
+        "description": {
+            "translate": "Brew a healing potion"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:potion/root",
-	"rewards": {
-		"function": "bc_rewards:potion/medic"
-    },	
+    "rewards": {
+        "function": "bc_rewards:potion/medic"
+    },
     "criteria": {
         "healing": {
             "trigger": "minecraft:brewed_potion",
@@ -25,10 +29,10 @@
             }
         }
     },
-	"requirements": [
-		[
-			"healing",
-			"strong_healing"
-		]
-	]
+    "requirements": [
+        [
+            "healing",
+            "strong_healing"
+        ]
+    ]
 }

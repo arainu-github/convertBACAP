@@ -3,13 +3,17 @@
         "icon": {
             "item": "minecraft:dropper"
         },
-        "title": {"translate":"Space Dropper"},
-        "description": {"translate":"Craft a dropper for item transportation"},
+        "title": {
+            "translate": "空き場にドロップ！"
+        },
+        "description": {
+            "translate": "Craft a dropper for item transportation"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:redstone/space_hopper",
-	"rewards": {
-		"function": "bc_rewards:redstone/space_dropper"
+    "rewards": {
+        "function": "bc_rewards:redstone/space_dropper"
     },
     "criteria": {
         "dropper": {
@@ -17,9 +21,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:dropper"
-						]
+                        "items": [
+                            "minecraft:dropper"
+                        ]
                     }
                 ]
             }

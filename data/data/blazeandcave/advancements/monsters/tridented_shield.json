@@ -2,15 +2,19 @@
     "display": {
         "icon": {
             "item": "minecraft:shield",
-			"nbt": "{BlockEntityTag:{Base:9,Patterns:[{Pattern:ms,Color:3},{Pattern:cs,Color:9},{Pattern:tts,Color:13},{Pattern:bs,Color:3},{Pattern:bts,Color:12}]}}"
+            "nbt": "{BlockEntityTag:{Base:9,Patterns:[{Pattern:ms,Color:3},{Pattern:cs,Color:9},{Pattern:tts,Color:13},{Pattern:bs,Color:3},{Pattern:bts,Color:12}]}}"
         },
-        "title": {"translate":"Tridented Shield"},
-        "description": {"translate":"Block a trident thrown by a Drowned"},
+        "title": {
+            "translate": "三又の盾"
+        },
+        "description": {
+            "translate": "Block a trident thrown by a Drowned"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:monsters/a_watery_grave",
-	"rewards": {
-		"function": "bc_rewards:monsters/tridented_shield"
+    "rewards": {
+        "function": "bc_rewards:monsters/tridented_shield"
     },
     "criteria": {
         "deflected_trident": {
@@ -21,9 +25,9 @@
                         "is_projectile": true
                     },
                     "blocked": true,
-					"source_entity": {
-						"type": "drowned"
-					}
+                    "source_entity": {
+                        "type": "drowned"
+                    }
                 }
             }
         }

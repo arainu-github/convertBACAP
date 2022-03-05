@@ -3,25 +3,30 @@
         "icon": {
             "item": "minecraft:chicken_spawn_egg"
         },
-        "title": {"translate":"Chicken Cooper"},
-        "description": {"color":"#75E1FF","translate":"Collect a stack of raw chicken and feathers"},
+        "title": {
+            "translate": "KFC"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Collect a stack of raw chicken and feathers"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "blazeandcave:animal/feeding_the_chickens",
     "rewards": {
-		"function": "bc_rewards:animal/chicken_cooper"
-    },		
+        "function": "bc_rewards:animal/chicken_cooper"
+    },
     "criteria": {
         "chicken": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:chicken"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:chicken"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -31,13 +36,13 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:feather"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:feather"
+                        ],
+                        "count": 64
                     }
                 ]
             }
-        }	
-    }	
+        }
+    }
 }

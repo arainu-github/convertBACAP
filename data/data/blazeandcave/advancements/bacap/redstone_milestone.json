@@ -3,471 +3,476 @@
         "icon": {
             "item": "minecraft:redstone"
         },
-        "title": {"translate":"Redstone Milestone"},
-        "description": {"color":"yellow","translate":"Complete every advancement in the Redstone tab"},
+        "title": {
+            "translate": "Redstone Milestone"
+        },
+        "description": {
+            "color": "yellow",
+            "translate": "Redstone Milestone"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "blazeandcave:bacap/adventure_milestone",
-	"rewards": {
-		"function": "bc_rewards:bacap/redstone_milestone"
-    },		
+    "rewards": {
+        "function": "bc_rewards:bacap/redstone_milestone"
+    },
     "criteria": {
         "bling_plate": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/bling_plate": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/bling_plate": "true"
+                        }
+                    }
+                }
+            }
         },
         "comparing_comparator": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/comparing_comparator": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/comparing_comparator": "true"
+                        }
+                    }
+                }
+            }
         },
-		"fuel_engine": {
+        "fuel_engine": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/fuel_engine": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/fuel_engine": "true"
+                        }
+                    }
+                }
+            }
         },
-		"dispense_with_this": {
+        "dispense_with_this": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/dispense_with_this": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/dispense_with_this": "true"
+                        }
+                    }
+                }
+            }
         },
-		"electric_rails": {
+        "electric_rails": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/electric_rails": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/electric_rails": "true"
+                        }
+                    }
+                }
+            }
         },
-		"engineer": {
+        "engineer": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/engineer": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/engineer": "true"
+                        }
+                    }
+                }
+            }
         },
-		"master_engineer": {
+        "master_engineer": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/master_engineer": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/master_engineer": "true"
+                        }
+                    }
+                }
+            }
         },
-		"metal_plate": {
+        "metal_plate": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/metal_plate": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/metal_plate": "true"
+                        }
+                    }
+                }
+            }
         },
-		"mobile_explosion": {
+        "mobile_explosion": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/mobile_explosion": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/mobile_explosion": "true"
+                        }
+                    }
+                }
+            }
         },
-		"moving_moving_storage": {
+        "moving_moving_storage": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/moving_moving_storage": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/moving_moving_storage": "true"
+                        }
+                    }
+                }
+            }
         },
-		"moving_parts": {
+        "moving_parts": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/moving_parts": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/moving_parts": "true"
+                        }
+                    }
+                }
+            }
         },
-		"moving_storage": {
+        "moving_storage": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/moving_storage": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/moving_storage": "true"
+                        }
+                    }
+                }
+            }
         },
-		"mozart": {
+        "mozart": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/mozart": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/mozart": "true"
+                        }
+                    }
+                }
+            }
         },
-		"observer_buddy": {
+        "observer_buddy": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/observer_buddy": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/observer_buddy": "true"
+                        }
+                    }
+                }
+            }
         },
-		"all_aboard": {
+        "all_aboard": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/all_aboard": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/all_aboard": "true"
+                        }
+                    }
+                }
+            }
         },
-		"powerful_light": {
+        "powerful_light": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/powerful_light": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/powerful_light": "true"
+                        }
+                    }
+                }
+            }
         },
-		"pressure_detector": {
+        "pressure_detector": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/pressure_detector": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/pressure_detector": "true"
+                        }
+                    }
+                }
+            }
         },
-		"quartz_miner": {
+        "quartz_miner": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/quartz_miner": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/quartz_miner": "true"
+                        }
+                    }
+                }
+            }
         },
-		"quirky_quartz": {
+        "quirky_quartz": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/quirky_quartz": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/quirky_quartz": "true"
+                        }
+                    }
+                }
+            }
         },
-		"railwayman": {
+        "railwayman": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/railwayman": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/railwayman": "true"
+                        }
+                    }
+                }
+            }
         },
-		"repeating_repeater": {
+        "repeating_repeater": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/repeating_repeater": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/repeating_repeater": "true"
+                        }
+                    }
+                }
+            }
         },
-		"root": {
+        "root": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/root": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/root": "true"
+                        }
+                    }
+                }
+            }
         },
-		"solar_power": {
+        "solar_power": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/solar_power": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/solar_power": "true"
+                        }
+                    }
+                }
+            }
         },
-		"space_dropper": {
+        "space_dropper": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/space_dropper": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/space_dropper": "true"
+                        }
+                    }
+                }
+            }
         },
-		"space_hopper": {
+        "space_hopper": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/space_hopper": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/space_hopper": "true"
+                        }
+                    }
+                }
+            }
         },
-		"sticky_parts": {
+        "sticky_parts": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/sticky_parts": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/sticky_parts": "true"
+                        }
+                    }
+                }
+            }
         },
-		"tripping_over": {
+        "tripping_over": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/tripping_over": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/tripping_over": "true"
+                        }
+                    }
+                }
+            }
         },
-		"troll_chest": {
+        "troll_chest": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/troll_chest": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/troll_chest": "true"
+                        }
+                    }
+                }
+            }
         },
-		"under_pressure": {
+        "under_pressure": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/under_pressure": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/under_pressure": "true"
+                        }
+                    }
+                }
+            }
         },
-		"target_acquired": {
+        "target_acquired": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/target_acquired": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/target_acquired": "true"
+                        }
+                    }
+                }
+            }
         },
-		"bullseye": {
+        "bullseye": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"minecraft:adventure/bullseye": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "minecraft:adventure/bullseye": "true"
+                        }
+                    }
+                }
+            }
         },
-		"target_practise": {
+        "target_practise": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/target_practise": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/target_practise": "true"
+                        }
+                    }
+                }
+            }
         },
-		"take_notes": {
+        "take_notes": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/take_notes": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/take_notes": "true"
+                        }
+                    }
+                }
+            }
         },
-		"noteworthy": {
+        "noteworthy": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/noteworthy": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/noteworthy": "true"
+                        }
+                    }
+                }
+            }
         },
-		"travelling_bard": {
+        "travelling_bard": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/travelling_bard": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/travelling_bard": "true"
+                        }
+                    }
+                }
+            }
         },
-		"click": {
+        "click": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/click": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/click": "true"
+                        }
+                    }
+                }
+            }
         },
-		"leveraging_synergy": {
+        "leveraging_synergy": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/leveraging_synergy": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/leveraging_synergy": "true"
+                        }
+                    }
+                }
+            }
         },
-		"on_a_rail": {
+        "on_a_rail": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:redstone/on_a_rail": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:redstone/on_a_rail": "true"
+                        }
+                    }
+                }
+            }
         }
     }
 }

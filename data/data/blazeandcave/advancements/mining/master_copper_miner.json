@@ -3,25 +3,29 @@
         "icon": {
             "item": "minecraft:copper_block"
         },
-        "title": {"translate":"Master Copper Miner"},
-        "description": {"translate":"Mine enough copper to make a stack of Copper Blocks"},
+        "title": {
+            "translate": "Master Copper Miner"
+        },
+        "description": {
+            "translate": "Master Copper Miner"
+        },
         "announce_to_chat": false,
-		"frame": "challenge"
+        "frame": "challenge"
     },
     "parent": "blazeandcave:mining/copper_miner",
     "rewards": {
-		"function": "bc_rewards:mining/master_copper_miner"
-    },		
+        "function": "bc_rewards:mining/master_copper_miner"
+    },
     "criteria": {
         "copper_block": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:copper_block"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:copper_block"
+                        ],
+                        "count": 64
                     }
                 ]
             }

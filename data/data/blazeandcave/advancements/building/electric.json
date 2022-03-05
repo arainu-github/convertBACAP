@@ -3,19 +3,23 @@
         "icon": {
             "item": "minecraft:redstone_lamp"
         },
-        "title": {"translate":"Electric!"},
-        "description": {"translate":"Light up the area with some redstone lamps"},
+        "title": {
+            "translate": "エレクトリック！"
+        },
+        "description": {
+            "translate": "Light up the area with some redstone lamps"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:building/glowing",
-	"rewards": {
-		"function": "bc_rewards:building/electric"
-    },		
+    "rewards": {
+        "function": "bc_rewards:building/electric"
+    },
     "criteria": {
         "redstone_lamp": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-				"block": "minecraft:redstone_lamp"
+                "block": "minecraft:redstone_lamp"
             }
         }
     }

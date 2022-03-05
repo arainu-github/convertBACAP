@@ -3,25 +3,30 @@
         "icon": {
             "item": "minecraft:warped_roots"
         },
-        "title": {"translate":"Hell Botanist"},
-        "description": {"color":"#75E1FF","translate":"Gather a stack of every Nether plant"},
+        "title": {
+            "translate": "Hell Botanist"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Hell Botanist"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "minecraft:nether/explore_nether",
-	"rewards": {
-		"function": "bc_rewards:nether/hell_botanist"
-    },		
+    "rewards": {
+        "function": "bc_rewards:nether/hell_botanist"
+    },
     "criteria": {
         "crimson_fungus": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:crimson_fungus"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:crimson_fungus"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -31,10 +36,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:warped_fungus"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:warped_fungus"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -44,10 +49,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:crimson_roots"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:crimson_roots"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -57,10 +62,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:warped_roots"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:warped_roots"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -70,10 +75,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:nether_sprouts"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:nether_sprouts"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -83,10 +88,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:weeping_vines"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:weeping_vines"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -96,10 +101,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:twisting_vines"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:twisting_vines"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -109,10 +114,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:nether_wart"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:nether_wart"
+                        ],
+                        "count": 64
                     }
                 ]
             }

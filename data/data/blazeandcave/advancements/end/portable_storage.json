@@ -3,14 +3,18 @@
         "icon": {
             "item": "minecraft:purple_shulker_box"
         },
-        "title": {"translate":"Portable Storage"},
-        "description": {"translate":"Use shulker shells to craft a shulker box"},
+        "title": {
+            "translate": "ポータブルストレージ"
+        },
+        "description": {
+            "translate": "Use shulker shells to craft a shulker box"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:end/for_mother_clarence",
-	"rewards": {
-		"function": "bc_rewards:end/portable_storage"
-    },	
+    "rewards": {
+        "function": "bc_rewards:end/portable_storage"
+    },
     "criteria": {
         "shulker_box": {
             "trigger": "minecraft:inventory_changed",

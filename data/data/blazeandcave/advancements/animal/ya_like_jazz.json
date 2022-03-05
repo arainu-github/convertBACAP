@@ -3,24 +3,28 @@
         "icon": {
             "item": "minecraft:honeycomb"
         },
-        "title": {"translate":"Ya like jazz?"},
-        "description": {"translate":"Breed two bees using flowers"},
+        "title": {
+            "translate": "ジャズはお好き？"
+        },
+        "description": {
+            "translate": "Breed two bees using flowers"
+        },
         "announce_to_chat": false
     },
     "parent": "minecraft:husbandry/root",
-	"rewards": {
-		"function": "bc_rewards:animal/ya_like_jazz"
-    },		
+    "rewards": {
+        "function": "bc_rewards:animal/ya_like_jazz"
+    },
     "criteria": {
         "bee": {
             "trigger": "minecraft:bred_animals",
             "conditions": {
-				"parent": {
-					"type": "minecraft:bee"
-				},
-				"partner": {
-					"type": "minecraft:bee"
-				}
+                "parent": {
+                    "type": "minecraft:bee"
+                },
+                "partner": {
+                    "type": "minecraft:bee"
+                }
             }
         }
     }

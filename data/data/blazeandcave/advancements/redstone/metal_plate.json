@@ -3,13 +3,17 @@
         "icon": {
             "item": "minecraft:heavy_weighted_pressure_plate"
         },
-        "title": {"translate":"Metal Plate"},
-        "description": {"translate":"Dinner time!"},
+        "title": {
+            "translate": "鉄板"
+        },
+        "description": {
+            "translate": "Dinner time!"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:redstone/pressure_detector",
-	"rewards": {
-		"function": "bc_rewards:redstone/metal_plate"
+    "rewards": {
+        "function": "bc_rewards:redstone/metal_plate"
     },
     "criteria": {
         "heavy_weighted_pressure_plate": {
@@ -17,9 +21,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:heavy_weighted_pressure_plate"
-						]
+                        "items": [
+                            "minecraft:heavy_weighted_pressure_plate"
+                        ]
                     }
                 ]
             }

@@ -3,23 +3,27 @@
         "icon": {
             "item": "minecraft:wooden_axe"
         },
-        "title": {"translate":"Time to Chop!"},
-        "description": {"translate":"Use planks and sticks to make an axe"},
+        "title": {
+            "translate": "いざ伐採！"
+        },
+        "description": {
+            "translate": "Use planks and sticks to make an axe"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:bacap/time_to_strike",
-	"rewards": {
-		"function": "bc_rewards:bacap/time_to_chop"
-    },		
+    "rewards": {
+        "function": "bc_rewards:bacap/time_to_chop"
+    },
     "criteria": {
         "wooden_axe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:wooden_axe"
-						]
+                        "items": [
+                            "minecraft:wooden_axe"
+                        ]
                     }
                 ]
             }
@@ -29,9 +33,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:stone_axe"
-						]
+                        "items": [
+                            "minecraft:stone_axe"
+                        ]
                     }
                 ]
             }
@@ -41,9 +45,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:iron_axe"
-						]
+                        "items": [
+                            "minecraft:iron_axe"
+                        ]
                     }
                 ]
             }
@@ -53,9 +57,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:diamond_axe"
-						]
+                        "items": [
+                            "minecraft:diamond_axe"
+                        ]
                     }
                 ]
             }
@@ -65,9 +69,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:golden_axe"
-						]
+                        "items": [
+                            "minecraft:golden_axe"
+                        ]
                     }
                 ]
             }
@@ -77,22 +81,22 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:netherite_axe"
-						]
+                        "items": [
+                            "minecraft:netherite_axe"
+                        ]
                     }
                 ]
             }
         }
     },
     "requirements": [
-		[
-        "wooden_axe",
-        "stone_axe",
-		"iron_axe",
-		"diamond_axe",
-		"golden_axe",
-		"netherite_axe"
-		]
+        [
+            "wooden_axe",
+            "stone_axe",
+            "iron_axe",
+            "diamond_axe",
+            "golden_axe",
+            "netherite_axe"
+        ]
     ]
 }

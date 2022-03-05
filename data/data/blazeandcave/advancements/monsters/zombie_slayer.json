@@ -3,28 +3,33 @@
         "icon": {
             "item": "minecraft:zombie_spawn_egg"
         },
-        "title": {"translate":"Zombie Slayer"},
-        "description": {"color":"#75E1FF","translate":"Collect a stack of rotten flesh"},
+        "title": {
+            "translate": "ゾンビスレイヤー"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Collect a stack of rotten flesh"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "blazeandcave:monsters/desert_nomad",
     "rewards": {
-		"function": "bc_rewards:monsters/zombie_slayer"
-    },		
+        "function": "bc_rewards:monsters/zombie_slayer"
+    },
     "criteria": {
         "rotten_flesh": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:rotten_flesh"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:rotten_flesh"
+                        ],
+                        "count": 64
                     }
                 ]
             }
-        }		
-    }	
+        }
+    }
 }

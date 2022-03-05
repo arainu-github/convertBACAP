@@ -2,35 +2,39 @@
     "display": {
         "icon": {
             "item": "minecraft:honey_bottle",
-			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+            "nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
         },
-        "title": {"translate":"WHERE'S THE HONEY LEBOWSKI"},
-        "description": {"translate":"Drink 100 bottles of honey"},
+        "title": {
+            "translate": "くちがどろどろ"
+        },
+        "description": {
+            "translate": "Drink 100 bottles of honey"
+        },
         "announce_to_chat": false,
-		"frame": "challenge"
+        "frame": "challenge"
     },
     "parent": "minecraft:adventure/honey_block_slide",
-	"rewards": {
-		"function": "bc_rewards:animal/wheres_the_honey_lebowski"
-    },		
+    "rewards": {
+        "function": "bc_rewards:animal/wheres_the_honey_lebowski"
+    },
     "criteria": {
         "ten_withers": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"stats": [
-							{
-								"type": "minecraft:used",
-								"stat": "minecraft:honey_bottle",
-								"value": {
-									"min": 200
-								}
-							}
-						]
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:used",
+                                "stat": "minecraft:honey_bottle",
+                                "value": {
+                                    "min": 200
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
         }
     }
 }

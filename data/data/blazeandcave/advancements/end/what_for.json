@@ -3,25 +3,30 @@
         "icon": {
             "item": "minecraft:crying_obsidian"
         },
-        "title": {"translate":"What For?"},
-        "description": {"color":"#75E1FF","translate":"Craft 64 ender crystals"},
+        "title": {
+            "translate": "What For?"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "What For?"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "minecraft:end/respawn_dragon",
-	"rewards": {
-		"function": "bc_rewards:end/what_for"
-    },	
+    "rewards": {
+        "function": "bc_rewards:end/what_for"
+    },
     "criteria": {
         "end_crystal": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:end_crystal"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:end_crystal"
+                        ],
+                        "count": 64
                     }
                 ]
             }

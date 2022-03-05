@@ -3,603 +3,608 @@
         "icon": {
             "item": "minecraft:enchanting_table"
         },
-        "title": {"translate":"Enchanting Milestone"},
-        "description": {"color":"yellow","translate":"Complete every advancement in the Enchanting tab"},
+        "title": {
+            "translate": "Enchanting Milestone"
+        },
+        "description": {
+            "color": "yellow",
+            "translate": "Enchanting Milestone"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "blazeandcave:bacap/redstone_milestone",
-	"rewards": {
-		"function": "bc_rewards:bacap/enchanting_milestone"
-    },		
+    "rewards": {
+        "function": "bc_rewards:bacap/enchanting_milestone"
+    },
     "criteria": {
         "arbalistic": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"minecraft:adventure/arbalistic": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "minecraft:adventure/arbalistic": "true"
+                        }
+                    }
+                }
+            }
         },
         "armor_for_the_masses": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/armor_for_the_masses": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/armor_for_the_masses": "true"
+                        }
+                    }
+                }
+            }
         },
-		"bane_of_one_shotting_spiders": {
+        "bane_of_one_shotting_spiders": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/bane_of_one_shotting_spiders": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/bane_of_one_shotting_spiders": "true"
+                        }
+                    }
+                }
+            }
         },
-		"boomerang": {
+        "boomerang": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/boomerang": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/boomerang": "true"
+                        }
+                    }
+                }
+            }
         },
-		"bow_down_to_me": {
+        "bow_down_to_me": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/bow_down_to_me": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/bow_down_to_me": "true"
+                        }
+                    }
+                }
+            }
         },
-		"complete_enchanter": {
+        "complete_enchanter": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/complete_enchanter": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/complete_enchanter": "true"
+                        }
+                    }
+                }
+            }
         },
-		"curses": {
+        "curses": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/curses": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/curses": "true"
+                        }
+                    }
+                }
+            }
         },
-		"do_a_barrel_roll": {
+        "do_a_barrel_roll": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/do_a_barrel_roll": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/do_a_barrel_roll": "true"
+                        }
+                    }
+                }
+            }
         },
-		"fiery": {
+        "fiery": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/fiery": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/fiery": "true"
+                        }
+                    }
+                }
+            }
         },
-		"fortunate_son": {
+        "fortunate_son": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/fortunate_son": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/fortunate_son": "true"
+                        }
+                    }
+                }
+            }
         },
-		"knocking_your_socks_off": {
+        "knocking_your_socks_off": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/knocking_your_socks_off": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/knocking_your_socks_off": "true"
+                        }
+                    }
+                }
+            }
         },
-		"let_it_go": {
+        "let_it_go": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/let_it_go": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/let_it_go": "true"
+                        }
+                    }
+                }
+            }
         },
-		"librarian": {
+        "librarian": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/librarian": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/librarian": "true"
+                        }
+                    }
+                }
+            }
         },
-		"like_a_cat": {
+        "like_a_cat": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/like_a_cat": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/like_a_cat": "true"
+                        }
+                    }
+                }
+            }
         },
-		"machine_bow": {
+        "machine_bow": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/machine_bow": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/machine_bow": "true"
+                        }
+                    }
+                }
+            }
         },
-		"magical_stockpile": {
+        "magical_stockpile": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/magical_stockpile": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/magical_stockpile": "true"
+                        }
+                    }
+                }
+            }
         },
-		"master_arbalist": {
+        "master_arbalist": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/master_arbalist": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/master_arbalist": "true"
+                        }
+                    }
+                }
+            }
         },
-		"master_armorer": {
+        "master_armorer": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/master_armorer": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/master_armorer": "true"
+                        }
+                    }
+                }
+            }
         },
-		"master_enchanter": {
+        "master_enchanter": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/master_enchanter": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/master_enchanter": "true"
+                        }
+                    }
+                }
+            }
         },
-		"master_fisher": {
+        "master_fisher": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/master_fisher": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/master_fisher": "true"
+                        }
+                    }
+                }
+            }
         },
-		"master_knight": {
+        "master_knight": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/master_knight": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/master_knight": "true"
+                        }
+                    }
+                }
+            }
         },
-		"master_miner": {
+        "master_miner": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/master_miner": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/master_miner": "true"
+                        }
+                    }
+                }
+            }
         },
-		"master_sniper": {
+        "master_sniper": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/master_sniper": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/master_sniper": "true"
+                        }
+                    }
+                }
+            }
         },
-		"master_tridenteer": {
+        "master_tridenteer": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/master_tridenteer": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/master_tridenteer": "true"
+                        }
+                    }
+                }
+            }
         },
-		"needle_sharp": {
+        "needle_sharp": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/needle_sharp": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/needle_sharp": "true"
+                        }
+                    }
+                }
+            }
         },
-		"newtons_flaming_laser_sword": {
+        "newtons_flaming_laser_sword": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/newtons_flaming_laser_sword": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/newtons_flaming_laser_sword": "true"
+                        }
+                    }
+                }
+            }
         },
-		"heavy_metal": {
+        "heavy_metal": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/heavy_metal": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/heavy_metal": "true"
+                        }
+                    }
+                }
+            }
         },
-		"overkill": {
+        "overkill": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/overkill": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/overkill": "true"
+                        }
+                    }
+                }
+            }
         },
-		"pick_like_silk": {
+        "pick_like_silk": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/pick_like_silk": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/pick_like_silk": "true"
+                        }
+                    }
+                }
+            }
         },
-		"root": {
+        "root": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/root": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/root": "true"
+                        }
+                    }
+                }
+            }
         },
-		"scuba_gear": {
+        "scuba_gear": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/scuba_gear": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/scuba_gear": "true"
+                        }
+                    }
+                }
+            }
         },
-		"shotbow": {
+        "shotbow": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/shotbow": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/shotbow": "true"
+                        }
+                    }
+                }
+            }
         },
-		"super_efficient": {
+        "super_efficient": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/super_efficient": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/super_efficient": "true"
+                        }
+                    }
+                }
+            }
         },
-		"to_infinity_and_beyond": {
+        "to_infinity_and_beyond": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/to_infinity_and_beyond": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/to_infinity_and_beyond": "true"
+                        }
+                    }
+                }
+            }
         },
-		"unbreakable": {
+        "unbreakable": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/unbreakable": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/unbreakable": "true"
+                        }
+                    }
+                }
+            }
         },
-		"undead_slayer": {
+        "undead_slayer": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/undead_slayer": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/undead_slayer": "true"
+                        }
+                    }
+                }
+            }
         },
-		"very_very_frightening": {
+        "very_very_frightening": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"minecraft:adventure/very_very_frightening": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "minecraft:adventure/very_very_frightening": "true"
+                        }
+                    }
+                }
+            }
         },
-		"zeus": {
+        "zeus": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/zeus": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/zeus": "true"
+                        }
+                    }
+                }
+            }
         },
-		"this_name_sounds_cooler": {
+        "this_name_sounds_cooler": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/this_name_sounds_cooler": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/this_name_sounds_cooler": "true"
+                        }
+                    }
+                }
+            }
         },
-		"ill_be_back": {
+        "ill_be_back": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/ill_be_back": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/ill_be_back": "true"
+                        }
+                    }
+                }
+            }
         },
-		"god_of_thunder": {
+        "god_of_thunder": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/god_of_thunder": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/god_of_thunder": "true"
+                        }
+                    }
+                }
+            }
         },
-		"a_rather_pointy_fence_post": {
+        "a_rather_pointy_fence_post": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/a_rather_pointy_fence_post": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/a_rather_pointy_fence_post": "true"
+                        }
+                    }
+                }
+            }
         },
-		"gotta_go_fast": {
+        "gotta_go_fast": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/gotta_go_fast": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/gotta_go_fast": "true"
+                        }
+                    }
+                }
+            }
         },
-		"handmade_blinding": {
+        "handmade_blinding": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/handmade_blinding": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/handmade_blinding": "true"
+                        }
+                    }
+                }
+            }
         },
-		"master_digger": {
+        "master_digger": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/master_digger": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/master_digger": "true"
+                        }
+                    }
+                }
+            }
         },
-		"master_axeman": {
+        "master_axeman": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/master_axeman": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/master_axeman": "true"
+                        }
+                    }
+                }
+            }
         },
-		"master_farmer": {
+        "master_farmer": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/master_farmer": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/master_farmer": "true"
+                        }
+                    }
+                }
+            }
         },
-		"over_overkill": {
+        "over_overkill": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/over_overkill": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/over_overkill": "true"
+                        }
+                    }
+                }
+            }
         },
-		"baron_of_blacksmiths": {
+        "baron_of_blacksmiths": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:enchanting/baron_of_blacksmiths": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:enchanting/baron_of_blacksmiths": "true"
+                        }
+                    }
+                }
+            }
         }
     }
 }

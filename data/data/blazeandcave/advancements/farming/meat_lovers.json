@@ -3,23 +3,28 @@
         "icon": {
             "item": "minecraft:porkchop"
         },
-        "title": {"translate":"Meat Lovers"},
-        "description": {"color":"#75E1FF","translate":"Eat every type of meat, even if uncooked or rotten"},
+        "title": {
+            "translate": "肉愛好家"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Eat every type of meat, even if uncooked or rotten"
+        },
         "announce_to_chat": false,
         "frame": "goal"
     },
     "parent": "blazeandcave:farming/vegetarian",
     "rewards": {
-		"function": "bc_rewards:farming/meat_lovers"
-    },		
+        "function": "bc_rewards:farming/meat_lovers"
+    },
     "criteria": {
         "porkchop": {
             "trigger": "consume_item",
             "conditions": {
                 "item": {
-					"items": [
-						"minecraft:porkchop"
-					]
+                    "items": [
+                        "minecraft:porkchop"
+                    ]
                 }
             }
         },
@@ -27,9 +32,9 @@
             "trigger": "consume_item",
             "conditions": {
                 "item": {
-					"items": [
-						"minecraft:cooked_porkchop"
-					]
+                    "items": [
+                        "minecraft:cooked_porkchop"
+                    ]
                 }
             }
         },
@@ -37,9 +42,9 @@
             "trigger": "consume_item",
             "conditions": {
                 "item": {
-					"items": [
-						"minecraft:cod"
-					]
+                    "items": [
+                        "minecraft:cod"
+                    ]
                 }
             }
         },
@@ -47,9 +52,9 @@
             "trigger": "consume_item",
             "conditions": {
                 "item": {
-					"items": [
-						"minecraft:salmon"
-					]
+                    "items": [
+                        "minecraft:salmon"
+                    ]
                 }
             }
         },
@@ -57,9 +62,9 @@
             "trigger": "consume_item",
             "conditions": {
                 "item": {
-					"items": [
-						"minecraft:tropical_fish"
-					]
+                    "items": [
+                        "minecraft:tropical_fish"
+                    ]
                 }
             }
         },
@@ -67,9 +72,9 @@
             "trigger": "consume_item",
             "conditions": {
                 "item": {
-					"items": [
-						"minecraft:pufferfish"
-					]
+                    "items": [
+                        "minecraft:pufferfish"
+                    ]
                 }
             }
         },
@@ -77,9 +82,9 @@
             "trigger": "consume_item",
             "conditions": {
                 "item": {
-					"items": [
-						"minecraft:cooked_cod"
-					]
+                    "items": [
+                        "minecraft:cooked_cod"
+                    ]
                 }
             }
         },
@@ -87,9 +92,9 @@
             "trigger": "consume_item",
             "conditions": {
                 "item": {
-					"items": [
-						"minecraft:cooked_salmon"
-					]
+                    "items": [
+                        "minecraft:cooked_salmon"
+                    ]
                 }
             }
         },
@@ -97,9 +102,9 @@
             "trigger": "consume_item",
             "conditions": {
                 "item": {
-					"items": [
-						"minecraft:beef"
-					]
+                    "items": [
+                        "minecraft:beef"
+                    ]
                 }
             }
         },
@@ -107,9 +112,9 @@
             "trigger": "consume_item",
             "conditions": {
                 "item": {
-					"items": [
-						"minecraft:cooked_beef"
-					]
+                    "items": [
+                        "minecraft:cooked_beef"
+                    ]
                 }
             }
         },
@@ -117,9 +122,9 @@
             "trigger": "consume_item",
             "conditions": {
                 "item": {
-					"items": [
-						"minecraft:chicken"
-					]
+                    "items": [
+                        "minecraft:chicken"
+                    ]
                 }
             }
         },
@@ -127,9 +132,9 @@
             "trigger": "consume_item",
             "conditions": {
                 "item": {
-					"items": [
-						"minecraft:cooked_chicken"
-					]
+                    "items": [
+                        "minecraft:cooked_chicken"
+                    ]
                 }
             }
         },
@@ -137,9 +142,9 @@
             "trigger": "consume_item",
             "conditions": {
                 "item": {
-					"items": [
-						"minecraft:rotten_flesh"
-					]
+                    "items": [
+                        "minecraft:rotten_flesh"
+                    ]
                 }
             }
         },
@@ -147,9 +152,9 @@
             "trigger": "consume_item",
             "conditions": {
                 "item": {
-					"items": [
-						"minecraft:spider_eye"
-					]
+                    "items": [
+                        "minecraft:spider_eye"
+                    ]
                 }
             }
         },
@@ -157,9 +162,9 @@
             "trigger": "consume_item",
             "conditions": {
                 "item": {
-					"items": [
-						"minecraft:rabbit"
-					]
+                    "items": [
+                        "minecraft:rabbit"
+                    ]
                 }
             }
         },
@@ -167,9 +172,9 @@
             "trigger": "consume_item",
             "conditions": {
                 "item": {
-					"items": [
-						"minecraft:cooked_rabbit"
-					]
+                    "items": [
+                        "minecraft:cooked_rabbit"
+                    ]
                 }
             }
         },
@@ -177,9 +182,9 @@
             "trigger": "consume_item",
             "conditions": {
                 "item": {
-					"items": [
-						"minecraft:rabbit_stew"
-					]
+                    "items": [
+                        "minecraft:rabbit_stew"
+                    ]
                 }
             }
         },
@@ -187,9 +192,9 @@
             "trigger": "consume_item",
             "conditions": {
                 "item": {
-					"items": [
-						"minecraft:mutton"
-					]
+                    "items": [
+                        "minecraft:mutton"
+                    ]
                 }
             }
         },
@@ -197,9 +202,9 @@
             "trigger": "consume_item",
             "conditions": {
                 "item": {
-					"items": [
-						"minecraft:cooked_mutton"
-					]
+                    "items": [
+                        "minecraft:cooked_mutton"
+                    ]
                 }
             }
         }

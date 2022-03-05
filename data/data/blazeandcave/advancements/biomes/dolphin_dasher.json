@@ -3,14 +3,18 @@
         "icon": {
             "item": "minecraft:dolphin_spawn_egg"
         },
-        "title": {"translate":"Dolphin Dasher"},
-        "description": {"translate":"Get a speed boost from your friendly underwater companions"},
+        "title": {
+            "translate": "イルカダッシュ"
+        },
+        "description": {
+            "translate": "Get a speed boost from your friendly underwater companions"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:biomes/boaty_mcboatface",
-	"rewards": {
-		"function": "bc_rewards:biomes/dolphin_dasher"
-    },	
+    "rewards": {
+        "function": "bc_rewards:biomes/dolphin_dasher"
+    },
     "criteria": {
         "dolphins_grace": {
             "trigger": "minecraft:effects_changed",

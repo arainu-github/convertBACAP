@@ -3,22 +3,26 @@
         "icon": {
             "item": "minecraft:cod"
         },
-        "title": {"translate":"Sushi"},
-        "description": {"translate":"Eat some raw fish"},
+        "title": {
+            "translate": "§o寿司"
+        },
+        "description": {
+            "translate": "Eat some raw fish"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:animal/delicious_fish",
-	"rewards": {
-		"function": "bc_rewards:animal/sushi"
-    },		
+    "rewards": {
+        "function": "bc_rewards:animal/sushi"
+    },
     "criteria": {
         "cod": {
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-					"items": [
-						"minecraft:cod"
-					]
+                    "items": [
+                        "minecraft:cod"
+                    ]
                 }
             }
         }

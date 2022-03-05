@@ -3,23 +3,28 @@
         "icon": {
             "item": "minecraft:jack_o_lantern"
         },
-        "title": {"translate":"Handsome Jack"},
-        "description": {"color":"light_purple","translate":"Defeat a mob wearing a Jack o' Lantern on Halloween"},
+        "title": {
+            "translate": "ハンサム ジャック"
+        },
+        "description": {
+            "color": "light_purple",
+            "translate": "Defeat a mob wearing a Jack o' Lantern on Halloween"
+        },
         "announce_to_chat": false,
-		"frame": "challenge",
-		"hidden": "true"
+        "frame": "challenge",
+        "hidden": "true"
     },
     "parent": "blazeandcave:monsters/trick_or_treat",
     "rewards": {
         "function": "bc_rewards:monsters/handsome_jack"
-    },		
+    },
     "criteria": {
         "zombie": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
                     "type": "zombie",
-					"nbt": "{ArmorItems:[{},{},{},{id:\"minecraft:jack_o_lantern\",Count:1b}]}"
+                    "nbt": "{ArmorItems:[{},{},{},{id:\"minecraft:jack_o_lantern\",Count:1b}]}"
                 }
             }
         },
@@ -28,7 +33,7 @@
             "conditions": {
                 "entity": {
                     "type": "zombie_villager",
-					"nbt": "{ArmorItems:[{},{},{},{id:\"minecraft:jack_o_lantern\",Count:1b}]}"
+                    "nbt": "{ArmorItems:[{},{},{},{id:\"minecraft:jack_o_lantern\",Count:1b}]}"
                 }
             }
         },
@@ -37,7 +42,7 @@
             "conditions": {
                 "entity": {
                     "type": "zombified_piglin",
-					"nbt": "{ArmorItems:[{},{},{},{id:\"minecraft:jack_o_lantern\",Count:1b}]}"
+                    "nbt": "{ArmorItems:[{},{},{},{id:\"minecraft:jack_o_lantern\",Count:1b}]}"
                 }
             }
         },
@@ -46,7 +51,7 @@
             "conditions": {
                 "entity": {
                     "type": "husk",
-					"nbt": "{ArmorItems:[{},{},{},{id:\"minecraft:jack_o_lantern\",Count:1b}]}"
+                    "nbt": "{ArmorItems:[{},{},{},{id:\"minecraft:jack_o_lantern\",Count:1b}]}"
                 }
             }
         },
@@ -55,7 +60,7 @@
             "conditions": {
                 "entity": {
                     "type": "drowned",
-					"nbt": "{ArmorItems:[{},{},{},{id:\"minecraft:jack_o_lantern\",Count:1b}]}"
+                    "nbt": "{ArmorItems:[{},{},{},{id:\"minecraft:jack_o_lantern\",Count:1b}]}"
                 }
             }
         },
@@ -64,7 +69,7 @@
             "conditions": {
                 "entity": {
                     "type": "skeleton",
-					"nbt": "{ArmorItems:[{},{},{},{id:\"minecraft:jack_o_lantern\",Count:1b}]}"
+                    "nbt": "{ArmorItems:[{},{},{},{id:\"minecraft:jack_o_lantern\",Count:1b}]}"
                 }
             }
         },
@@ -73,7 +78,7 @@
             "conditions": {
                 "entity": {
                     "type": "wither_skeleton",
-					"nbt": "{ArmorItems:[{},{},{},{id:\"minecraft:jack_o_lantern\",Count:1b}]}"
+                    "nbt": "{ArmorItems:[{},{},{},{id:\"minecraft:jack_o_lantern\",Count:1b}]}"
                 }
             }
         },
@@ -82,21 +87,21 @@
             "conditions": {
                 "entity": {
                     "type": "stray",
-					"nbt": "{ArmorItems:[{},{},{},{id:\"minecraft:jack_o_lantern\",Count:1b}]}"
+                    "nbt": "{ArmorItems:[{},{},{},{id:\"minecraft:jack_o_lantern\",Count:1b}]}"
                 }
             }
-        }		
+        }
     },
-	"requirements": [
-		[
-		"zombie",
-		"zombie_villager",
-		"zombified_piglin",
-		"husk",
-		"drowned",
-		"skeleton",
-		"wither_skeleton",
-		"stray"
-		]
-	]
+    "requirements": [
+        [
+            "zombie",
+            "zombie_villager",
+            "zombified_piglin",
+            "husk",
+            "drowned",
+            "skeleton",
+            "wither_skeleton",
+            "stray"
+        ]
+    ]
 }

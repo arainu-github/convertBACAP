@@ -3,15 +3,20 @@
         "icon": {
             "item": "minecraft:obsidian"
         },
-        "title": {"translate":"Void Walker"},
-        "description": {"color":"#75E1FF","translate":"Explore every end biome"},
+        "title": {
+            "translate": "虚無の旅人"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Explore every end biome"
+        },
         "announce_to_chat": false,
         "frame": "goal"
     },
-    "parent": "minecraft:end/enter_end_gateway",	
+    "parent": "minecraft:end/enter_end_gateway",
     "rewards": {
-		"function": "bc_rewards:end/void_walker"
-    },	
+        "function": "bc_rewards:end/void_walker"
+    },
     "criteria": {
         "the_end": {
             "trigger": "minecraft:location",
@@ -22,13 +27,13 @@
                         "condition": "minecraft:inverted",
                         "term": {
                             "condition": "minecraft:entity_properties",
-						    "entity": "this",
-						    "predicate": {
-						    	"player": {
-						    		"gamemode": "spectator"
-			    				}
+                            "entity": "this",
+                            "predicate": {
+                                "player": {
+                                    "gamemode": "spectator"
+                                }
                             }
-						}
+                        }
                     }
                 ]
             }
@@ -42,13 +47,13 @@
                         "condition": "minecraft:inverted",
                         "term": {
                             "condition": "minecraft:entity_properties",
-						    "entity": "this",
-						    "predicate": {
-						    	"player": {
-						    		"gamemode": "spectator"
-			    				}
+                            "entity": "this",
+                            "predicate": {
+                                "player": {
+                                    "gamemode": "spectator"
+                                }
                             }
-						}
+                        }
                     }
                 ]
             }
@@ -62,13 +67,13 @@
                         "condition": "minecraft:inverted",
                         "term": {
                             "condition": "minecraft:entity_properties",
-						    "entity": "this",
-						    "predicate": {
-						    	"player": {
-						    		"gamemode": "spectator"
-			    				}
+                            "entity": "this",
+                            "predicate": {
+                                "player": {
+                                    "gamemode": "spectator"
+                                }
                             }
-						}
+                        }
                     }
                 ]
             }
@@ -82,13 +87,13 @@
                         "condition": "minecraft:inverted",
                         "term": {
                             "condition": "minecraft:entity_properties",
-						    "entity": "this",
-						    "predicate": {
-						    	"player": {
-						    		"gamemode": "spectator"
-			    				}
+                            "entity": "this",
+                            "predicate": {
+                                "player": {
+                                    "gamemode": "spectator"
+                                }
                             }
-						}
+                        }
                     }
                 ]
             }
@@ -102,13 +107,13 @@
                         "condition": "minecraft:inverted",
                         "term": {
                             "condition": "minecraft:entity_properties",
-						    "entity": "this",
-						    "predicate": {
-						    	"player": {
-						    		"gamemode": "spectator"
-			    				}
+                            "entity": "this",
+                            "predicate": {
+                                "player": {
+                                    "gamemode": "spectator"
+                                }
                             }
-						}
+                        }
                     }
                 ]
             }

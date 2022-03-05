@@ -3,18 +3,23 @@
         "icon": {
             "item": "minecraft:chainmail_boots"
         },
-        "title": {"translate":"Lucky Break"},
-        "description": {"color":"#75E1FF","translate":"Survive a long fall with just a sliver of health remaining"},
+        "title": {
+            "translate": "Lucky Break"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Lucky Break"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "blazeandcave:mining/dripstone_drop",
     "rewards": {
         "function": "bc_rewards:mining/lucky_break"
-    },		
+    },
     "criteria": {
-		"lucky_break": {
-			"trigger": "minecraft:impossible"
-		}
+        "lucky_break": {
+            "trigger": "minecraft:impossible"
+        }
     }
 }

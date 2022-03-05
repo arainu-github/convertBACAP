@@ -3,23 +3,27 @@
         "icon": {
             "item": "minecraft:map"
         },
-        "title": {"translate":"Mapmaker"},
-        "description": {"translate":"Craft or trade an empty map"},
+        "title": {
+            "translate": "地図の作成者"
+        },
+        "description": {
+            "translate": "Craft or trade an empty map"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:adventure/knowledge_is_power",
     "rewards": {
         "function": "bc_rewards:adventure/mapmaker"
-    },		
+    },
     "criteria": {
         "map": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:map"
-						]
+                        "items": [
+                            "minecraft:map"
+                        ]
                     }
                 ]
             }

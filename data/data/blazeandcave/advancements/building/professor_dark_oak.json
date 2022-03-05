@@ -3,24 +3,29 @@
         "icon": {
             "item": "minecraft:dark_oak_sapling"
         },
-        "title": {"translate":"Professor Dark Oak"},
-        "description": {"color":"#75E1FF","translate":"Craft every item made out of dark oak wood"},
+        "title": {
+            "translate": "ダークオーク教授"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Craft every item made out of dark oak wood"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "blazeandcave:building/the_acacia_king",
     "rewards": {
-		"function": "bc_rewards:building/professor_dark_oak"
-    },		
+        "function": "bc_rewards:building/professor_dark_oak"
+    },
     "criteria": {
         "dark_oak_planks": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:dark_oak_planks"
-						]
+                        "items": [
+                            "minecraft:dark_oak_planks"
+                        ]
                     }
                 ]
             }
@@ -30,9 +35,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:dark_oak_log"
-						]
+                        "items": [
+                            "minecraft:dark_oak_log"
+                        ]
                     }
                 ]
             }
@@ -42,9 +47,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:dark_oak_wood"
-						]
+                        "items": [
+                            "minecraft:dark_oak_wood"
+                        ]
                     }
                 ]
             }
@@ -54,9 +59,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:stripped_dark_oak_log"
-						]
+                        "items": [
+                            "minecraft:stripped_dark_oak_log"
+                        ]
                     }
                 ]
             }
@@ -66,9 +71,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:stripped_dark_oak_wood"
-						]
+                        "items": [
+                            "minecraft:stripped_dark_oak_wood"
+                        ]
                     }
                 ]
             }
@@ -78,9 +83,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:dark_oak_slab"
-						]
+                        "items": [
+                            "minecraft:dark_oak_slab"
+                        ]
                     }
                 ]
             }
@@ -90,9 +95,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:dark_oak_pressure_plate"
-						]
+                        "items": [
+                            "minecraft:dark_oak_pressure_plate"
+                        ]
                     }
                 ]
             }
@@ -102,9 +107,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:dark_oak_fence"
-						]
+                        "items": [
+                            "minecraft:dark_oak_fence"
+                        ]
                     }
                 ]
             }
@@ -114,9 +119,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:dark_oak_trapdoor"
-						]
+                        "items": [
+                            "minecraft:dark_oak_trapdoor"
+                        ]
                     }
                 ]
             }
@@ -126,9 +131,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:dark_oak_fence_gate"
-						]
+                        "items": [
+                            "minecraft:dark_oak_fence_gate"
+                        ]
                     }
                 ]
             }
@@ -138,9 +143,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:dark_oak_stairs"
-						]
+                        "items": [
+                            "minecraft:dark_oak_stairs"
+                        ]
                     }
                 ]
             }
@@ -150,9 +155,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:dark_oak_button"
-						]
+                        "items": [
+                            "minecraft:dark_oak_button"
+                        ]
                     }
                 ]
             }
@@ -162,9 +167,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:dark_oak_door"
-						]
+                        "items": [
+                            "minecraft:dark_oak_door"
+                        ]
                     }
                 ]
             }
@@ -174,9 +179,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:dark_oak_boat"
-						]
+                        "items": [
+                            "minecraft:dark_oak_boat"
+                        ]
                     }
                 ]
             }
@@ -186,9 +191,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:dark_oak_sign"
-						]
+                        "items": [
+                            "minecraft:dark_oak_sign"
+                        ]
                     }
                 ]
             }

@@ -2,28 +2,33 @@
     "display": {
         "icon": {
             "item": "minecraft:potion",
-			"nbt": "{Potion:\"minecraft:invisibility\"}"
+            "nbt": "{Potion:\"minecraft:invisibility\"}"
         },
-        "title": {"translate":"Shady Deals"},
-        "description": {"color":"#75E1FF","translate":"Trade with a Wandering Trader while he is invisible"},
+        "title": {
+            "translate": "お陰様でお買い得"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Trade with a Wandering Trader while he is invisible"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "blazeandcave:adventure/travelling_merchant",
     "rewards": {
         "function": "bc_rewards:adventure/shady_deals"
-    },		
+    },
     "criteria": {
         "trade": {
             "trigger": "minecraft:villager_trade",
-			"conditions": {
-				"villager": {
-					"type": "wandering_trader",
+            "conditions": {
+                "villager": {
+                    "type": "wandering_trader",
                     "effects": {
-						"minecraft:invisibility": {}
-					}
-				}
-			}
+                        "minecraft:invisibility": {}
+                    }
+                }
+            }
         }
     }
 }

@@ -3,24 +3,28 @@
         "icon": {
             "item": "minecraft:oak_button"
         },
-        "title": {"translate":"Click!"},
-        "description": {"translate":"Place and push a button"},
+        "title": {
+            "translate": "Click!"
+        },
+        "description": {
+            "translate": "Click!"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:redstone/root",
-	"rewards": {
-		"function": "bc_rewards:redstone/click"
+    "rewards": {
+        "function": "bc_rewards:redstone/click"
     },
     "criteria": {
         "oak_button": {
-			"trigger": "minecraft:item_used_on_block",
-			"conditions": {
-				"location": {
-					"block": {
-						"tag": "minecraft:buttons"
-					}
-				}
-			}
-		}
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+                    "block": {
+                        "tag": "minecraft:buttons"
+                    }
+                }
+            }
+        }
     }
 }

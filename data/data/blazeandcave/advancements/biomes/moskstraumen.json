@@ -3,15 +3,20 @@
         "icon": {
             "item": "minecraft:conduit"
         },
-        "title": {"translate":"Moskstraumen"},
-        "description": {"color":"#75E1FF","translate":"Construct a Conduit in the ocean"},
+        "title": {
+            "translate": "Moskstraumen"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Moskstraumen"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "blazeandcave:biomes/x_marks_the_spot",
-	"rewards": {
-		"function": "bc_rewards:biomes/moskstraumen"
-    },	
+    "rewards": {
+        "function": "bc_rewards:biomes/moskstraumen"
+    },
     "criteria": {
         "conduit_power": {
             "trigger": "minecraft:effects_changed",

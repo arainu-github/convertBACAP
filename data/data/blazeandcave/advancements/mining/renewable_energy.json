@@ -3,23 +3,27 @@
         "icon": {
             "item": "minecraft:charcoal"
         },
-        "title": {"translate":"Renewable Energy"},
-        "description": {"translate":"Smelt wood trunks using charcoal to make more charcoal"},
+        "title": {
+            "translate": "再生可能エネルギー"
+        },
+        "description": {
+            "translate": "Smelt wood trunks using charcoal to make more charcoal"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:mining/hot_topic",
-	"rewards": {
-		"function": "bc_rewards:mining/renewable_energy"
-    },		
+    "rewards": {
+        "function": "bc_rewards:mining/renewable_energy"
+    },
     "criteria": {
         "charcoal": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:charcoal"
-						]
+                        "items": [
+                            "minecraft:charcoal"
+                        ]
                     }
                 ]
             }

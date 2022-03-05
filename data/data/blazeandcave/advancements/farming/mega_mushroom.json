@@ -3,23 +3,27 @@
         "icon": {
             "item": "minecraft:red_mushroom_block"
         },
-        "title": {"translate":"Mega Mushroom"},
-        "description": {"translate":"Grow a giant mushroom and then harvest it with silk touch"},
+        "title": {
+            "translate": "メガマッシュ"
+        },
+        "description": {
+            "translate": "Grow a giant mushroom and then harvest it with silk touch"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:farming/mushroom_mushroom",
-	"rewards": {
-		"function": "bc_rewards:farming/mega_mushroom"
-    },		
+    "rewards": {
+        "function": "bc_rewards:farming/mega_mushroom"
+    },
     "criteria": {
         "red_mushroom": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:red_mushroom_block"
-						]
+                        "items": [
+                            "minecraft:red_mushroom_block"
+                        ]
                     }
                 ]
             }
@@ -29,9 +33,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:brown_mushroom_block"
-						]
+                        "items": [
+                            "minecraft:brown_mushroom_block"
+                        ]
                     }
                 ]
             }
@@ -41,19 +45,19 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:mushroom_stem"
-						]
+                        "items": [
+                            "minecraft:mushroom_stem"
+                        ]
                     }
                 ]
             }
-        }			
+        }
     },
     "requirements": [
-		[
-        "red_mushroom",
-        "brown_mushroom",
-		"mushroom_stem"
-		]
+        [
+            "red_mushroom",
+            "brown_mushroom",
+            "mushroom_stem"
+        ]
     ]
 }

@@ -3,24 +3,29 @@
         "icon": {
             "item": "minecraft:bundle"
         },
-        "title": {"translate":"Humble Bundle"},
-        "description": {"color":"light_purple","translate":"Craft a Bundle using Rabbit Hide and String"},
+        "title": {
+            "translate": "これがバンドルか..."
+        },
+        "description": {
+            "color": "light_purple",
+            "translate": "Craft a Bundle using Rabbit Hide and String"
+        },
         "announce_to_chat": false,
-		"hidden": "true"
+        "hidden": "true"
     },
     "parent": "blazeandcave:animal/bunny_lover",
-	"rewards": {
-		"function": "bc_rewards:animal/humble_bundle"
-    },		
+    "rewards": {
+        "function": "bc_rewards:animal/humble_bundle"
+    },
     "criteria": {
         "bundle": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:bundle"
-						]
+                        "items": [
+                            "minecraft:bundle"
+                        ]
                     }
                 ]
             }

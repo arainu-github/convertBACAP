@@ -3,24 +3,29 @@
         "icon": {
             "item": "minecraft:magenta_banner"
         },
-        "title": {"translate":"No Banner, Only Color!"},
-        "description": {"color":"#75E1FF","translate":"Craft all 16 banner colors"},
+        "title": {
+            "translate": "単色の旗"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Craft all 16 banner colors"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "blazeandcave:building/raise_the_flag",
     "rewards": {
-		"function": "bc_rewards:building/no_banner_only_color"
-    },		
+        "function": "bc_rewards:building/no_banner_only_color"
+    },
     "criteria": {
         "white_banner": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:white_banner"
-						]
+                        "items": [
+                            "minecraft:white_banner"
+                        ]
                     }
                 ]
             }
@@ -30,9 +35,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:orange_banner"
-						]
+                        "items": [
+                            "minecraft:orange_banner"
+                        ]
                     }
                 ]
             }
@@ -42,9 +47,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:magenta_banner"
-						]
+                        "items": [
+                            "minecraft:magenta_banner"
+                        ]
                     }
                 ]
             }
@@ -54,9 +59,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:light_blue_banner"
-						]
+                        "items": [
+                            "minecraft:light_blue_banner"
+                        ]
                     }
                 ]
             }
@@ -66,9 +71,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:yellow_banner"
-						]
+                        "items": [
+                            "minecraft:yellow_banner"
+                        ]
                     }
                 ]
             }
@@ -78,9 +83,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:lime_banner"
-						]
+                        "items": [
+                            "minecraft:lime_banner"
+                        ]
                     }
                 ]
             }
@@ -90,9 +95,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:pink_banner"
-						]
+                        "items": [
+                            "minecraft:pink_banner"
+                        ]
                     }
                 ]
             }
@@ -102,9 +107,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:gray_banner"
-						]
+                        "items": [
+                            "minecraft:gray_banner"
+                        ]
                     }
                 ]
             }
@@ -114,9 +119,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:light_gray_banner"
-						]
+                        "items": [
+                            "minecraft:light_gray_banner"
+                        ]
                     }
                 ]
             }
@@ -126,9 +131,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cyan_banner"
-						]
+                        "items": [
+                            "minecraft:cyan_banner"
+                        ]
                     }
                 ]
             }
@@ -138,9 +143,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:purple_banner"
-						]
+                        "items": [
+                            "minecraft:purple_banner"
+                        ]
                     }
                 ]
             }
@@ -150,9 +155,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:blue_banner"
-						]
+                        "items": [
+                            "minecraft:blue_banner"
+                        ]
                     }
                 ]
             }
@@ -162,9 +167,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:brown_banner"
-						]
+                        "items": [
+                            "minecraft:brown_banner"
+                        ]
                     }
                 ]
             }
@@ -174,9 +179,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:green_banner"
-						]
+                        "items": [
+                            "minecraft:green_banner"
+                        ]
                     }
                 ]
             }
@@ -186,9 +191,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:red_banner"
-						]
+                        "items": [
+                            "minecraft:red_banner"
+                        ]
                     }
                 ]
             }
@@ -198,9 +203,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:black_banner"
-						]
+                        "items": [
+                            "minecraft:black_banner"
+                        ]
                     }
                 ]
             }

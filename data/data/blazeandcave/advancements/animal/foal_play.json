@@ -3,24 +3,28 @@
         "icon": {
             "item": "minecraft:golden_apple"
         },
-        "title": {"translate":"Foal Play"},
-        "description": {"translate":"Breed a horse in an effort to get a better one"},
+        "title": {
+            "translate": "ウマい駆け引き"
+        },
+        "description": {
+            "translate": "Breed a horse in an effort to get a better one"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:animal/horse_armorer",
-	"rewards": {
-		"function": "bc_rewards:animal/foal_play"
-    },		
+    "rewards": {
+        "function": "bc_rewards:animal/foal_play"
+    },
     "criteria": {
         "horse": {
             "trigger": "minecraft:bred_animals",
             "conditions": {
-				"parent": {
-					"type": "minecraft:horse"
-				},
-				"partner": {
-					"type": "minecraft:horse"
-				}
+                "parent": {
+                    "type": "minecraft:horse"
+                },
+                "partner": {
+                    "type": "minecraft:horse"
+                }
             }
         }
     }

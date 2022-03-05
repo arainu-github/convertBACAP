@@ -3,24 +3,28 @@
         "icon": {
             "item": "minecraft:creeper_banner_pattern"
         },
-        "title": {"translate":"Fruit of the Looms"},
-        "description": {"translate":"Obtain all the special banner patterns"},
+        "title": {
+            "translate": "フルーツ・オブ・ザ・ルーム"
+        },
+        "description": {
+            "translate": "Obtain all the special banner patterns"
+        },
         "announce_to_chat": false,
-		"frame": "challenge"
+        "frame": "challenge"
     },
     "parent": "blazeandcave:building/prepare_to_meet_your_loom",
     "rewards": {
         "function": "bc_rewards:building/fruit_of_the_looms"
-    },		
+    },
     "criteria": {
         "flower_banner_pattern": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:flower_banner_pattern"
-						]
+                        "items": [
+                            "minecraft:flower_banner_pattern"
+                        ]
                     }
                 ]
             }
@@ -30,9 +34,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:creeper_banner_pattern"
-						]
+                        "items": [
+                            "minecraft:creeper_banner_pattern"
+                        ]
                     }
                 ]
             }
@@ -42,9 +46,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:skull_banner_pattern"
-						]
+                        "items": [
+                            "minecraft:skull_banner_pattern"
+                        ]
                     }
                 ]
             }
@@ -54,9 +58,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:mojang_banner_pattern"
-						]
+                        "items": [
+                            "minecraft:mojang_banner_pattern"
+                        ]
                     }
                 ]
             }
@@ -66,9 +70,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:globe_banner_pattern"
-						]
+                        "items": [
+                            "minecraft:globe_banner_pattern"
+                        ]
                     }
                 ]
             }
@@ -78,12 +82,12 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:piglin_banner_pattern"
-						]
+                        "items": [
+                            "minecraft:piglin_banner_pattern"
+                        ]
                     }
                 ]
             }
         }
-	}
+    }
 }

@@ -3,14 +3,18 @@
         "icon": {
             "item": "minecraft:anvil"
         },
-        "title": {"translate":"Organizational Wizard"},
-        "description": {"translate":"Name a Shulker Box 'Blocks' for storing your blocks"},
+        "title": {
+            "translate": "Organizational Wizard"
+        },
+        "description": {
+            "translate": "Organizational Wizard"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:end/portable_storage",
-	"rewards": {
-		"function": "bc_rewards:end/organizational_wizard"
-    },	
+    "rewards": {
+        "function": "bc_rewards:end/organizational_wizard"
+    },
     "criteria": {
         "shulker_box": {
             "trigger": "minecraft:inventory_changed",
@@ -18,7 +22,7 @@
                 "items": [
                     {
                         "tag": "minecraft:shulker_boxes",
-						"nbt": "{display:{Name:\"{\\\"text\\\":\\\"Blocks\\\"}\"}}"
+                        "nbt": "{display:{Name:\"{\\\"text\\\":\\\"Blocks\\\"}\"}}"
                     }
                 ]
             }

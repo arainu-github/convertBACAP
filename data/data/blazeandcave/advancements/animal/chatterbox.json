@@ -3,14 +3,18 @@
         "icon": {
             "item": "minecraft:beetroot_seeds"
         },
-        "title": {"translate":"Chatterbox"},
-        "description": {"translate":"Tame a Parrot using seeds. WARNING: Do not use a cookie!"},
+        "title": {
+            "translate": "おしゃべり"
+        },
+        "description": {
+            "translate": "Tame a Parrot using seeds. WARNING: Do not use a cookie!"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:animal/feeding_the_chickens",
-	"rewards": {
-		"function": "bc_rewards:animal/chatterbox"
-    },		
+    "rewards": {
+        "function": "bc_rewards:animal/chatterbox"
+    },
     "criteria": {
         "tamed_animal": {
             "trigger": "minecraft:tame_animal",
@@ -18,7 +22,7 @@
                 "entity": {
                     "type": "minecraft:parrot"
                 }
-			}
+            }
         }
     }
 }

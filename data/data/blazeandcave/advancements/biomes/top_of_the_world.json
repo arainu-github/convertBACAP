@@ -3,76 +3,81 @@
         "icon": {
             "item": "minecraft:light_blue_dye"
         },
-        "title": {"translate":"Top of the World"},
-        "description": {"color":"#75E1FF","translate":"Place scaffolding to the world limit"},
+        "title": {
+            "translate": "世界の頂点"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Place scaffolding to the world limit"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "blazeandcave:biomes/construction_worker",
-	"rewards": {
-		"function": "bc_rewards:biomes/top_of_the_world"
-    },		
+    "rewards": {
+        "function": "bc_rewards:biomes/top_of_the_world"
+    },
     "criteria": {
         "scaffolding": {
             "trigger": "minecraft:placed_block",
             "conditions": {
                 "item": {
-					"items": [
-						"minecraft:scaffolding"
-					]
+                    "items": [
+                        "minecraft:scaffolding"
+                    ]
                 },
-				"location": {
-					"position": {
-						"y": {
-							"min": 319
-						}
-					},
-					"dimension": "minecraft:overworld"
-				}
+                "location": {
+                    "position": {
+                        "y": {
+                            "min": 319
+                        }
+                    },
+                    "dimension": "minecraft:overworld"
+                }
             }
         },
         "scaffolding_nether": {
             "trigger": "minecraft:placed_block",
             "conditions": {
                 "item": {
-					"items": [
-						"minecraft:scaffolding"
-					]
+                    "items": [
+                        "minecraft:scaffolding"
+                    ]
                 },
-				"location": {
-					"position": {
-						"y": {
-							"min": 255
-						}
-					},
-					"dimension": "minecraft:the_nether"
-				}
+                "location": {
+                    "position": {
+                        "y": {
+                            "min": 255
+                        }
+                    },
+                    "dimension": "minecraft:the_nether"
+                }
             }
         },
         "scaffolding_end": {
             "trigger": "minecraft:placed_block",
             "conditions": {
                 "item": {
-					"items": [
-						"minecraft:scaffolding"
-					]
+                    "items": [
+                        "minecraft:scaffolding"
+                    ]
                 },
-				"location": {
-					"position": {
-						"y": {
-							"min": 255
-						}
-					},
-					"dimension": "minecraft:the_end"
-				}
+                "location": {
+                    "position": {
+                        "y": {
+                            "min": 255
+                        }
+                    },
+                    "dimension": "minecraft:the_end"
+                }
             }
         }
     },
-	"requirements": [
-		[
-			"scaffolding",
-			"scaffolding_nether",
-			"scaffolding_end"
-		]
-	]
+    "requirements": [
+        [
+            "scaffolding",
+            "scaffolding_nether",
+            "scaffolding_end"
+        ]
+    ]
 }

@@ -2,35 +2,40 @@
     "display": {
         "icon": {
             "item": "minecraft:diamond_axe",
-			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+            "nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
         },
-        "title": {"translate":"Journeyman Enchanter"},
-        "description": {"color":"#75E1FF","translate":"Enchant 50 items"},
+        "title": {
+            "translate": "Journeyman Enchanter"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Journeyman Enchanter"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "blazeandcave:statistics/novice_enchanter",
-	"rewards": {
-		"function": "bc_rewards:statistics/journeyman_enchanter"
-    },		
+    "rewards": {
+        "function": "bc_rewards:statistics/journeyman_enchanter"
+    },
     "criteria": {
         "trigger": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"stats": [
-							{
-								"type": "minecraft:custom",
-								"stat": "minecraft:enchant_item",
-								"value": {
-									"min": 50
-								}
-							}
-						]
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:custom",
+                                "stat": "minecraft:enchant_item",
+                                "value": {
+                                    "min": 50
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
         }
     }
 }

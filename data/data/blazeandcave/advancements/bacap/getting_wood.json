@@ -3,23 +3,27 @@
         "icon": {
             "item": "minecraft:oak_log"
         },
-        "title": {"translate":"Getting Wood"},
-        "description": {"translate":"Attack a tree until a block of wood pops out"},
+        "title": {
+            "translate": "木を手に入れる"
+        },
+        "description": {
+            "translate": "Attack a tree until a block of wood pops out"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:bacap/root",
-	"rewards": {
-		"function": "bc_rewards:bacap/getting_wood"
-    },		
+    "rewards": {
+        "function": "bc_rewards:bacap/getting_wood"
+    },
     "criteria": {
         "oak_log": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:oak_log"
-						]
+                        "items": [
+                            "minecraft:oak_log"
+                        ]
                     }
                 ]
             }
@@ -29,9 +33,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:spruce_log"
-						]
+                        "items": [
+                            "minecraft:spruce_log"
+                        ]
                     }
                 ]
             }
@@ -41,9 +45,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:birch_log"
-						]
+                        "items": [
+                            "minecraft:birch_log"
+                        ]
                     }
                 ]
             }
@@ -53,9 +57,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:jungle_log"
-						]
+                        "items": [
+                            "minecraft:jungle_log"
+                        ]
                     }
                 ]
             }
@@ -65,9 +69,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:acacia_log"
-						]
+                        "items": [
+                            "minecraft:acacia_log"
+                        ]
                     }
                 ]
             }
@@ -77,22 +81,22 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:dark_oak_log"
-						]
+                        "items": [
+                            "minecraft:dark_oak_log"
+                        ]
                     }
                 ]
             }
         }
     },
     "requirements": [
-		[
-        "oak_log",
-        "spruce_log",
-		"birch_log",
-		"jungle_log",
-		"acacia_log",
-		"dark_oak_log"
-		]
+        [
+            "oak_log",
+            "spruce_log",
+            "birch_log",
+            "jungle_log",
+            "acacia_log",
+            "dark_oak_log"
+        ]
     ]
 }

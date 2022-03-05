@@ -3,14 +3,18 @@
         "icon": {
             "item": "minecraft:stone_sword"
         },
-        "title": {"translate":"Direct Fishing"},
-        "description": {"translate":"Catch a fish by directly skewering it with a sword"},
+        "title": {
+            "translate": "直接的漁業"
+        },
+        "description": {
+            "translate": "Catch a fish by directly skewering it with a sword"
+        },
         "announce_to_chat": false
     },
     "parent": "minecraft:husbandry/fishy_business",
     "rewards": {
         "function": "bc_rewards:animal/direct_fishing"
-    },		
+    },
     "criteria": {
         "cod": {
             "trigger": "minecraft:player_killed_entity",
@@ -43,14 +47,14 @@
                     "type": "tropical_fish"
                 }
             }
-        }		
+        }
     },
     "requirements": [
-		[
-        "cod",
-        "salmon",
-		"pufferfish",
-		"tropical_fish"
-		]
+        [
+            "cod",
+            "salmon",
+            "pufferfish",
+            "tropical_fish"
+        ]
     ]
 }

@@ -3,55 +3,59 @@
         "icon": {
             "item": "minecraft:dark_oak_fence"
         },
-        "title": {"translate":"Titanic"},
-        "description": {"translate":"Find a shipwreck in an iceberg biome"},
+        "title": {
+            "translate": "タイタニック"
+        },
+        "description": {
+            "translate": "Find a shipwreck in an iceberg biome"
+        },
         "announce_to_chat": false,
-		"frame": "challenge"
+        "frame": "challenge"
     },
     "parent": "blazeandcave:biomes/boatception",
     "rewards": {
         "function": "bc_rewards:biomes/titanic"
-    },		
+    },
     "criteria": {
         "iceberg_deep": {
             "trigger": "minecraft:location",
             "conditions": {
                 "biome": "minecraft:deep_frozen_ocean",
                 "player": [
-					{
-						"condition": "minecraft:alternative",
-						"terms": [
-							{
-								"condition": "minecraft:entity_properties",
-								"entity": "this",
-								"predicate": {
-									"location": {
-										"feature": "minecraft:shipwreck"
-									}
-								}
-							},
-							{
-								"condition": "minecraft:entity_properties",
-								"entity": "this",
-								"predicate": {
-									"location": {
-										"feature": "minecraft:shipwreck_beached"
-									}
-								}
-							}
-						]
-					},
+                    {
+                        "condition": "minecraft:alternative",
+                        "terms": [
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "location": {
+                                        "feature": "minecraft:shipwreck"
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "location": {
+                                        "feature": "minecraft:shipwreck_beached"
+                                    }
+                                }
+                            }
+                        ]
+                    },
                     {
                         "condition": "minecraft:inverted",
                         "term": {
                             "condition": "minecraft:entity_properties",
-						    "entity": "this",
-						    "predicate": {
-						    	"player": {
-						    		"gamemode": "spectator"
-			    				}
+                            "entity": "this",
+                            "predicate": {
+                                "player": {
+                                    "gamemode": "spectator"
+                                }
                             }
-						}
+                        }
                     }
                 ]
             }
@@ -61,49 +65,49 @@
             "conditions": {
                 "biome": "minecraft:frozen_ocean",
                 "player": [
-					{
-						"condition": "minecraft:alternative",
-						"terms": [
-							{
-								"condition": "minecraft:entity_properties",
-								"entity": "this",
-								"predicate": {
-									"location": {
-										"feature": "minecraft:shipwreck"
-									}
-								}
-							},
-							{
-								"condition": "minecraft:entity_properties",
-								"entity": "this",
-								"predicate": {
-									"location": {
-										"feature": "minecraft:shipwreck_beached"
-									}
-								}
-							}
-						]
-					},
+                    {
+                        "condition": "minecraft:alternative",
+                        "terms": [
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "location": {
+                                        "feature": "minecraft:shipwreck"
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "minecraft:entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "location": {
+                                        "feature": "minecraft:shipwreck_beached"
+                                    }
+                                }
+                            }
+                        ]
+                    },
                     {
                         "condition": "minecraft:inverted",
                         "term": {
                             "condition": "minecraft:entity_properties",
-						    "entity": "this",
-						    "predicate": {
-						    	"player": {
-						    		"gamemode": "spectator"
-			    				}
+                            "entity": "this",
+                            "predicate": {
+                                "player": {
+                                    "gamemode": "spectator"
+                                }
                             }
-						}
+                        }
                     }
                 ]
             }
         }
     },
-	"requirements": [
-		[
-			"iceberg_deep",
-			"iceberg"
-		]
-	]
+    "requirements": [
+        [
+            "iceberg_deep",
+            "iceberg"
+        ]
+    ]
 }

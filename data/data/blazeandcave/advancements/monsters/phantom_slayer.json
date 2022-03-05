@@ -3,28 +3,33 @@
         "icon": {
             "item": "minecraft:phantom_spawn_egg"
         },
-        "title": {"translate":"Phantom Slayer"},
-        "description": {"color":"#75E1FF","translate":"Collect a stack of phantom membranes"},
+        "title": {
+            "translate": "ファントムスレイヤー"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Collect a stack of phantom membranes"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "blazeandcave:monsters/ricochet_swoop",
     "rewards": {
-		"function": "bc_rewards:monsters/phantom_slayer"
-    },		
+        "function": "bc_rewards:monsters/phantom_slayer"
+    },
     "criteria": {
         "phantom_membrane": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:phantom_membrane"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:phantom_membrane"
+                        ],
+                        "count": 64
                     }
                 ]
             }
-        }		
-    }	
+        }
+    }
 }

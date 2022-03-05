@@ -3,23 +3,27 @@
         "icon": {
             "item": "minecraft:granite"
         },
-        "title": {"translate":"Rock Collection"},
-        "description": {"translate":"Collect all the types of rocks"},
+        "title": {
+            "translate": "石採集"
+        },
+        "description": {
+            "translate": "Collect all the types of rocks"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:building/root",
     "rewards": {
         "function": "bc_rewards:building/rock_collection"
-    },		
+    },
     "criteria": {
         "cobblestone": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cobblestone"
-						]
+                        "items": [
+                            "minecraft:cobblestone"
+                        ]
                     }
                 ]
             }
@@ -29,9 +33,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:granite"
-						]
+                        "items": [
+                            "minecraft:granite"
+                        ]
                     }
                 ]
             }
@@ -41,9 +45,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:diorite"
-						]
+                        "items": [
+                            "minecraft:diorite"
+                        ]
                     }
                 ]
             }
@@ -53,9 +57,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:andesite"
-						]
+                        "items": [
+                            "minecraft:andesite"
+                        ]
                     }
                 ]
             }
@@ -65,9 +69,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:calcite"
-						]
+                        "items": [
+                            "minecraft:calcite"
+                        ]
                     }
                 ]
             }
@@ -77,9 +81,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:tuff"
-						]
+                        "items": [
+                            "minecraft:tuff"
+                        ]
                     }
                 ]
             }
@@ -89,9 +93,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:dripstone_block"
-						]
+                        "items": [
+                            "minecraft:dripstone_block"
+                        ]
                     }
                 ]
             }
@@ -101,9 +105,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cobbled_deepslate"
-						]
+                        "items": [
+                            "minecraft:cobbled_deepslate"
+                        ]
                     }
                 ]
             }
@@ -113,12 +117,12 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:smooth_basalt"
-						]
+                        "items": [
+                            "minecraft:smooth_basalt"
+                        ]
                     }
                 ]
             }
         }
-	}		
+    }
 }

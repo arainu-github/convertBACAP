@@ -3,24 +3,29 @@
         "icon": {
             "item": "minecraft:sandstone_wall"
         },
-        "title": {"translate":"Crazy Walls"},
-        "description": {"color":"#75E1FF","translate":"Craft every type of wall"},
+        "title": {
+            "translate": "ウォールオブフレッシュ"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Craft every type of wall"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "blazeandcave:building/the_walls",
     "rewards": {
         "function": "bc_rewards:building/crazy_walls"
-    },		
+    },
     "criteria": {
         "cobblestone_wall": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cobblestone_wall"
-						]
+                        "items": [
+                            "minecraft:cobblestone_wall"
+                        ]
                     }
                 ]
             }
@@ -30,21 +35,21 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:mossy_cobblestone_wall"
-						]
+                        "items": [
+                            "minecraft:mossy_cobblestone_wall"
+                        ]
                     }
                 ]
             }
         },
-		"brick_wall": {
+        "brick_wall": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:brick_wall"
-						]
+                        "items": [
+                            "minecraft:brick_wall"
+                        ]
                     }
                 ]
             }
@@ -54,9 +59,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:prismarine_wall"
-						]
+                        "items": [
+                            "minecraft:prismarine_wall"
+                        ]
                     }
                 ]
             }
@@ -66,9 +71,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:red_sandstone_wall"
-						]
+                        "items": [
+                            "minecraft:red_sandstone_wall"
+                        ]
                     }
                 ]
             }
@@ -78,9 +83,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:mossy_stone_brick_wall"
-						]
+                        "items": [
+                            "minecraft:mossy_stone_brick_wall"
+                        ]
                     }
                 ]
             }
@@ -90,9 +95,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:granite_wall"
-						]
+                        "items": [
+                            "minecraft:granite_wall"
+                        ]
                     }
                 ]
             }
@@ -102,9 +107,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:stone_brick_wall"
-						]
+                        "items": [
+                            "minecraft:stone_brick_wall"
+                        ]
                     }
                 ]
             }
@@ -114,9 +119,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:nether_brick_wall"
-						]
+                        "items": [
+                            "minecraft:nether_brick_wall"
+                        ]
                     }
                 ]
             }
@@ -126,9 +131,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:andesite_wall"
-						]
+                        "items": [
+                            "minecraft:andesite_wall"
+                        ]
                     }
                 ]
             }
@@ -138,9 +143,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:red_nether_brick_wall"
-						]
+                        "items": [
+                            "minecraft:red_nether_brick_wall"
+                        ]
                     }
                 ]
             }
@@ -150,9 +155,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:sandstone_wall"
-						]
+                        "items": [
+                            "minecraft:sandstone_wall"
+                        ]
                     }
                 ]
             }
@@ -162,9 +167,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:end_stone_brick_wall"
-						]
+                        "items": [
+                            "minecraft:end_stone_brick_wall"
+                        ]
                     }
                 ]
             }
@@ -174,9 +179,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:diorite_wall"
-						]
+                        "items": [
+                            "minecraft:diorite_wall"
+                        ]
                     }
                 ]
             }
@@ -186,9 +191,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:blackstone_wall"
-						]
+                        "items": [
+                            "minecraft:blackstone_wall"
+                        ]
                     }
                 ]
             }
@@ -198,9 +203,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:polished_blackstone_wall"
-						]
+                        "items": [
+                            "minecraft:polished_blackstone_wall"
+                        ]
                     }
                 ]
             }
@@ -210,9 +215,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:polished_blackstone_brick_wall"
-						]
+                        "items": [
+                            "minecraft:polished_blackstone_brick_wall"
+                        ]
                     }
                 ]
             }
@@ -222,9 +227,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cobbled_deepslate_wall"
-						]
+                        "items": [
+                            "minecraft:cobbled_deepslate_wall"
+                        ]
                     }
                 ]
             }
@@ -234,9 +239,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:polished_deepslate_wall"
-						]
+                        "items": [
+                            "minecraft:polished_deepslate_wall"
+                        ]
                     }
                 ]
             }
@@ -246,9 +251,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:deepslate_brick_wall"
-						]
+                        "items": [
+                            "minecraft:deepslate_brick_wall"
+                        ]
                     }
                 ]
             }
@@ -258,12 +263,12 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:deepslate_tile_wall"
-						]
+                        "items": [
+                            "minecraft:deepslate_tile_wall"
+                        ]
                     }
                 ]
             }
         }
-	}		
+    }
 }

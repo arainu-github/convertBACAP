@@ -3,26 +3,30 @@
         "icon": {
             "item": "minecraft:lever"
         },
-        "title": {"translate":"Leveraging Synergy"},
-        "description": {"translate":"Flick a lever"},
+        "title": {
+            "translate": "Leveraging Synergy"
+        },
+        "description": {
+            "translate": "Leveraging Synergy"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:redstone/click",
-	"rewards": {
-		"function": "bc_rewards:redstone/leveraging_synergy"
+    "rewards": {
+        "function": "bc_rewards:redstone/leveraging_synergy"
     },
     "criteria": {
         "lever": {
-			"trigger": "minecraft:item_used_on_block",
-			"conditions": {
-				"location": {
-					"block": {
-						"blocks": [
-							"minecraft:lever"
-						]
-					}
-				}
-			}
-		}
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "minecraft:lever"
+                        ]
+                    }
+                }
+            }
+        }
     }
 }

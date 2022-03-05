@@ -3,13 +3,17 @@
         "icon": {
             "item": "minecraft:repeater"
         },
-        "title": {"translate":"Repeating Repeater"},
-        "description": {"translate":"Craft a redstone repeater for delaying signals"},
+        "title": {
+            "translate": "リピーティング・リピーター"
+        },
+        "description": {
+            "translate": "Craft a redstone repeater for delaying signals"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:redstone/powerful_light",
-	"rewards": {
-		"function": "bc_rewards:redstone/repeating_repeater"
+    "rewards": {
+        "function": "bc_rewards:redstone/repeating_repeater"
     },
     "criteria": {
         "repeater": {
@@ -17,9 +21,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:repeater"
-						]
+                        "items": [
+                            "minecraft:repeater"
+                        ]
                     }
                 ]
             }

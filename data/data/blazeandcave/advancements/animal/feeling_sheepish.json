@@ -3,22 +3,26 @@
         "icon": {
             "item": "minecraft:cooked_mutton"
         },
-        "title": {"translate":"Feeling Sheepish"},
-        "description": {"translate":"You'll get over it"},
+        "title": {
+            "translate": "ジンギスカン"
+        },
+        "description": {
+            "translate": "You'll get over it"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:animal/wooly",
-	"rewards": {
-		"function": "bc_rewards:animal/feeling_sheepish"
-    },		
+    "rewards": {
+        "function": "bc_rewards:animal/feeling_sheepish"
+    },
     "criteria": {
         "cooked_mutton": {
             "trigger": "minecraft:consume_item",
             "conditions": {
                 "item": {
-					"items": [
-						"minecraft:cooked_mutton"
-					]
+                    "items": [
+                        "minecraft:cooked_mutton"
+                    ]
                 }
             }
         }

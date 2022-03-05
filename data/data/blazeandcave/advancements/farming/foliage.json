@@ -3,23 +3,27 @@
         "icon": {
             "item": "minecraft:grass"
         },
-        "title": {"translate":"Foliage"},
-        "description": {"translate":"Use shears to pick up tall grass or ferns"},
+        "title": {
+            "translate": "Foliage"
+        },
+        "description": {
+            "translate": "Foliage"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:farming/trimming_the_treetops",
-	"rewards": {
-		"function": "bc_rewards:farming/foliage"
-    },		
+    "rewards": {
+        "function": "bc_rewards:farming/foliage"
+    },
     "criteria": {
         "grass": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:grass"
-						]
+                        "items": [
+                            "minecraft:grass"
+                        ]
                     }
                 ]
             }
@@ -29,18 +33,18 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:fern"
-						]
+                        "items": [
+                            "minecraft:fern"
+                        ]
                     }
                 ]
             }
         }
     },
     "requirements": [
-		[
-        "grass",
-        "fern"
-		]
+        [
+            "grass",
+            "fern"
+        ]
     ]
 }

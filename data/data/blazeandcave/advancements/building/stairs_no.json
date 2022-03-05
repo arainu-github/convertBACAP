@@ -3,35 +3,39 @@
         "icon": {
             "item": "minecraft:spruce_stairs"
         },
-        "title": {"translate":"Stairs? NOOOOO!"},
-        "description": {"translate":"Craft some stairs"},
+        "title": {
+            "translate": "Stairs? NOOOOO!"
+        },
+        "description": {
+            "translate": "Stairs? NOOOOO!"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:building/cut_in_half",
     "rewards": {
         "function": "bc_rewards:building/stairs_no"
-    },		
+    },
     "criteria": {
         "sandstone_stairs": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:sandstone_stairs"
-						]
+                        "items": [
+                            "minecraft:sandstone_stairs"
+                        ]
                     }
                 ]
             }
         },
-		"cobblestone_stairs": {
+        "cobblestone_stairs": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cobblestone_stairs"
-						]
+                        "items": [
+                            "minecraft:cobblestone_stairs"
+                        ]
                     }
                 ]
             }
@@ -41,9 +45,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:brick_stairs"
-						]
+                        "items": [
+                            "minecraft:brick_stairs"
+                        ]
                     }
                 ]
             }
@@ -53,9 +57,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:stone_brick_stairs"
-						]
+                        "items": [
+                            "minecraft:stone_brick_stairs"
+                        ]
                     }
                 ]
             }
@@ -65,9 +69,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:nether_brick_stairs"
-						]
+                        "items": [
+                            "minecraft:nether_brick_stairs"
+                        ]
                     }
                 ]
             }
@@ -77,9 +81,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:quartz_stairs"
-						]
+                        "items": [
+                            "minecraft:quartz_stairs"
+                        ]
                     }
                 ]
             }
@@ -89,9 +93,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:oak_stairs"
-						]
+                        "items": [
+                            "minecraft:oak_stairs"
+                        ]
                     }
                 ]
             }
@@ -101,9 +105,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:spruce_stairs"
-						]
+                        "items": [
+                            "minecraft:spruce_stairs"
+                        ]
                     }
                 ]
             }
@@ -113,9 +117,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:birch_stairs"
-						]
+                        "items": [
+                            "minecraft:birch_stairs"
+                        ]
                     }
                 ]
             }
@@ -125,9 +129,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:jungle_stairs"
-						]
+                        "items": [
+                            "minecraft:jungle_stairs"
+                        ]
                     }
                 ]
             }
@@ -137,9 +141,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:acacia_stairs"
-						]
+                        "items": [
+                            "minecraft:acacia_stairs"
+                        ]
                     }
                 ]
             }
@@ -149,9 +153,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:dark_oak_stairs"
-						]
+                        "items": [
+                            "minecraft:dark_oak_stairs"
+                        ]
                     }
                 ]
             }
@@ -161,9 +165,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:red_sandstone_stairs"
-						]
+                        "items": [
+                            "minecraft:red_sandstone_stairs"
+                        ]
                     }
                 ]
             }
@@ -173,9 +177,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:purpur_stairs"
-						]
+                        "items": [
+                            "minecraft:purpur_stairs"
+                        ]
                     }
                 ]
             }
@@ -185,9 +189,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:prismarine_stairs"
-						]
+                        "items": [
+                            "minecraft:prismarine_stairs"
+                        ]
                     }
                 ]
             }
@@ -197,9 +201,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:prismarine_brick_stairs"
-						]
+                        "items": [
+                            "minecraft:prismarine_brick_stairs"
+                        ]
                     }
                 ]
             }
@@ -209,9 +213,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:dark_prismarine_stairs"
-						]
+                        "items": [
+                            "minecraft:dark_prismarine_stairs"
+                        ]
                     }
                 ]
             }
@@ -221,9 +225,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:stone_stairs"
-						]
+                        "items": [
+                            "minecraft:stone_stairs"
+                        ]
                     }
                 ]
             }
@@ -233,9 +237,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:polished_granite_stairs"
-						]
+                        "items": [
+                            "minecraft:polished_granite_stairs"
+                        ]
                     }
                 ]
             }
@@ -245,9 +249,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:smooth_red_sandstone_stairs"
-						]
+                        "items": [
+                            "minecraft:smooth_red_sandstone_stairs"
+                        ]
                     }
                 ]
             }
@@ -257,9 +261,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:mossy_stone_brick_stairs"
-						]
+                        "items": [
+                            "minecraft:mossy_stone_brick_stairs"
+                        ]
                     }
                 ]
             }
@@ -269,9 +273,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:polished_diorite_stairs"
-						]
+                        "items": [
+                            "minecraft:polished_diorite_stairs"
+                        ]
                     }
                 ]
             }
@@ -281,9 +285,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:mossy_cobblestone_stairs"
-						]
+                        "items": [
+                            "minecraft:mossy_cobblestone_stairs"
+                        ]
                     }
                 ]
             }
@@ -293,9 +297,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:end_stone_brick_stairs"
-						]
+                        "items": [
+                            "minecraft:end_stone_brick_stairs"
+                        ]
                     }
                 ]
             }
@@ -305,9 +309,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:smooth_sandstone_stairs"
-						]
+                        "items": [
+                            "minecraft:smooth_sandstone_stairs"
+                        ]
                     }
                 ]
             }
@@ -317,9 +321,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:smooth_quartz_stairs"
-						]
+                        "items": [
+                            "minecraft:smooth_quartz_stairs"
+                        ]
                     }
                 ]
             }
@@ -329,9 +333,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:granite_stairs"
-						]
+                        "items": [
+                            "minecraft:granite_stairs"
+                        ]
                     }
                 ]
             }
@@ -341,9 +345,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:andesite_stairs"
-						]
+                        "items": [
+                            "minecraft:andesite_stairs"
+                        ]
                     }
                 ]
             }
@@ -353,9 +357,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:red_nether_brick_stairs"
-						]
+                        "items": [
+                            "minecraft:red_nether_brick_stairs"
+                        ]
                     }
                 ]
             }
@@ -365,9 +369,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:polished_andesite_stairs"
-						]
+                        "items": [
+                            "minecraft:polished_andesite_stairs"
+                        ]
                     }
                 ]
             }
@@ -377,9 +381,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:diorite_stairs"
-						]
+                        "items": [
+                            "minecraft:diorite_stairs"
+                        ]
                     }
                 ]
             }
@@ -389,9 +393,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:crimson_stairs"
-						]
+                        "items": [
+                            "minecraft:crimson_stairs"
+                        ]
                     }
                 ]
             }
@@ -401,9 +405,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:warped_stairs"
-						]
+                        "items": [
+                            "minecraft:warped_stairs"
+                        ]
                     }
                 ]
             }
@@ -413,9 +417,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:blackstone_stairs"
-						]
+                        "items": [
+                            "minecraft:blackstone_stairs"
+                        ]
                     }
                 ]
             }
@@ -425,9 +429,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:polished_blackstone_stairs"
-						]
+                        "items": [
+                            "minecraft:polished_blackstone_stairs"
+                        ]
                     }
                 ]
             }
@@ -437,9 +441,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:polished_blackstone_brick_stairs"
-						]
+                        "items": [
+                            "minecraft:polished_blackstone_brick_stairs"
+                        ]
                     }
                 ]
             }
@@ -449,9 +453,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cut_copper_stairs"
-						]
+                        "items": [
+                            "minecraft:cut_copper_stairs"
+                        ]
                     }
                 ]
             }
@@ -461,9 +465,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:exposed_cut_copper_stairs"
-						]
+                        "items": [
+                            "minecraft:exposed_cut_copper_stairs"
+                        ]
                     }
                 ]
             }
@@ -473,9 +477,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:weathered_cut_copper_stairs"
-						]
+                        "items": [
+                            "minecraft:weathered_cut_copper_stairs"
+                        ]
                     }
                 ]
             }
@@ -485,9 +489,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:oxidized_cut_copper_stairs"
-						]
+                        "items": [
+                            "minecraft:oxidized_cut_copper_stairs"
+                        ]
                     }
                 ]
             }
@@ -497,9 +501,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:waxed_cut_copper_stairs"
-						]
+                        "items": [
+                            "minecraft:waxed_cut_copper_stairs"
+                        ]
                     }
                 ]
             }
@@ -509,9 +513,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:waxed_exposed_cut_copper_stairs"
-						]
+                        "items": [
+                            "minecraft:waxed_exposed_cut_copper_stairs"
+                        ]
                     }
                 ]
             }
@@ -521,9 +525,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:waxed_weathered_cut_copper_stairs"
-						]
+                        "items": [
+                            "minecraft:waxed_weathered_cut_copper_stairs"
+                        ]
                     }
                 ]
             }
@@ -533,9 +537,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:waxed_oxidized_cut_copper_stairs"
-						]
+                        "items": [
+                            "minecraft:waxed_oxidized_cut_copper_stairs"
+                        ]
                     }
                 ]
             }
@@ -545,9 +549,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cobbled_deepslate_stairs"
-						]
+                        "items": [
+                            "minecraft:cobbled_deepslate_stairs"
+                        ]
                     }
                 ]
             }
@@ -557,9 +561,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:polished_deepslate_stairs"
-						]
+                        "items": [
+                            "minecraft:polished_deepslate_stairs"
+                        ]
                     }
                 ]
             }
@@ -569,9 +573,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:deepslate_brick_stairs"
-						]
+                        "items": [
+                            "minecraft:deepslate_brick_stairs"
+                        ]
                     }
                 ]
             }
@@ -581,64 +585,64 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:deepslate_tile_stairs"
-						]
+                        "items": [
+                            "minecraft:deepslate_tile_stairs"
+                        ]
                     }
                 ]
             }
         }
-	},
+    },
     "requirements": [
-		[
-        "stone_stairs",
-        "sandstone_stairs",
-		"cobblestone_stairs",
-		"brick_stairs",
-		"stone_brick_stairs",
-		"nether_brick_stairs",
-		"quartz_stairs",
-        "oak_stairs",
-        "spruce_stairs",
-		"birch_stairs",
-		"jungle_stairs",
-		"acacia_stairs",
-		"dark_oak_stairs",
-		"red_sandstone_stairs",
-		"purpur_stairs",
-		"prismarine_stairs",
-		"dark_prismarine_stairs",
-		"prismarine_bricks_stairs",
-		"smooth_quartz_stairs",
-		"smooth_red_sandstone_stairs",
-		"smooth_sandstone_stairs",
-		"diorite_stairs",
-		"granite_stairs",
-		"andesite_stairs",
-		"polished_andesite_stairs",
-		"polished_granite_stairs",
-		"polished_diorite_stairs",
-		"red_nether_brick_stairs",
-		"end_stone_brick_stairs",
-		"mossy_cobblestone_stairs",
-		"mossy_stone_brick_stairs",
-		"crimson_stairs",
-		"warped_stairs",
-		"blackstone_stairs",
-		"polished_blackstone_stairs",
-		"polished_blackstone_brick_stairs",
-		"cut_copper_stairs",
-		"exposed_cut_copper_stairs",
-		"weathered_cut_copper_stairs",
-		"oxidized_cut_copper_stairs",
-		"waxed_cut_copper_stairs",
-		"waxed_exposed_cut_copper_stairs",
-		"waxed_weathered_cut_copper_stairs",
-		"waxed_oxidized_cut_copper_stairs",
-		"cobbled_deepslate_stairs",
-		"polished_deepslate_stairs",
-		"deepslate_brick_stairs",
-		"deepslate_tile_stairs"
-		]
+        [
+            "stone_stairs",
+            "sandstone_stairs",
+            "cobblestone_stairs",
+            "brick_stairs",
+            "stone_brick_stairs",
+            "nether_brick_stairs",
+            "quartz_stairs",
+            "oak_stairs",
+            "spruce_stairs",
+            "birch_stairs",
+            "jungle_stairs",
+            "acacia_stairs",
+            "dark_oak_stairs",
+            "red_sandstone_stairs",
+            "purpur_stairs",
+            "prismarine_stairs",
+            "dark_prismarine_stairs",
+            "prismarine_bricks_stairs",
+            "smooth_quartz_stairs",
+            "smooth_red_sandstone_stairs",
+            "smooth_sandstone_stairs",
+            "diorite_stairs",
+            "granite_stairs",
+            "andesite_stairs",
+            "polished_andesite_stairs",
+            "polished_granite_stairs",
+            "polished_diorite_stairs",
+            "red_nether_brick_stairs",
+            "end_stone_brick_stairs",
+            "mossy_cobblestone_stairs",
+            "mossy_stone_brick_stairs",
+            "crimson_stairs",
+            "warped_stairs",
+            "blackstone_stairs",
+            "polished_blackstone_stairs",
+            "polished_blackstone_brick_stairs",
+            "cut_copper_stairs",
+            "exposed_cut_copper_stairs",
+            "weathered_cut_copper_stairs",
+            "oxidized_cut_copper_stairs",
+            "waxed_cut_copper_stairs",
+            "waxed_exposed_cut_copper_stairs",
+            "waxed_weathered_cut_copper_stairs",
+            "waxed_oxidized_cut_copper_stairs",
+            "cobbled_deepslate_stairs",
+            "polished_deepslate_stairs",
+            "deepslate_brick_stairs",
+            "deepslate_tile_stairs"
+        ]
     ]
 }

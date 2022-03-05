@@ -3,14 +3,18 @@
         "icon": {
             "item": "minecraft:gunpowder"
         },
-        "title": {"translate":"Giant Floating Jellyfish"},
-        "description": {"translate":"Shoot down a ghast"},
+        "title": {
+            "translate": "巨大な浮いてるクラゲ(ネコ？)"
+        },
+        "description": {
+            "translate": "Shoot down a ghast"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:nether/the_tribal_snouts",
     "rewards": {
         "function": "bc_rewards:nether/giant_floating_jellyfish"
-    },		
+    },
     "criteria": {
         "ghast": {
             "trigger": "minecraft:player_killed_entity",

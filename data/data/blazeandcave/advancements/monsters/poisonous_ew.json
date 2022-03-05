@@ -3,14 +3,18 @@
         "icon": {
             "item": "minecraft:spider_eye"
         },
-        "title": {"translate":"Poisonous Ew"},
-        "description": {"translate":"Kill a cave spider"},
+        "title": {
+            "translate": "有毒な エゥ"
+        },
+        "description": {
+            "translate": "Kill a cave spider"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:monsters/ew_ew_ew",
     "rewards": {
         "function": "bc_rewards:monsters/poisonous_ew"
-    },		
+    },
     "criteria": {
         "spider": {
             "trigger": "minecraft:player_killed_entity",

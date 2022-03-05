@@ -3,28 +3,33 @@
         "icon": {
             "item": "minecraft:skeleton_spawn_egg"
         },
-        "title": {"translate":"Skeleton Smiter"},
-        "description": {"color":"#75E1FF","translate":"Collect a stack of bones"},
+        "title": {
+            "translate": "スケルトンスミター"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Collect a stack of bones"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "blazeandcave:monsters/frosty",
     "rewards": {
-		"function": "bc_rewards:monsters/skeleton_smiter"
-    },		
+        "function": "bc_rewards:monsters/skeleton_smiter"
+    },
     "criteria": {
         "bone": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:bone"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:bone"
+                        ],
+                        "count": 64
                     }
                 ]
             }
-        }		
-    }	
+        }
+    }
 }

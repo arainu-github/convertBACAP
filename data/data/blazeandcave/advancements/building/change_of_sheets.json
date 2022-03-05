@@ -3,23 +3,27 @@
         "icon": {
             "item": "minecraft:light_blue_bed"
         },
-        "title": {"translate":"Change of Sheets"},
-        "description": {"translate":"Dye your bed a different color than white"},
+        "title": {
+            "translate": "シートの変更"
+        },
+        "description": {
+            "translate": "Dye your bed a different color than white"
+        },
         "announce_to_chat": false
     },
     "parent": "minecraft:adventure/sleep_in_bed",
-	"rewards": {
-		"function": "bc_rewards:building/change_of_sheets"
-    },		
+    "rewards": {
+        "function": "bc_rewards:building/change_of_sheets"
+    },
     "criteria": {
         "orange_bed": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:orange_bed"
-						]
+                        "items": [
+                            "minecraft:orange_bed"
+                        ]
                     }
                 ]
             }
@@ -29,9 +33,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:magenta_bed"
-						]
+                        "items": [
+                            "minecraft:magenta_bed"
+                        ]
                     }
                 ]
             }
@@ -41,9 +45,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:light_blue_bed"
-						]
+                        "items": [
+                            "minecraft:light_blue_bed"
+                        ]
                     }
                 ]
             }
@@ -53,9 +57,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:yellow_bed"
-						]
+                        "items": [
+                            "minecraft:yellow_bed"
+                        ]
                     }
                 ]
             }
@@ -65,9 +69,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:lime_bed"
-						]
+                        "items": [
+                            "minecraft:lime_bed"
+                        ]
                     }
                 ]
             }
@@ -77,9 +81,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:pink_bed"
-						]
+                        "items": [
+                            "minecraft:pink_bed"
+                        ]
                     }
                 ]
             }
@@ -89,9 +93,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:gray_bed"
-						]
+                        "items": [
+                            "minecraft:gray_bed"
+                        ]
                     }
                 ]
             }
@@ -101,9 +105,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:light_gray_bed"
-						]
+                        "items": [
+                            "minecraft:light_gray_bed"
+                        ]
                     }
                 ]
             }
@@ -113,9 +117,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cyan_bed"
-						]
+                        "items": [
+                            "minecraft:cyan_bed"
+                        ]
                     }
                 ]
             }
@@ -125,9 +129,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:purple_bed"
-						]
+                        "items": [
+                            "minecraft:purple_bed"
+                        ]
                     }
                 ]
             }
@@ -137,9 +141,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:blue_bed"
-						]
+                        "items": [
+                            "minecraft:blue_bed"
+                        ]
                     }
                 ]
             }
@@ -149,9 +153,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:brown_bed"
-						]
+                        "items": [
+                            "minecraft:brown_bed"
+                        ]
                     }
                 ]
             }
@@ -161,9 +165,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:green_bed"
-						]
+                        "items": [
+                            "minecraft:green_bed"
+                        ]
                     }
                 ]
             }
@@ -173,9 +177,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:red_bed"
-						]
+                        "items": [
+                            "minecraft:red_bed"
+                        ]
                     }
                 ]
             }
@@ -185,31 +189,31 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:black_bed"
-						]
+                        "items": [
+                            "minecraft:black_bed"
+                        ]
                     }
                 ]
             }
         }
     },
     "requirements": [
-		[
-        "orange_bed",
-        "magenta_bed",
-        "light_blue_bed",
-        "yellow_bed",
-        "lime_bed",
-        "pink_bed",
-        "gray_bed",
-        "light_gray_bed",
-        "cyan_bed",
-        "purple_bed",
-        "blue_bed",
-        "brown_bed",
-        "green_bed",
-        "red_bed",
-        "black_bed"
-		]
-	]
+        [
+            "orange_bed",
+            "magenta_bed",
+            "light_blue_bed",
+            "yellow_bed",
+            "lime_bed",
+            "pink_bed",
+            "gray_bed",
+            "light_gray_bed",
+            "cyan_bed",
+            "purple_bed",
+            "blue_bed",
+            "brown_bed",
+            "green_bed",
+            "red_bed",
+            "black_bed"
+        ]
+    ]
 }

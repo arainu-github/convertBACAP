@@ -3,15 +3,20 @@
         "icon": {
             "item": "minecraft:acacia_boat"
         },
-        "title": {"translate":"Jenga"},
-        "description": {"color":"#75E1FF","translate":"Ride a Strider riding another Strider riding a boat riding a minecart"},
+        "title": {
+            "translate": "Jenga"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Jenga"
+        },
         "announce_to_chat": false,
         "frame": "goal"
     },
     "parent": "blazeandcave:nether/this_ones_mine",
     "rewards": {
         "function": "bc_rewards:nether/jenga"
-    },		
+    },
     "criteria": {
         "jenga": {
             "trigger": "minecraft:started_riding",
@@ -19,24 +24,24 @@
                 "player": [
                     {
                         "condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"vehicle": {
-								"type": "strider",
-								"vehicle": {
-									"type": "strider",
-									"vehicle": {
-										"type": "boat",
-										"vehicle": {
-											"type": "minecart"
-										}
-									}
-								}
-							}
-						}
+                        "entity": "this",
+                        "predicate": {
+                            "vehicle": {
+                                "type": "strider",
+                                "vehicle": {
+                                    "type": "strider",
+                                    "vehicle": {
+                                        "type": "boat",
+                                        "vehicle": {
+                                            "type": "minecart"
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 ]
             }
-		}
+        }
     }
 }

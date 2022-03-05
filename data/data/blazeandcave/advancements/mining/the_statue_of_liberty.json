@@ -3,48 +3,53 @@
         "icon": {
             "item": "minecraft:oxidized_copper"
         },
-        "title": {"translate":"The Statue of Liberty"},
-        "description": {"color":"#75E1FF","translate":"Obtain a fully oxidized Block of Copper"},
+        "title": {
+            "translate": "The Statue of Liberty"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "The Statue of Liberty"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "minecraft:husbandry/wax_off",
     "rewards": {
-		"function": "bc_rewards:mining/the_statue_of_liberty"
-    },		
+        "function": "bc_rewards:mining/the_statue_of_liberty"
+    },
     "criteria": {
         "oxidized_copper": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:oxidized_copper"
-						]
+                        "items": [
+                            "minecraft:oxidized_copper"
+                        ]
                     }
                 ]
             }
-		},
-		"oxidized_cut_copper": {
+        },
+        "oxidized_cut_copper": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:oxidized_cut_copper"
-						]
+                        "items": [
+                            "minecraft:oxidized_cut_copper"
+                        ]
                     }
                 ]
             }
-		},
+        },
         "oxidized_cut_copper_stairs": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:oxidized_cut_copper_stairs"
-						]
+                        "items": [
+                            "minecraft:oxidized_cut_copper_stairs"
+                        ]
                     }
                 ]
             }
@@ -54,9 +59,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:oxidized_cut_copper_slab"
-						]
+                        "items": [
+                            "minecraft:oxidized_cut_copper_slab"
+                        ]
                     }
                 ]
             }
@@ -66,33 +71,33 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:waxed_oxidized_copper"
-						]
+                        "items": [
+                            "minecraft:waxed_oxidized_copper"
+                        ]
                     }
                 ]
             }
-		},
-		"waxed_oxidized_cut_copper": {
+        },
+        "waxed_oxidized_cut_copper": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:waxed_oxidized_cut_copper"
-						]
+                        "items": [
+                            "minecraft:waxed_oxidized_cut_copper"
+                        ]
                     }
                 ]
             }
-		},
+        },
         "waxed_oxidized_cut_copper_stairs": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:waxed_oxidized_cut_copper_stairs"
-						]
+                        "items": [
+                            "minecraft:waxed_oxidized_cut_copper_stairs"
+                        ]
                     }
                 ]
             }
@@ -102,24 +107,24 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:waxed_oxidized_cut_copper_slab"
-						]
+                        "items": [
+                            "minecraft:waxed_oxidized_cut_copper_slab"
+                        ]
                     }
                 ]
             }
         }
     },
-	"requirements": [
-		[
-			"oxidized_copper",
-			"oxidized_cut_copper",
-			"oxidized_cut_copper_stairs",
-			"oxidized_cut_copper_slab",
-			"waxed_oxidized_copper",
-			"waxed_oxidized_cut_copper",
-			"waxed_oxidized_cut_copper_stairs",
-			"waxed_oxidized_cut_copper_slab"
-		]
-	]
+    "requirements": [
+        [
+            "oxidized_copper",
+            "oxidized_cut_copper",
+            "oxidized_cut_copper_stairs",
+            "oxidized_cut_copper_slab",
+            "waxed_oxidized_copper",
+            "waxed_oxidized_cut_copper",
+            "waxed_oxidized_cut_copper_stairs",
+            "waxed_oxidized_cut_copper_slab"
+        ]
+    ]
 }

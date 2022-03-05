@@ -3,19 +3,23 @@
         "icon": {
             "item": "minecraft:glowstone"
         },
-        "title": {"translate":"Glowing!"},
-        "description": {"translate":"Light up the area with glowstone"},
+        "title": {
+            "translate": "グロゥイング！"
+        },
+        "description": {
+            "translate": "Light up the area with glowstone"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:building/festival_of_lights",
-	"rewards": {
-		"function": "bc_rewards:building/glowing"
-    },		
+    "rewards": {
+        "function": "bc_rewards:building/glowing"
+    },
     "criteria": {
         "glowstone": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-				"block": "minecraft:glowstone"
+                "block": "minecraft:glowstone"
             }
         }
     }

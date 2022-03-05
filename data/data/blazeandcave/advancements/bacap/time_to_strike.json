@@ -3,23 +3,27 @@
         "icon": {
             "item": "minecraft:wooden_sword"
         },
-        "title": {"translate":"Time to Strike!"},
-        "description": {"translate":"Use planks and sticks to make a sword"},
+        "title": {
+            "translate": "いざ突撃！"
+        },
+        "description": {
+            "translate": "Use planks and sticks to make a sword"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:bacap/time_to_mine",
-	"rewards": {
-		"function": "bc_rewards:bacap/time_to_strike"
-    },		
+    "rewards": {
+        "function": "bc_rewards:bacap/time_to_strike"
+    },
     "criteria": {
         "wooden_sword": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:wooden_sword"
-						]
+                        "items": [
+                            "minecraft:wooden_sword"
+                        ]
                     }
                 ]
             }
@@ -29,9 +33,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:stone_sword"
-						]
+                        "items": [
+                            "minecraft:stone_sword"
+                        ]
                     }
                 ]
             }
@@ -41,9 +45,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:iron_sword"
-						]
+                        "items": [
+                            "minecraft:iron_sword"
+                        ]
                     }
                 ]
             }
@@ -53,9 +57,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:diamond_sword"
-						]
+                        "items": [
+                            "minecraft:diamond_sword"
+                        ]
                     }
                 ]
             }
@@ -65,9 +69,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:golden_sword"
-						]
+                        "items": [
+                            "minecraft:golden_sword"
+                        ]
                     }
                 ]
             }
@@ -77,22 +81,22 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:netherite_sword"
-						]
+                        "items": [
+                            "minecraft:netherite_sword"
+                        ]
                     }
                 ]
             }
         }
     },
     "requirements": [
-		[
-        "wooden_sword",
-        "stone_sword",
-		"iron_sword",
-		"diamond_sword",
-		"golden_sword",
-		"netherite_sword"
-		]
+        [
+            "wooden_sword",
+            "stone_sword",
+            "iron_sword",
+            "diamond_sword",
+            "golden_sword",
+            "netherite_sword"
+        ]
     ]
 }

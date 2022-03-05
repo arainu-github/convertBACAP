@@ -2,46 +2,50 @@
     "display": {
         "icon": {
             "item": "minecraft:diamond_helmet",
-			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+            "nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
         },
-        "title": {"translate":"Master Armorer"},
-        "description": {"translate":"Create a full suit of armor with all possible enchantments at max level"},
+        "title": {
+            "translate": "完璧な鍛冶師"
+        },
+        "description": {
+            "translate": "Create a full suit of armor with all possible enchantments at max level"
+        },
         "announce_to_chat": false,
-		"frame": "challenge"
+        "frame": "challenge"
     },
     "parent": "blazeandcave:enchanting/master_arbalist",
     "rewards": {
-		"function": "bc_rewards:enchanting/master_armorer"
-    },		
+        "function": "bc_rewards:enchanting/master_armorer"
+    },
     "criteria": {
         "helmet_protection": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-				"items": [
+                "items": [
                     {
                         "tag": "blazeandcave:master_helmets",
-						"enchantments": [
-							{
-								"enchantment": "minecraft:protection",
-								"levels": 4
-							},
-							{
-								"enchantment": "minecraft:unbreaking",
-								"levels": 3
-							},
-							{
-								"enchantment": "minecraft:mending",
-								"levels": 1
-							},
-							{
-								"enchantment": "minecraft:aqua_affinity",
-								"levels": 1
-							},
-							{
-								"enchantment": "minecraft:respiration",
-								"levels": 3
-							}	
-						]
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:aqua_affinity",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:respiration",
+                                "levels": 3
+                            }
+                        ]
                     }
                 ]
             }
@@ -49,31 +53,31 @@
         "helmet_fire_protection": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-				"items": [
+                "items": [
                     {
                         "tag": "blazeandcave:master_helmets",
-						"enchantments": [
-							{
-								"enchantment": "minecraft:fire_protection",
-								"levels": 4
-							},
-							{
-								"enchantment": "minecraft:unbreaking",
-								"levels": 3
-							},
-							{
-								"enchantment": "minecraft:mending",
-								"levels": 1
-							},
-							{
-								"enchantment": "minecraft:aqua_affinity",
-								"levels": 1
-							},
-							{
-								"enchantment": "minecraft:respiration",
-								"levels": 3
-							}	
-						]
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:fire_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:aqua_affinity",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:respiration",
+                                "levels": 3
+                            }
+                        ]
                     }
                 ]
             }
@@ -81,31 +85,31 @@
         "helmet_projectile_protection": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-				"items": [
+                "items": [
                     {
                         "tag": "blazeandcave:master_helmets",
-						"enchantments": [
-							{
-								"enchantment": "minecraft:projectile_protection",
-								"levels": 4
-							},
-							{
-								"enchantment": "minecraft:unbreaking",
-								"levels": 3
-							},
-							{
-								"enchantment": "minecraft:mending",
-								"levels": 1
-							},
-							{
-								"enchantment": "minecraft:aqua_affinity",
-								"levels": 1
-							},
-							{
-								"enchantment": "minecraft:respiration",
-								"levels": 3
-							}	
-						]
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:projectile_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:aqua_affinity",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:respiration",
+                                "levels": 3
+                            }
+                        ]
                     }
                 ]
             }
@@ -113,31 +117,31 @@
         "helmet_blast_protection": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-				"items": [
+                "items": [
                     {
                         "tag": "blazeandcave:master_helmets",
-						"enchantments": [
-							{
-								"enchantment": "minecraft:blast_protection",
-								"levels": 4
-							},
-							{
-								"enchantment": "minecraft:unbreaking",
-								"levels": 3
-							},
-							{
-								"enchantment": "minecraft:mending",
-								"levels": 1
-							},
-							{
-								"enchantment": "minecraft:aqua_affinity",
-								"levels": 1
-							},
-							{
-								"enchantment": "minecraft:respiration",
-								"levels": 3
-							}	
-						]
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:blast_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:aqua_affinity",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:respiration",
+                                "levels": 3
+                            }
+                        ]
                     }
                 ]
             }
@@ -145,27 +149,27 @@
         "chestplate_protection": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-				"items": [
-					{
+                "items": [
+                    {
                         "tag": "blazeandcave:master_chestplates",
-						"enchantments": [
-							{
-								"enchantment": "minecraft:protection",
-								"levels": 4
-							},
-							{
-								"enchantment": "minecraft:unbreaking",
-								"levels": 3
-							},
-							{
-								"enchantment": "minecraft:mending",
-								"levels": 1
-							},
-							{
-								"enchantment": "minecraft:thorns",
-								"levels": 3
-							}	
-						]
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:thorns",
+                                "levels": 3
+                            }
+                        ]
                     }
                 ]
             }
@@ -173,27 +177,27 @@
         "chestplate_fire_protection": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-				"items": [
-					{
+                "items": [
+                    {
                         "tag": "blazeandcave:master_chestplates",
-						"enchantments": [
-							{
-								"enchantment": "minecraft:fire_protection",
-								"levels": 4
-							},
-							{
-								"enchantment": "minecraft:unbreaking",
-								"levels": 3
-							},
-							{
-								"enchantment": "minecraft:mending",
-								"levels": 1
-							},
-							{
-								"enchantment": "minecraft:thorns",
-								"levels": 3
-							}	
-						]
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:fire_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:thorns",
+                                "levels": 3
+                            }
+                        ]
                     }
                 ]
             }
@@ -201,27 +205,27 @@
         "chestplate_projectile_protection": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-				"items": [
-					{
+                "items": [
+                    {
                         "tag": "blazeandcave:master_chestplates",
-						"enchantments": [
-							{
-								"enchantment": "minecraft:projectile_protection",
-								"levels": 4
-							},
-							{
-								"enchantment": "minecraft:unbreaking",
-								"levels": 3
-							},
-							{
-								"enchantment": "minecraft:mending",
-								"levels": 1
-							},
-							{
-								"enchantment": "minecraft:thorns",
-								"levels": 3
-							}	
-						]
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:projectile_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:thorns",
+                                "levels": 3
+                            }
+                        ]
                     }
                 ]
             }
@@ -229,27 +233,27 @@
         "chestplate_blast_protection": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-				"items": [
-					{
+                "items": [
+                    {
                         "tag": "blazeandcave:master_chestplates",
-						"enchantments": [
-							{
-								"enchantment": "minecraft:blast_protection",
-								"levels": 4
-							},
-							{
-								"enchantment": "minecraft:unbreaking",
-								"levels": 3
-							},
-							{
-								"enchantment": "minecraft:mending",
-								"levels": 1
-							},
-							{
-								"enchantment": "minecraft:thorns",
-								"levels": 3
-							}	
-						]
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:blast_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:thorns",
+                                "levels": 3
+                            }
+                        ]
                     }
                 ]
             }
@@ -257,23 +261,23 @@
         "leggings_protection": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-				"items": [
-					{
+                "items": [
+                    {
                         "tag": "blazeandcave:master_leggings",
-						"enchantments": [
-							{
-								"enchantment": "minecraft:protection",
-								"levels": 4
-							},
-							{
-								"enchantment": "minecraft:unbreaking",
-								"levels": 3
-							},
-							{
-								"enchantment": "minecraft:mending",
-								"levels": 1
-							}
-						]
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            }
+                        ]
                     }
                 ]
             }
@@ -281,47 +285,47 @@
         "leggings_fire_protection": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-				"items": [
-					{
+                "items": [
+                    {
                         "tag": "blazeandcave:master_leggings",
-						"enchantments": [
-							{
-								"enchantment": "minecraft:fire_protection",
-								"levels": 4
-							},
-							{
-								"enchantment": "minecraft:unbreaking",
-								"levels": 3
-							},
-							{
-								"enchantment": "minecraft:mending",
-								"levels": 1
-							}
-						]
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:fire_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            }
+                        ]
                     }
                 ]
             }
         },
-		"leggings_projectile_protection": {
+        "leggings_projectile_protection": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-				"items": [
-					{
+                "items": [
+                    {
                         "tag": "blazeandcave:master_leggings",
-						"enchantments": [
-							{
-								"enchantment": "minecraft:projectile_protection",
-								"levels": 4
-							},
-							{
-								"enchantment": "minecraft:unbreaking",
-								"levels": 3
-							},
-							{
-								"enchantment": "minecraft:mending",
-								"levels": 1
-							}
-						]
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:projectile_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            }
+                        ]
                     }
                 ]
             }
@@ -329,23 +333,23 @@
         "leggings_blast_protection": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-				"items": [
-					{
+                "items": [
+                    {
                         "tag": "blazeandcave:master_leggings",
-						"enchantments": [
-							{
-								"enchantment": "minecraft:blast_protection",
-								"levels": 4
-							},
-							{
-								"enchantment": "minecraft:unbreaking",
-								"levels": 3
-							},
-							{
-								"enchantment": "minecraft:mending",
-								"levels": 1
-							}
-						]
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:blast_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            }
+                        ]
                     }
                 ]
             }
@@ -353,35 +357,35 @@
         "boots_protection_depth_strider": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-				"items": [
-					{
+                "items": [
+                    {
                         "tag": "blazeandcave:master_boots",
-						"enchantments": [
-							{
-								"enchantment": "minecraft:protection",
-								"levels": 4
-							},
-							{
-								"enchantment": "minecraft:unbreaking",
-								"levels": 3
-							},
-							{
-								"enchantment": "minecraft:mending",
-								"levels": 1
-							},
-							{
-								"enchantment": "minecraft:depth_strider",
-								"levels": 3
-							},
-							{
-								"enchantment": "minecraft:feather_falling",
-								"levels": 4
-							},
-							{
-								"enchantment": "minecraft:soul_speed",
-								"levels": 3
-							}
-						]
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:depth_strider",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:feather_falling",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:soul_speed",
+                                "levels": 3
+                            }
+                        ]
                     }
                 ]
             }
@@ -389,35 +393,35 @@
         "boots_fire_protection_depth_strider": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-				"items": [
-					{
+                "items": [
+                    {
                         "tag": "blazeandcave:master_boots",
-						"enchantments": [
-							{
-								"enchantment": "minecraft:fire_protection",
-								"levels": 4
-							},
-							{
-								"enchantment": "minecraft:unbreaking",
-								"levels": 3
-							},
-							{
-								"enchantment": "minecraft:mending",
-								"levels": 1
-							},
-							{
-								"enchantment": "minecraft:depth_strider",
-								"levels": 3
-							},
-							{
-								"enchantment": "minecraft:feather_falling",
-								"levels": 4
-							},
-							{
-								"enchantment": "minecraft:soul_speed",
-								"levels": 3
-							}
-						]
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:fire_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:depth_strider",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:feather_falling",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:soul_speed",
+                                "levels": 3
+                            }
+                        ]
                     }
                 ]
             }
@@ -425,35 +429,35 @@
         "boots_projectile_protection_depth_strider": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-				"items": [
-					{
+                "items": [
+                    {
                         "tag": "blazeandcave:master_boots",
-						"enchantments": [
-							{
-								"enchantment": "minecraft:projectile_protection",
-								"levels": 4
-							},
-							{
-								"enchantment": "minecraft:unbreaking",
-								"levels": 3
-							},
-							{
-								"enchantment": "minecraft:mending",
-								"levels": 1
-							},
-							{
-								"enchantment": "minecraft:depth_strider",
-								"levels": 3
-							},
-							{
-								"enchantment": "minecraft:feather_falling",
-								"levels": 4
-							},
-							{
-								"enchantment": "minecraft:soul_speed",
-								"levels": 3
-							}
-						]
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:projectile_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:depth_strider",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:feather_falling",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:soul_speed",
+                                "levels": 3
+                            }
+                        ]
                     }
                 ]
             }
@@ -461,35 +465,35 @@
         "boots_blast_protection_depth_strider": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-				"items": [
-					{
+                "items": [
+                    {
                         "tag": "blazeandcave:master_boots",
-						"enchantments": [
-							{
-								"enchantment": "minecraft:blast_protection",
-								"levels": 4
-							},
-							{
-								"enchantment": "minecraft:unbreaking",
-								"levels": 3
-							},
-							{
-								"enchantment": "minecraft:mending",
-								"levels": 1
-							},
-							{
-								"enchantment": "minecraft:depth_strider",
-								"levels": 3
-							},
-							{
-								"enchantment": "minecraft:feather_falling",
-								"levels": 4
-							},
-							{
-								"enchantment": "minecraft:soul_speed",
-								"levels": 3
-							}
-						]
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:blast_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:depth_strider",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:feather_falling",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:soul_speed",
+                                "levels": 3
+                            }
+                        ]
                     }
                 ]
             }
@@ -497,143 +501,143 @@
         "boots_protection_frost_walker": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-				"items": [
-					{
+                "items": [
+                    {
                         "tag": "blazeandcave:master_boots",
-						"enchantments": [
-							{
-								"enchantment": "minecraft:protection",
-								"levels": 4
-							},
-							{
-								"enchantment": "minecraft:unbreaking",
-								"levels": 3
-							},
-							{
-								"enchantment": "minecraft:mending",
-								"levels": 1
-							},
-							{
-								"enchantment": "minecraft:frost_walker",
-								"levels": 2
-							},
-							{
-								"enchantment": "minecraft:feather_falling",
-								"levels": 4
-							},
-							{
-								"enchantment": "minecraft:soul_speed",
-								"levels": 3
-							}
-						]
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:frost_walker",
+                                "levels": 2
+                            },
+                            {
+                                "enchantment": "minecraft:feather_falling",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:soul_speed",
+                                "levels": 3
+                            }
+                        ]
                     }
                 ]
             }
-		},
+        },
         "boots_fire_protection_frost_walker": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-				"items": [
-					{
+                "items": [
+                    {
                         "tag": "blazeandcave:master_boots",
-						"enchantments": [
-							{
-								"enchantment": "minecraft:fire_protection",
-								"levels": 4
-							},
-							{
-								"enchantment": "minecraft:unbreaking",
-								"levels": 3
-							},
-							{
-								"enchantment": "minecraft:mending",
-								"levels": 1
-							},
-							{
-								"enchantment": "minecraft:frost_walker",
-								"levels": 2
-							},
-							{
-								"enchantment": "minecraft:feather_falling",
-								"levels": 4
-							},
-							{
-								"enchantment": "minecraft:soul_speed",
-								"levels": 3
-							}
-						]
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:fire_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:frost_walker",
+                                "levels": 2
+                            },
+                            {
+                                "enchantment": "minecraft:feather_falling",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:soul_speed",
+                                "levels": 3
+                            }
+                        ]
                     }
                 ]
             }
-		},
+        },
         "boots_projectile_protection_frost_walker": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-				"items": [
-					{
+                "items": [
+                    {
                         "tag": "blazeandcave:master_boots",
-						"enchantments": [
-							{
-								"enchantment": "minecraft:projectile_protection",
-								"levels": 4
-							},
-							{
-								"enchantment": "minecraft:unbreaking",
-								"levels": 3
-							},
-							{
-								"enchantment": "minecraft:mending",
-								"levels": 1
-							},
-							{
-								"enchantment": "minecraft:frost_walker",
-								"levels": 2
-							},
-							{
-								"enchantment": "minecraft:feather_falling",
-								"levels": 4
-							},
-							{
-								"enchantment": "minecraft:soul_speed",
-								"levels": 3
-							}
-						]
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:projectile_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:frost_walker",
+                                "levels": 2
+                            },
+                            {
+                                "enchantment": "minecraft:feather_falling",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:soul_speed",
+                                "levels": 3
+                            }
+                        ]
                     }
                 ]
             }
-		},
+        },
         "boots_blast_protection_frost_walker": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-				"items": [
-					{
+                "items": [
+                    {
                         "tag": "blazeandcave:master_boots",
-						"enchantments": [
-							{
-								"enchantment": "minecraft:blast_protection",
-								"levels": 4
-							},
-							{
-								"enchantment": "minecraft:unbreaking",
-								"levels": 3
-							},
-							{
-								"enchantment": "minecraft:mending",
-								"levels": 1
-							},
-							{
-								"enchantment": "minecraft:frost_walker",
-								"levels": 2
-							},
-							{
-								"enchantment": "minecraft:feather_falling",
-								"levels": 4
-							},
-							{
-								"enchantment": "minecraft:soul_speed",
-								"levels": 3
-							}
-						]
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:blast_protection",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:frost_walker",
+                                "levels": 2
+                            },
+                            {
+                                "enchantment": "minecraft:feather_falling",
+                                "levels": 4
+                            },
+                            {
+                                "enchantment": "minecraft:soul_speed",
+                                "levels": 3
+                            }
+                        ]
                     }
                 ]
             }

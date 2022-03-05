@@ -3,23 +3,27 @@
         "icon": {
             "item": "minecraft:green_dye"
         },
-        "title": {"translate":"It's a cactus!"},
-        "description": {"translate":"Break down a cactus in a desert"},
+        "title": {
+            "translate": "サボさん！"
+        },
+        "description": {
+            "translate": "Break down a cactus in a desert"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:farming/care_for_the_environment",
-	"rewards": {
-		"function": "bc_rewards:farming/its_a_cactus"
-    },		
+    "rewards": {
+        "function": "bc_rewards:farming/its_a_cactus"
+    },
     "criteria": {
         "cactus": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cactus"
-						]
+                        "items": [
+                            "minecraft:cactus"
+                        ]
                     }
                 ]
             }

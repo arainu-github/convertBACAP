@@ -3,25 +3,29 @@
         "icon": {
             "item": "minecraft:rabbit_stew"
         },
-        "title": {"translate":"A Gluttonous Diet"},
-        "description": {"translate":"Obtain a full stack of all the foods"},
+        "title": {
+            "translate": "A Gluttonous Diet"
+        },
+        "description": {
+            "translate": "A Gluttonous Diet"
+        },
         "announce_to_chat": false,
         "frame": "challenge"
     },
     "parent": "minecraft:husbandry/balanced_diet",
     "rewards": {
-		"function": "bc_rewards:farming/a_gluttonous_diet"
-    },		
+        "function": "bc_rewards:farming/a_gluttonous_diet"
+    },
     "criteria": {
         "apple": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:apple"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:apple"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -31,9 +35,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:mushroom_stew"
-						]
+                        "items": [
+                            "minecraft:mushroom_stew"
+                        ]
                     }
                 ]
             }
@@ -43,10 +47,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:bread"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:bread"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -56,10 +60,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:porkchop"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:porkchop"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -69,10 +73,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cooked_porkchop"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:cooked_porkchop"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -82,10 +86,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:golden_apple"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:golden_apple"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -95,9 +99,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:enchanted_golden_apple"
-						]
+                        "items": [
+                            "minecraft:enchanted_golden_apple"
+                        ]
                     }
                 ]
             }
@@ -107,10 +111,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cod"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:cod"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -120,10 +124,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:salmon"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:salmon"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -133,10 +137,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:tropical_fish"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:tropical_fish"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -146,10 +150,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:pufferfish"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:pufferfish"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -159,10 +163,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cooked_cod"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:cooked_cod"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -172,10 +176,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cooked_salmon"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:cooked_salmon"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -185,10 +189,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cookie"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:cookie"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -198,10 +202,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:melon_slice"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:melon_slice"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -211,10 +215,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:beef"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:beef"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -224,10 +228,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cooked_beef"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:cooked_beef"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -237,10 +241,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:chicken"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:chicken"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -250,10 +254,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cooked_chicken"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:cooked_chicken"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -263,10 +267,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:rotten_flesh"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:rotten_flesh"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -276,10 +280,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:spider_eye"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:spider_eye"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -289,10 +293,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:carrot"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:carrot"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -302,10 +306,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:potato"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:potato"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -315,10 +319,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:baked_potato"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:baked_potato"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -328,10 +332,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:poisonous_potato"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:poisonous_potato"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -341,10 +345,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:golden_carrot"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:golden_carrot"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -354,10 +358,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:pumpkin_pie"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:pumpkin_pie"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -367,10 +371,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:rabbit"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:rabbit"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -380,10 +384,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cooked_rabbit"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:cooked_rabbit"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -393,9 +397,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:rabbit_stew"
-						]
+                        "items": [
+                            "minecraft:rabbit_stew"
+                        ]
                     }
                 ]
             }
@@ -405,10 +409,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:mutton"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:mutton"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -418,10 +422,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cooked_mutton"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:cooked_mutton"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -431,10 +435,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:chorus_fruit"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:chorus_fruit"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -444,10 +448,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:beetroot"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:beetroot"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -457,9 +461,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:beetroot_soup"
-						]
+                        "items": [
+                            "minecraft:beetroot_soup"
+                        ]
                     }
                 ]
             }
@@ -469,10 +473,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:dried_kelp"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:dried_kelp"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -482,9 +486,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:suspicious_stew"
-						]
+                        "items": [
+                            "minecraft:suspicious_stew"
+                        ]
                     }
                 ]
             }
@@ -494,10 +498,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:sweet_berries"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:sweet_berries"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -507,10 +511,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:honey_bottle"
-						],
-						"count": 16
+                        "items": [
+                            "minecraft:honey_bottle"
+                        ],
+                        "count": 16
                     }
                 ]
             }
@@ -520,10 +524,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:glow_berries"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:glow_berries"
+                        ],
+                        "count": 64
                     }
                 ]
             }

@@ -3,24 +3,28 @@
         "icon": {
             "item": "minecraft:spyglass"
         },
-        "title": {"translate":"Galileo Figaro"},
-        "description": {"translate":"Zoom in on something using a Spyglass"},
+        "title": {
+            "translate": "Galileo Figaro"
+        },
+        "description": {
+            "translate": "Galileo Figaro"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:mining/gi_geode",
     "rewards": {
-		"function": "bc_rewards:mining/galileo_figaro"
-    },		
+        "function": "bc_rewards:mining/galileo_figaro"
+    },
     "criteria": {
         "spyglass": {
-			"trigger": "minecraft:using_item",
-			"conditions": {
-				"item": {
-					"items": [
-						"minecraft:spyglass"
-					]
-				}
-			}
-		}
-	}
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:spyglass"
+                    ]
+                }
+            }
+        }
+    }
 }

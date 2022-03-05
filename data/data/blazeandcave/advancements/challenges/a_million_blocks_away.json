@@ -3,36 +3,41 @@
         "icon": {
             "item": "minecraft:elytra"
         },
-        "title": {"translate":"A Million Blocks Away"},
-        "description": {"color":"#FF2A2A","translate":"Travel a million blocks away from spawn"},
+        "title": {
+            "translate": "A Million Blocks Away"
+        },
+        "description": {
+            "color": "#FF2A2A",
+            "translate": "A Million Blocks Away"
+        },
         "announce_to_chat": false,
         "frame": "challenge"
     },
     "parent": "blazeandcave:challenges/the_devils_distance",
     "rewards": {
         "function": "bc_rewards:challenges/a_million_blocks_away"
-    },		
+    },
     "criteria": {
         "outer_pos_x": {
             "trigger": "minecraft:location",
             "conditions": {
-				"position": {
-					"x": {
-						"min": 1000000.0
-					}
-				},
+                "position": {
+                    "x": {
+                        "min": 1000000.0
+                    }
+                },
                 "player": [
                     {
                         "condition": "minecraft:inverted",
                         "term": {
                             "condition": "minecraft:entity_properties",
-						    "entity": "this",
-						    "predicate": {
-						    	"player": {
-						    		"gamemode": "spectator"
-			    				}
+                            "entity": "this",
+                            "predicate": {
+                                "player": {
+                                    "gamemode": "spectator"
+                                }
                             }
-						}
+                        }
                     }
                 ]
             }
@@ -40,23 +45,23 @@
         "outer_pos_z": {
             "trigger": "minecraft:location",
             "conditions": {
-				"position": {
-					"z": {
-						"min": 1000000.0
-					}
-				},
+                "position": {
+                    "z": {
+                        "min": 1000000.0
+                    }
+                },
                 "player": [
                     {
                         "condition": "minecraft:inverted",
                         "term": {
                             "condition": "minecraft:entity_properties",
-						    "entity": "this",
-						    "predicate": {
-						    	"player": {
-						    		"gamemode": "spectator"
-			    				}
+                            "entity": "this",
+                            "predicate": {
+                                "player": {
+                                    "gamemode": "spectator"
+                                }
                             }
-						}
+                        }
                     }
                 ]
             }
@@ -64,23 +69,23 @@
         "outer_neg_x": {
             "trigger": "minecraft:location",
             "conditions": {
-				"position": {
-					"x": {
-						"max": -1000000.0
-					}
-				},
+                "position": {
+                    "x": {
+                        "max": -1000000.0
+                    }
+                },
                 "player": [
                     {
                         "condition": "minecraft:inverted",
                         "term": {
                             "condition": "minecraft:entity_properties",
-						    "entity": "this",
-						    "predicate": {
-						    	"player": {
-						    		"gamemode": "spectator"
-			    				}
+                            "entity": "this",
+                            "predicate": {
+                                "player": {
+                                    "gamemode": "spectator"
+                                }
                             }
-						}
+                        }
                     }
                 ]
             }
@@ -88,27 +93,27 @@
         "outer_neg_z": {
             "trigger": "minecraft:location",
             "conditions": {
-				"position": {
-					"z": {
-						"max": -1000000.0
-					}
-				},
+                "position": {
+                    "z": {
+                        "max": -1000000.0
+                    }
+                },
                 "player": [
                     {
                         "condition": "minecraft:inverted",
                         "term": {
                             "condition": "minecraft:entity_properties",
-						    "entity": "this",
-						    "predicate": {
-						    	"player": {
-						    		"gamemode": "spectator"
-			    				}
+                            "entity": "this",
+                            "predicate": {
+                                "player": {
+                                    "gamemode": "spectator"
+                                }
                             }
-						}
+                        }
                     }
                 ]
             }
-        }	
+        }
     },
     "requirements": [
         [

@@ -3,23 +3,27 @@
         "icon": {
             "item": "minecraft:oak_wood"
         },
-        "title": {"translate":"Barking Mad"},
-        "description": {"translate":"Craft a bark block"},
+        "title": {
+            "translate": "皮ってしまった"
+        },
+        "description": {
+            "translate": "Craft a bark block"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:building/a_good_start",
     "rewards": {
         "function": "bc_rewards:building/barking_mad"
-    },		
+    },
     "criteria": {
         "oak_wood": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:oak_wood"
-						]
+                        "items": [
+                            "minecraft:oak_wood"
+                        ]
                     }
                 ]
             }
@@ -29,9 +33,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:spruce_wood"
-						]
+                        "items": [
+                            "minecraft:spruce_wood"
+                        ]
                     }
                 ]
             }
@@ -41,9 +45,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:birch_wood"
-						]
+                        "items": [
+                            "minecraft:birch_wood"
+                        ]
                     }
                 ]
             }
@@ -53,9 +57,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:jungle_wood"
-						]
+                        "items": [
+                            "minecraft:jungle_wood"
+                        ]
                     }
                 ]
             }
@@ -65,9 +69,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:acacia_wood"
-						]
+                        "items": [
+                            "minecraft:acacia_wood"
+                        ]
                     }
                 ]
             }
@@ -77,22 +81,22 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:dark_oak_wood"
-						]
+                        "items": [
+                            "minecraft:dark_oak_wood"
+                        ]
                     }
                 ]
             }
-        }	
-	},
+        }
+    },
     "requirements": [
-		[
-        "oak_wood",
-        "spruce_wood",
-		"birch_wood",
-        "jungle_wood",
-        "acacia_wood",
-		"dark_oak_wood"		
-		]
-    ]	
+        [
+            "oak_wood",
+            "spruce_wood",
+            "birch_wood",
+            "jungle_wood",
+            "acacia_wood",
+            "dark_oak_wood"
+        ]
+    ]
 }

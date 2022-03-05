@@ -3,13 +3,17 @@
         "icon": {
             "item": "minecraft:anvil"
         },
-        "title": {"translate":"Heavy Metal"},
-        "description": {"translate":"Craft an anvil"},
+        "title": {
+            "translate": "ヘビーメタル"
+        },
+        "description": {
+            "translate": "Craft an anvil"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:enchanting/root",
-	"rewards": {
-		"function": "bc_rewards:enchanting/heavy_metal"
+    "rewards": {
+        "function": "bc_rewards:enchanting/heavy_metal"
     },
     "criteria": {
         "anvil": {
@@ -17,9 +21,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:anvil"
-						]
+                        "items": [
+                            "minecraft:anvil"
+                        ]
                     }
                 ]
             }

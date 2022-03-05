@@ -3,50 +3,54 @@
         "icon": {
             "item": "minecraft:bow"
         },
-        "title": {"translate":"Dogfight"},
-        "description": {"translate":"Kill a Skeleton or Stray while both you and it have levitation"},
+        "title": {
+            "translate": "Dogfight"
+        },
+        "description": {
+            "translate": "Dogfight"
+        },
         "announce_to_chat": false,
-		"frame": "challenge"
+        "frame": "challenge"
     },
     "parent": "minecraft:end/levitate",
     "rewards": {
         "function": "bc_rewards:end/dogfight"
-    },		
+    },
     "criteria": {
         "skeleton": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
                     "type": "skeleton",
-					"effects": {
-						"minecraft:levitation": {
-							"amplifier": {
-								"min": 0
-							},
-							"duration": {
-								"min": 1
-							}
-						}
-					}
+                    "effects": {
+                        "minecraft:levitation": {
+                            "amplifier": {
+                                "min": 0
+                            },
+                            "duration": {
+                                "min": 1
+                            }
+                        }
+                    }
                 },
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"effects": {
-								"minecraft:levitation": {
-									"amplifier": {
-										"min": 0
-									},
-									"duration": {
-										"min": 1
-									}
-								}
-							}
-						}
-					}
-				]
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "effects": {
+                                "minecraft:levitation": {
+                                    "amplifier": {
+                                        "min": 0
+                                    },
+                                    "duration": {
+                                        "min": 1
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
             }
         },
         "stray": {
@@ -54,42 +58,42 @@
             "conditions": {
                 "entity": {
                     "type": "stray",
-					"effects": {
-						"minecraft:levitation": {
-							"amplifier": {
-								"min": 0
-							},
-							"duration": {
-								"min": 1
-							}
-						}
-					}
+                    "effects": {
+                        "minecraft:levitation": {
+                            "amplifier": {
+                                "min": 0
+                            },
+                            "duration": {
+                                "min": 1
+                            }
+                        }
+                    }
                 },
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"effects": {
-								"minecraft:levitation": {
-									"amplifier": {
-										"min": 0
-									},
-									"duration": {
-										"min": 1
-									}
-								}
-							}
-						}
-					}
-				]
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "effects": {
+                                "minecraft:levitation": {
+                                    "amplifier": {
+                                        "min": 0
+                                    },
+                                    "duration": {
+                                        "min": 1
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
             }
         }
     },
-	"requirements": [
-		[
-			"skeleton",
-			"stray"
-		]
-	]
+    "requirements": [
+        [
+            "skeleton",
+            "stray"
+        ]
+    ]
 }

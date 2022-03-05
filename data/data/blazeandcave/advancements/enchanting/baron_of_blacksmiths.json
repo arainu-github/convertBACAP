@@ -3,14 +3,18 @@
         "icon": {
             "item": "minecraft:damaged_anvil"
         },
-        "title": {"translate":"Baron of Blacksmiths"},
-        "description": {"translate":"Get a stack of regular, chipped and damaged Anvils"},
+        "title": {
+            "translate": "Baron of Blacksmiths"
+        },
+        "description": {
+            "translate": "Baron of Blacksmiths"
+        },
         "announce_to_chat": false,
-		"frame": "challenge"
+        "frame": "challenge"
     },
     "parent": "blazeandcave:enchanting/heavy_metal",
-	"rewards": {
-		"function": "bc_rewards:enchanting/baron_of_blacksmiths"
+    "rewards": {
+        "function": "bc_rewards:enchanting/baron_of_blacksmiths"
     },
     "criteria": {
         "anvil": {
@@ -18,10 +22,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:anvil"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:anvil"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -31,10 +35,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:chipped_anvil"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:chipped_anvil"
+                        ],
+                        "count": 64
                     }
                 ]
             }
@@ -44,10 +48,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:damaged_anvil"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:damaged_anvil"
+                        ],
+                        "count": 64
                     }
                 ]
             }

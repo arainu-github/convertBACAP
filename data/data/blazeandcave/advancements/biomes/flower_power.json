@@ -3,24 +3,28 @@
         "icon": {
             "item": "minecraft:rose_bush"
         },
-        "title": {"translate":"Flower Power"},
-        "description": {"translate":"Collect all types of flowers"},
+        "title": {
+            "translate": "お花の力"
+        },
+        "description": {
+            "translate": "Collect all types of flowers"
+        },
         "announce_to_chat": false,
         "frame": "challenge"
     },
     "parent": "blazeandcave:biomes/enchanted_forest",
     "rewards": {
-		"function": "bc_rewards:biomes/flower_power"
-    },		
+        "function": "bc_rewards:biomes/flower_power"
+    },
     "criteria": {
         "dandelion": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:dandelion"
-						]
+                        "items": [
+                            "minecraft:dandelion"
+                        ]
                     }
                 ]
             }
@@ -30,9 +34,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:poppy"
-						]
+                        "items": [
+                            "minecraft:poppy"
+                        ]
                     }
                 ]
             }
@@ -42,9 +46,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:blue_orchid"
-						]
+                        "items": [
+                            "minecraft:blue_orchid"
+                        ]
                     }
                 ]
             }
@@ -54,9 +58,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:allium"
-						]
+                        "items": [
+                            "minecraft:allium"
+                        ]
                     }
                 ]
             }
@@ -66,9 +70,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:azure_bluet"
-						]
+                        "items": [
+                            "minecraft:azure_bluet"
+                        ]
                     }
                 ]
             }
@@ -78,9 +82,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:red_tulip"
-						]
+                        "items": [
+                            "minecraft:red_tulip"
+                        ]
                     }
                 ]
             }
@@ -90,9 +94,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:orange_tulip"
-						]
+                        "items": [
+                            "minecraft:orange_tulip"
+                        ]
                     }
                 ]
             }
@@ -102,9 +106,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:white_tulip"
-						]
+                        "items": [
+                            "minecraft:white_tulip"
+                        ]
                     }
                 ]
             }
@@ -114,9 +118,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:pink_tulip"
-						]
+                        "items": [
+                            "minecraft:pink_tulip"
+                        ]
                     }
                 ]
             }
@@ -126,9 +130,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:oxeye_daisy"
-						]
+                        "items": [
+                            "minecraft:oxeye_daisy"
+                        ]
                     }
                 ]
             }
@@ -138,9 +142,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:sunflower"
-						]
+                        "items": [
+                            "minecraft:sunflower"
+                        ]
                     }
                 ]
             }
@@ -150,9 +154,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:lilac"
-						]
+                        "items": [
+                            "minecraft:lilac"
+                        ]
                     }
                 ]
             }
@@ -162,9 +166,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:rose_bush"
-						]
+                        "items": [
+                            "minecraft:rose_bush"
+                        ]
                     }
                 ]
             }
@@ -174,9 +178,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:peony"
-						]
+                        "items": [
+                            "minecraft:peony"
+                        ]
                     }
                 ]
             }
@@ -186,9 +190,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cornflower"
-						]
+                        "items": [
+                            "minecraft:cornflower"
+                        ]
                     }
                 ]
             }
@@ -198,9 +202,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:lily_of_the_valley"
-						]
+                        "items": [
+                            "minecraft:lily_of_the_valley"
+                        ]
                     }
                 ]
             }
@@ -210,9 +214,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:wither_rose"
-						]
+                        "items": [
+                            "minecraft:wither_rose"
+                        ]
                     }
                 ]
             }

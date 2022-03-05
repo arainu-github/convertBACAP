@@ -3,23 +3,27 @@
         "icon": {
             "item": "minecraft:oak_door"
         },
-        "title": {"translate":"Your Door Was Locked"},
-        "description": {"translate":"Craft a door to stop monsters from entering your house"},
+        "title": {
+            "translate": "扉はもう閉まっている"
+        },
+        "description": {
+            "translate": "Craft a door to stop monsters from entering your house"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:building/root",
-	"rewards": {
-		"function": "bc_rewards:building/your_door_was_locked"
-    },		
+    "rewards": {
+        "function": "bc_rewards:building/your_door_was_locked"
+    },
     "criteria": {
         "oak_door": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:oak_door"
-						]
+                        "items": [
+                            "minecraft:oak_door"
+                        ]
                     }
                 ]
             }
@@ -29,9 +33,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:spruce_door"
-						]
+                        "items": [
+                            "minecraft:spruce_door"
+                        ]
                     }
                 ]
             }
@@ -41,9 +45,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:birch_door"
-						]
+                        "items": [
+                            "minecraft:birch_door"
+                        ]
                     }
                 ]
             }
@@ -53,9 +57,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:jungle_door"
-						]
+                        "items": [
+                            "minecraft:jungle_door"
+                        ]
                     }
                 ]
             }
@@ -65,9 +69,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:acacia_door"
-						]
+                        "items": [
+                            "minecraft:acacia_door"
+                        ]
                     }
                 ]
             }
@@ -77,9 +81,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:dark_oak_door"
-						]
+                        "items": [
+                            "minecraft:dark_oak_door"
+                        ]
                     }
                 ]
             }
@@ -89,9 +93,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:crimson_door"
-						]
+                        "items": [
+                            "minecraft:crimson_door"
+                        ]
                     }
                 ]
             }
@@ -101,9 +105,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:warped_door"
-						]
+                        "items": [
+                            "minecraft:warped_door"
+                        ]
                     }
                 ]
             }
@@ -113,25 +117,25 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:iron_door"
-						]
+                        "items": [
+                            "minecraft:iron_door"
+                        ]
                     }
                 ]
             }
-        }		
+        }
     },
     "requirements": [
-		[
-        "oak_door",
-        "spruce_door",
-		"birch_door",
-		"jungle_door",
-		"acacia_door",
-		"dark_oak_door",
-		"crimson_door",
-		"warped_door",
-		"iron_door"
-		]
-    ]	
+        [
+            "oak_door",
+            "spruce_door",
+            "birch_door",
+            "jungle_door",
+            "acacia_door",
+            "dark_oak_door",
+            "crimson_door",
+            "warped_door",
+            "iron_door"
+        ]
+    ]
 }

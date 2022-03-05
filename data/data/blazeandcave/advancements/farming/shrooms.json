@@ -3,23 +3,27 @@
         "icon": {
             "item": "minecraft:red_mushroom"
         },
-        "title": {"translate":"Shrooms"},
-        "description": {"translate":"Gather both types of mushroom"},
+        "title": {
+            "translate": "茸"
+        },
+        "description": {
+            "translate": "Gather both types of mushroom"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:farming/care_for_the_environment",
-	"rewards": {
-		"function": "bc_rewards:farming/shrooms"
-    },		
+    "rewards": {
+        "function": "bc_rewards:farming/shrooms"
+    },
     "criteria": {
         "red_mushroom": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:red_mushroom"
-						]
+                        "items": [
+                            "minecraft:red_mushroom"
+                        ]
                     }
                 ]
             }
@@ -29,12 +33,12 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:brown_mushroom"
-						]
+                        "items": [
+                            "minecraft:brown_mushroom"
+                        ]
                     }
                 ]
             }
-        }		
+        }
     }
 }

@@ -3,14 +3,18 @@
         "icon": {
             "item": "minecraft:white_bed"
         },
-        "title": {"translate":"Let Me Out!"},
-        "description": {"translate":"Stay in the Nether for twenty ingame days"},
+        "title": {
+            "translate": "Let Me Out!"
+        },
+        "description": {
+            "translate": "Let Me Out!"
+        },
         "announce_to_chat": false,
-		"frame": "challenge"
+        "frame": "challenge"
     },
     "parent": "minecraft:nether/fast_travel",
-	"rewards": {
-		"function": "bc_rewards:nether/let_me_out"
+    "rewards": {
+        "function": "bc_rewards:nether/let_me_out"
     },
     "criteria": {
         "let_me_out": {

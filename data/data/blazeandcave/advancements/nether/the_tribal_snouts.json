@@ -3,14 +3,18 @@
         "icon": {
             "item": "minecraft:gold_nugget"
         },
-        "title": {"translate":"The Tribal Snouts"},
-        "description": {"translate":"Kill a zombie pigman"},
+        "title": {
+            "translate": "ああ、懐かしき友よ"
+        },
+        "description": {
+            "translate": "Kill a zombie pigman"
+        },
         "announce_to_chat": false
     },
     "parent": "minecraft:nether/root",
     "rewards": {
         "function": "bc_rewards:nether/the_tribal_snouts"
-    },		
+    },
     "criteria": {
         "zombified_piglin": {
             "trigger": "minecraft:player_killed_entity",

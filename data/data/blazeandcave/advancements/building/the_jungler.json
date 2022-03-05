@@ -3,24 +3,29 @@
         "icon": {
             "item": "minecraft:jungle_sapling"
         },
-        "title": {"translate":"The Jungler"},
-        "description": {"color":"#75E1FF","translate":"Craft every item made out of jungle wood"},
+        "title": {
+            "translate": "ジャングル教授"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Craft every item made out of jungle wood"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "blazeandcave:building/professor_birch",
     "rewards": {
-		"function": "bc_rewards:building/the_jungler"
-    },		
+        "function": "bc_rewards:building/the_jungler"
+    },
     "criteria": {
         "jungle_planks": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:jungle_planks"
-						]
+                        "items": [
+                            "minecraft:jungle_planks"
+                        ]
                     }
                 ]
             }
@@ -30,9 +35,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:jungle_log"
-						]
+                        "items": [
+                            "minecraft:jungle_log"
+                        ]
                     }
                 ]
             }
@@ -42,9 +47,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:jungle_wood"
-						]
+                        "items": [
+                            "minecraft:jungle_wood"
+                        ]
                     }
                 ]
             }
@@ -54,9 +59,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:stripped_jungle_log"
-						]
+                        "items": [
+                            "minecraft:stripped_jungle_log"
+                        ]
                     }
                 ]
             }
@@ -66,9 +71,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:stripped_jungle_wood"
-						]
+                        "items": [
+                            "minecraft:stripped_jungle_wood"
+                        ]
                     }
                 ]
             }
@@ -78,9 +83,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:jungle_slab"
-						]
+                        "items": [
+                            "minecraft:jungle_slab"
+                        ]
                     }
                 ]
             }
@@ -90,9 +95,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:jungle_pressure_plate"
-						]
+                        "items": [
+                            "minecraft:jungle_pressure_plate"
+                        ]
                     }
                 ]
             }
@@ -102,9 +107,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:jungle_fence"
-						]
+                        "items": [
+                            "minecraft:jungle_fence"
+                        ]
                     }
                 ]
             }
@@ -114,9 +119,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:jungle_trapdoor"
-						]
+                        "items": [
+                            "minecraft:jungle_trapdoor"
+                        ]
                     }
                 ]
             }
@@ -126,9 +131,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:jungle_fence_gate"
-						]
+                        "items": [
+                            "minecraft:jungle_fence_gate"
+                        ]
                     }
                 ]
             }
@@ -138,9 +143,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:jungle_stairs"
-						]
+                        "items": [
+                            "minecraft:jungle_stairs"
+                        ]
                     }
                 ]
             }
@@ -150,9 +155,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:jungle_button"
-						]
+                        "items": [
+                            "minecraft:jungle_button"
+                        ]
                     }
                 ]
             }
@@ -162,9 +167,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:jungle_door"
-						]
+                        "items": [
+                            "minecraft:jungle_door"
+                        ]
                     }
                 ]
             }
@@ -174,9 +179,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:jungle_boat"
-						]
+                        "items": [
+                            "minecraft:jungle_boat"
+                        ]
                     }
                 ]
             }
@@ -186,9 +191,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:jungle_sign"
-						]
+                        "items": [
+                            "minecraft:jungle_sign"
+                        ]
                     }
                 ]
             }

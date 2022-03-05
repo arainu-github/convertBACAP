@@ -3,25 +3,30 @@
         "icon": {
             "item": "minecraft:beacon"
         },
-        "title": {"translate":"Warlock"},
-        "description": {"color":"#FF2A2A","translate":"Obtain a stack of Beacons"},
+        "title": {
+            "translate": "Warlock"
+        },
+        "description": {
+            "color": "#FF2A2A",
+            "translate": "Warlock"
+        },
         "announce_to_chat": false,
-		"frame": "challenge"
+        "frame": "challenge"
     },
     "parent": "blazeandcave:challenges/constellation",
-	"rewards": {
-		"function": "bc_rewards:challenges/warlock"
-    },		
+    "rewards": {
+        "function": "bc_rewards:challenges/warlock"
+    },
     "criteria": {
         "beacon": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:beacon"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:beacon"
+                        ],
+                        "count": 64
                     }
                 ]
             }

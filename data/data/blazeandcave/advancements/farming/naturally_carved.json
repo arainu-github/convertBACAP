@@ -3,23 +3,27 @@
         "icon": {
             "item": "minecraft:pumpkin"
         },
-        "title": {"translate":"Naturally Carved"},
-        "description": {"translate":"Harvest some spooky pumpkins"},
+        "title": {
+            "translate": "旧「彫刻は自然に」"
+        },
+        "description": {
+            "translate": "Harvest some spooky pumpkins"
+        },
         "announce_to_chat": false
     },
     "parent": "minecraft:husbandry/plant_seed",
-	"rewards": {
-		"function": "bc_rewards:farming/naturally_carved"
-    },		
+    "rewards": {
+        "function": "bc_rewards:farming/naturally_carved"
+    },
     "criteria": {
         "pumpkin": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:pumpkin"
-						]
+                        "items": [
+                            "minecraft:pumpkin"
+                        ]
                     }
                 ]
             }

@@ -3,36 +3,40 @@
         "icon": {
             "item": "minecraft:glowstone_dust"
         },
-        "title": {"translate":"Seeing Stars"},
-        "description": {"translate":"Mine some glowstone dust from the nether"},
+        "title": {
+            "translate": "星を見る"
+        },
+        "description": {
+            "translate": "Mine some glowstone dust from the nether"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:nether/nugget_in_a_biscuit",
-	"rewards": {
-		"function": "bc_rewards:nether/seeing_stars"
-    },	
+    "rewards": {
+        "function": "bc_rewards:nether/seeing_stars"
+    },
     "criteria": {
         "glowstone_dust": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:glowstone_dust"
-						]
+                        "items": [
+                            "minecraft:glowstone_dust"
+                        ]
                     }
                 ],
-				"player": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"location": {
-								"dimension": "minecraft:the_nether"
-							}
-						}
-					}
-				]
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "dimension": "minecraft:the_nether"
+                            }
+                        }
+                    }
+                ]
             }
         }
     }

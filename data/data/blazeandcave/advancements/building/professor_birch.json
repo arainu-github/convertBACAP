@@ -3,24 +3,29 @@
         "icon": {
             "item": "minecraft:birch_sapling"
         },
-        "title": {"translate":"Professor Birch"},
-        "description": {"color":"#75E1FF","translate":"Craft every item made out of birch wood"},
+        "title": {
+            "translate": "白樺教授"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Craft every item made out of birch wood"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "blazeandcave:building/spruce_lee",
     "rewards": {
-		"function": "bc_rewards:building/professor_birch"
-    },		
+        "function": "bc_rewards:building/professor_birch"
+    },
     "criteria": {
         "birch_planks": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:birch_planks"
-						]
+                        "items": [
+                            "minecraft:birch_planks"
+                        ]
                     }
                 ]
             }
@@ -30,9 +35,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:birch_log"
-						]
+                        "items": [
+                            "minecraft:birch_log"
+                        ]
                     }
                 ]
             }
@@ -42,9 +47,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:birch_wood"
-						]
+                        "items": [
+                            "minecraft:birch_wood"
+                        ]
                     }
                 ]
             }
@@ -54,9 +59,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:stripped_birch_log"
-						]
+                        "items": [
+                            "minecraft:stripped_birch_log"
+                        ]
                     }
                 ]
             }
@@ -66,9 +71,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:stripped_birch_wood"
-						]
+                        "items": [
+                            "minecraft:stripped_birch_wood"
+                        ]
                     }
                 ]
             }
@@ -78,9 +83,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:birch_slab"
-						]
+                        "items": [
+                            "minecraft:birch_slab"
+                        ]
                     }
                 ]
             }
@@ -90,9 +95,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:birch_pressure_plate"
-						]
+                        "items": [
+                            "minecraft:birch_pressure_plate"
+                        ]
                     }
                 ]
             }
@@ -102,9 +107,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:birch_fence"
-						]
+                        "items": [
+                            "minecraft:birch_fence"
+                        ]
                     }
                 ]
             }
@@ -114,9 +119,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:birch_trapdoor"
-						]
+                        "items": [
+                            "minecraft:birch_trapdoor"
+                        ]
                     }
                 ]
             }
@@ -126,9 +131,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:birch_fence_gate"
-						]
+                        "items": [
+                            "minecraft:birch_fence_gate"
+                        ]
                     }
                 ]
             }
@@ -138,9 +143,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:birch_stairs"
-						]
+                        "items": [
+                            "minecraft:birch_stairs"
+                        ]
                     }
                 ]
             }
@@ -150,9 +155,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:birch_button"
-						]
+                        "items": [
+                            "minecraft:birch_button"
+                        ]
                     }
                 ]
             }
@@ -162,9 +167,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:birch_door"
-						]
+                        "items": [
+                            "minecraft:birch_door"
+                        ]
                     }
                 ]
             }
@@ -174,9 +179,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:birch_boat"
-						]
+                        "items": [
+                            "minecraft:birch_boat"
+                        ]
                     }
                 ]
             }
@@ -186,9 +191,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:birch_sign"
-						]
+                        "items": [
+                            "minecraft:birch_sign"
+                        ]
                     }
                 ]
             }

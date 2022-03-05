@@ -3,10 +3,15 @@
         "icon": {
             "item": "minecraft:emerald_block"
         },
-        "title": {"translate":"Noteworthy"},
-        "description": {"color":"#75E1FF","translate":"Play every possible instrument on a Note Block"},
+        "title": {
+            "translate": "Noteworthy"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Noteworthy"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "blazeandcave:redstone/take_notes",
     "rewards": {
@@ -14,244 +19,244 @@
     },
     "criteria": {
         "banjo": {
-			"trigger": "minecraft:item_used_on_block",
-			"conditions": {
-				"location": {
-					"block": {
-						"blocks": [
-							"minecraft:note_block"
-						],
-						"state": {
-							"instrument": "banjo"
-						}
-					}
-				}
-			}
-		},
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "minecraft:note_block"
+                        ],
+                        "state": {
+                            "instrument": "banjo"
+                        }
+                    }
+                }
+            }
+        },
         "basedrum": {
-			"trigger": "minecraft:item_used_on_block",
-			"conditions": {
-				"location": {
-					"block": {
-						"blocks": [
-							"minecraft:note_block"
-						],
-						"state": {
-							"instrument": "basedrum"
-						}
-					}
-				}
-			}
-		},
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "minecraft:note_block"
+                        ],
+                        "state": {
+                            "instrument": "basedrum"
+                        }
+                    }
+                }
+            }
+        },
         "bass": {
-			"trigger": "minecraft:item_used_on_block",
-			"conditions": {
-				"location": {
-					"block": {
-						"blocks": [
-							"minecraft:note_block"
-						],
-						"state": {
-							"instrument": "bass"
-						}
-					}
-				}
-			}
-		},
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "minecraft:note_block"
+                        ],
+                        "state": {
+                            "instrument": "bass"
+                        }
+                    }
+                }
+            }
+        },
         "bell": {
-			"trigger": "minecraft:item_used_on_block",
-			"conditions": {
-				"location": {
-					"block": {
-						"blocks": [
-							"minecraft:note_block"
-						],
-						"state": {
-							"instrument": "bell"
-						}
-					}
-				}
-			}
-		},
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "minecraft:note_block"
+                        ],
+                        "state": {
+                            "instrument": "bell"
+                        }
+                    }
+                }
+            }
+        },
         "bit": {
-			"trigger": "minecraft:item_used_on_block",
-			"conditions": {
-				"location": {
-					"block": {
-						"blocks": [
-							"minecraft:note_block"
-						],
-						"state": {
-							"instrument": "bit"
-						}
-					}
-				}
-			}
-		},
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "minecraft:note_block"
+                        ],
+                        "state": {
+                            "instrument": "bit"
+                        }
+                    }
+                }
+            }
+        },
         "chime": {
-			"trigger": "minecraft:item_used_on_block",
-			"conditions": {
-				"location": {
-					"block": {
-						"blocks": [
-							"minecraft:note_block"
-						],
-						"state": {
-							"instrument": "chime"
-						}
-					}
-				}
-			}
-		},
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "minecraft:note_block"
+                        ],
+                        "state": {
+                            "instrument": "chime"
+                        }
+                    }
+                }
+            }
+        },
         "cow_bell": {
-			"trigger": "minecraft:item_used_on_block",
-			"conditions": {
-				"location": {
-					"block": {
-						"blocks": [
-							"minecraft:note_block"
-						],
-						"state": {
-							"instrument": "cow_bell"
-						}
-					}
-				}
-			}
-		},
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "minecraft:note_block"
+                        ],
+                        "state": {
+                            "instrument": "cow_bell"
+                        }
+                    }
+                }
+            }
+        },
         "didgeridoo": {
-			"trigger": "minecraft:item_used_on_block",
-			"conditions": {
-				"location": {
-					"block": {
-						"blocks": [
-							"minecraft:note_block"
-						],
-						"state": {
-							"instrument": "didgeridoo"
-						}
-					}
-				}
-			}
-		},
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "minecraft:note_block"
+                        ],
+                        "state": {
+                            "instrument": "didgeridoo"
+                        }
+                    }
+                }
+            }
+        },
         "flute": {
-			"trigger": "minecraft:item_used_on_block",
-			"conditions": {
-				"location": {
-					"block": {
-						"blocks": [
-							"minecraft:note_block"
-						],
-						"state": {
-							"instrument": "flute"
-						}
-					}
-				}
-			}
-		},
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "minecraft:note_block"
+                        ],
+                        "state": {
+                            "instrument": "flute"
+                        }
+                    }
+                }
+            }
+        },
         "guitar": {
-			"trigger": "minecraft:item_used_on_block",
-			"conditions": {
-				"location": {
-					"block": {
-						"blocks": [
-							"minecraft:note_block"
-						],
-						"state": {
-							"instrument": "guitar"
-						}
-					}
-				}
-			}
-		},
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "minecraft:note_block"
+                        ],
+                        "state": {
+                            "instrument": "guitar"
+                        }
+                    }
+                }
+            }
+        },
         "harp": {
-			"trigger": "minecraft:item_used_on_block",
-			"conditions": {
-				"location": {
-					"block": {
-						"blocks": [
-							"minecraft:note_block"
-						],
-						"state": {
-							"instrument": "harp"
-						}
-					}
-				}
-			}
-		},
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "minecraft:note_block"
+                        ],
+                        "state": {
+                            "instrument": "harp"
+                        }
+                    }
+                }
+            }
+        },
         "hat": {
-			"trigger": "minecraft:item_used_on_block",
-			"conditions": {
-				"location": {
-					"block": {
-						"blocks": [
-							"minecraft:note_block"
-						],
-						"state": {
-							"instrument": "hat"
-						}
-					}
-				}
-			}
-		},
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "minecraft:note_block"
+                        ],
+                        "state": {
+                            "instrument": "hat"
+                        }
+                    }
+                }
+            }
+        },
         "iron_xylophone": {
-			"trigger": "minecraft:item_used_on_block",
-			"conditions": {
-				"location": {
-					"block": {
-						"blocks": [
-							"minecraft:note_block"
-						],
-						"state": {
-							"instrument": "iron_xylophone"
-						}
-					}
-				}
-			}
-		},
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "minecraft:note_block"
+                        ],
+                        "state": {
+                            "instrument": "iron_xylophone"
+                        }
+                    }
+                }
+            }
+        },
         "pling": {
-			"trigger": "minecraft:item_used_on_block",
-			"conditions": {
-				"location": {
-					"block": {
-						"blocks": [
-							"minecraft:note_block"
-						],
-						"state": {
-							"instrument": "pling"
-						}
-					}
-				}
-			}
-		},
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "minecraft:note_block"
+                        ],
+                        "state": {
+                            "instrument": "pling"
+                        }
+                    }
+                }
+            }
+        },
         "snare": {
-			"trigger": "minecraft:item_used_on_block",
-			"conditions": {
-				"location": {
-					"block": {
-						"blocks": [
-							"minecraft:note_block"
-						],
-						"state": {
-							"instrument": "snare"
-						}
-					}
-				}
-			}
-		},
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "minecraft:note_block"
+                        ],
+                        "state": {
+                            "instrument": "snare"
+                        }
+                    }
+                }
+            }
+        },
         "xylophone": {
-			"trigger": "minecraft:item_used_on_block",
-			"conditions": {
-				"location": {
-					"block": {
-						"blocks": [
-							"minecraft:note_block"
-						],
-						"state": {
-							"instrument": "xylophone"
-						}
-					}
-				}
-			}
-		}
-	}
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "minecraft:note_block"
+                        ],
+                        "state": {
+                            "instrument": "xylophone"
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

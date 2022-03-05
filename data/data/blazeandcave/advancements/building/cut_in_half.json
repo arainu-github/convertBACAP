@@ -3,23 +3,27 @@
         "icon": {
             "item": "minecraft:oak_slab"
         },
-        "title": {"translate":"Cut In Half"},
-        "description": {"translate":"Craft some slabs"},
+        "title": {
+            "translate": "Cut In Half"
+        },
+        "description": {
+            "translate": "Cut In Half"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:building/your_door_was_locked",
     "rewards": {
         "function": "bc_rewards:building/cut_in_half"
-    },		
+    },
     "criteria": {
         "stone_slab": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:stone_slab"
-						]
+                        "items": [
+                            "minecraft:stone_slab"
+                        ]
                     }
                 ]
             }
@@ -29,21 +33,21 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:sandstone_slab"
-						]
+                        "items": [
+                            "minecraft:sandstone_slab"
+                        ]
                     }
                 ]
             }
         },
-		"cobblestone_slab": {
+        "cobblestone_slab": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cobblestone_slab"
-						]
+                        "items": [
+                            "minecraft:cobblestone_slab"
+                        ]
                     }
                 ]
             }
@@ -53,9 +57,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:brick_slab"
-						]
+                        "items": [
+                            "minecraft:brick_slab"
+                        ]
                     }
                 ]
             }
@@ -65,9 +69,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:stone_brick_slab"
-						]
+                        "items": [
+                            "minecraft:stone_brick_slab"
+                        ]
                     }
                 ]
             }
@@ -77,9 +81,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:nether_brick_slab"
-						]
+                        "items": [
+                            "minecraft:nether_brick_slab"
+                        ]
                     }
                 ]
             }
@@ -89,9 +93,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:quartz_slab"
-						]
+                        "items": [
+                            "minecraft:quartz_slab"
+                        ]
                     }
                 ]
             }
@@ -101,9 +105,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:oak_slab"
-						]
+                        "items": [
+                            "minecraft:oak_slab"
+                        ]
                     }
                 ]
             }
@@ -113,9 +117,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:spruce_slab"
-						]
+                        "items": [
+                            "minecraft:spruce_slab"
+                        ]
                     }
                 ]
             }
@@ -125,9 +129,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:birch_slab"
-						]
+                        "items": [
+                            "minecraft:birch_slab"
+                        ]
                     }
                 ]
             }
@@ -137,9 +141,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:jungle_slab"
-						]
+                        "items": [
+                            "minecraft:jungle_slab"
+                        ]
                     }
                 ]
             }
@@ -149,9 +153,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:acacia_slab"
-						]
+                        "items": [
+                            "minecraft:acacia_slab"
+                        ]
                     }
                 ]
             }
@@ -161,9 +165,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:dark_oak_slab"
-						]
+                        "items": [
+                            "minecraft:dark_oak_slab"
+                        ]
                     }
                 ]
             }
@@ -173,9 +177,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:red_sandstone_slab"
-						]
+                        "items": [
+                            "minecraft:red_sandstone_slab"
+                        ]
                     }
                 ]
             }
@@ -185,9 +189,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:purpur_slab"
-						]
+                        "items": [
+                            "minecraft:purpur_slab"
+                        ]
                     }
                 ]
             }
@@ -197,9 +201,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:prismarine_slab"
-						]
+                        "items": [
+                            "minecraft:prismarine_slab"
+                        ]
                     }
                 ]
             }
@@ -209,9 +213,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:prismarine_brick_slab"
-						]
+                        "items": [
+                            "minecraft:prismarine_brick_slab"
+                        ]
                     }
                 ]
             }
@@ -221,9 +225,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:dark_prismarine_slab"
-						]
+                        "items": [
+                            "minecraft:dark_prismarine_slab"
+                        ]
                     }
                 ]
             }
@@ -233,9 +237,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:smooth_stone_slab"
-						]
+                        "items": [
+                            "minecraft:smooth_stone_slab"
+                        ]
                     }
                 ]
             }
@@ -245,9 +249,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:polished_granite_slab"
-						]
+                        "items": [
+                            "minecraft:polished_granite_slab"
+                        ]
                     }
                 ]
             }
@@ -257,9 +261,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:smooth_red_sandstone_slab"
-						]
+                        "items": [
+                            "minecraft:smooth_red_sandstone_slab"
+                        ]
                     }
                 ]
             }
@@ -269,9 +273,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:mossy_stone_brick_slab"
-						]
+                        "items": [
+                            "minecraft:mossy_stone_brick_slab"
+                        ]
                     }
                 ]
             }
@@ -281,9 +285,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:polished_diorite_slab"
-						]
+                        "items": [
+                            "minecraft:polished_diorite_slab"
+                        ]
                     }
                 ]
             }
@@ -293,9 +297,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:mossy_cobblestone_slab"
-						]
+                        "items": [
+                            "minecraft:mossy_cobblestone_slab"
+                        ]
                     }
                 ]
             }
@@ -305,9 +309,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:end_stone_brick_slab"
-						]
+                        "items": [
+                            "minecraft:end_stone_brick_slab"
+                        ]
                     }
                 ]
             }
@@ -317,9 +321,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:smooth_sandstone_slab"
-						]
+                        "items": [
+                            "minecraft:smooth_sandstone_slab"
+                        ]
                     }
                 ]
             }
@@ -329,9 +333,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:smooth_quartz_slab"
-						]
+                        "items": [
+                            "minecraft:smooth_quartz_slab"
+                        ]
                     }
                 ]
             }
@@ -341,9 +345,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:granite_slab"
-						]
+                        "items": [
+                            "minecraft:granite_slab"
+                        ]
                     }
                 ]
             }
@@ -353,9 +357,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:andesite_slab"
-						]
+                        "items": [
+                            "minecraft:andesite_slab"
+                        ]
                     }
                 ]
             }
@@ -365,9 +369,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:red_nether_brick_slab"
-						]
+                        "items": [
+                            "minecraft:red_nether_brick_slab"
+                        ]
                     }
                 ]
             }
@@ -377,9 +381,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:polished_andesite_slab"
-						]
+                        "items": [
+                            "minecraft:polished_andesite_slab"
+                        ]
                     }
                 ]
             }
@@ -389,9 +393,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:diorite_slab"
-						]
+                        "items": [
+                            "minecraft:diorite_slab"
+                        ]
                     }
                 ]
             }
@@ -401,9 +405,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cut_sandstone_slab"
-						]
+                        "items": [
+                            "minecraft:cut_sandstone_slab"
+                        ]
                     }
                 ]
             }
@@ -413,9 +417,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cut_red_sandstone_slab"
-						]
+                        "items": [
+                            "minecraft:cut_red_sandstone_slab"
+                        ]
                     }
                 ]
             }
@@ -425,9 +429,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:crimson_slab"
-						]
+                        "items": [
+                            "minecraft:crimson_slab"
+                        ]
                     }
                 ]
             }
@@ -437,9 +441,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:warped_slab"
-						]
+                        "items": [
+                            "minecraft:warped_slab"
+                        ]
                     }
                 ]
             }
@@ -449,9 +453,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:blackstone_slab"
-						]
+                        "items": [
+                            "minecraft:blackstone_slab"
+                        ]
                     }
                 ]
             }
@@ -461,9 +465,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:polished_blackstone_slab"
-						]
+                        "items": [
+                            "minecraft:polished_blackstone_slab"
+                        ]
                     }
                 ]
             }
@@ -473,9 +477,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:polished_blackstone_brick_slab"
-						]
+                        "items": [
+                            "minecraft:polished_blackstone_brick_slab"
+                        ]
                     }
                 ]
             }
@@ -485,9 +489,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cut_copper_slab"
-						]
+                        "items": [
+                            "minecraft:cut_copper_slab"
+                        ]
                     }
                 ]
             }
@@ -497,9 +501,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:exposed_cut_copper_slab"
-						]
+                        "items": [
+                            "minecraft:exposed_cut_copper_slab"
+                        ]
                     }
                 ]
             }
@@ -509,9 +513,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:weathered_cut_copper_slab"
-						]
+                        "items": [
+                            "minecraft:weathered_cut_copper_slab"
+                        ]
                     }
                 ]
             }
@@ -521,9 +525,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:oxidized_cut_copper_slab"
-						]
+                        "items": [
+                            "minecraft:oxidized_cut_copper_slab"
+                        ]
                     }
                 ]
             }
@@ -533,9 +537,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:waxed_cut_copper_slab"
-						]
+                        "items": [
+                            "minecraft:waxed_cut_copper_slab"
+                        ]
                     }
                 ]
             }
@@ -545,9 +549,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:waxed_exposed_cut_copper_slab"
-						]
+                        "items": [
+                            "minecraft:waxed_exposed_cut_copper_slab"
+                        ]
                     }
                 ]
             }
@@ -557,9 +561,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:waxed_weathered_cut_copper_slab"
-						]
+                        "items": [
+                            "minecraft:waxed_weathered_cut_copper_slab"
+                        ]
                     }
                 ]
             }
@@ -569,9 +573,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:waxed_oxidized_cut_copper_slab"
-						]
+                        "items": [
+                            "minecraft:waxed_oxidized_cut_copper_slab"
+                        ]
                     }
                 ]
             }
@@ -581,9 +585,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cobbled_deepslate_slab"
-						]
+                        "items": [
+                            "minecraft:cobbled_deepslate_slab"
+                        ]
                     }
                 ]
             }
@@ -593,9 +597,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:polished_deepslate_slab"
-						]
+                        "items": [
+                            "minecraft:polished_deepslate_slab"
+                        ]
                     }
                 ]
             }
@@ -605,9 +609,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:deepslate_brick_slab"
-						]
+                        "items": [
+                            "minecraft:deepslate_brick_slab"
+                        ]
                     }
                 ]
             }
@@ -617,67 +621,67 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:deepslate_tile_slab"
-						]
+                        "items": [
+                            "minecraft:deepslate_tile_slab"
+                        ]
                     }
                 ]
             }
         }
-	},
+    },
     "requirements": [
-		[
-        "stone_slab",
-        "sandstone_slab",
-		"cobblestone_slab",
-		"brick_slab",
-		"stone_brick_slab",
-		"nether_brick_slab",
-		"quartz_slab",
-        "oak_slab",
-        "spruce_slab",
-		"birch_slab",
-		"jungle_slab",
-		"acacia_slab",
-		"dark_oak_slab",
-		"red_sandstone_slab",
-		"purpur_slab",
-		"prismarine_slab",
-		"dark_prismarine_slab",
-		"prismarine_bricks_slab",
-		"smooth_quartz_slab",
-		"smooth_red_sandstone_slab",
-		"smooth_stone_slab",
-		"smooth_sandstone_slab",
-		"diorite_slab",
-		"granite_slab",
-		"andesite_slab",
-		"polished_andesite_slab",
-		"polished_granite_slab",
-		"polished_diorite_slab",
-		"red_nether_brick_slab",
-		"end_stone_brick_slab",
-		"mossy_cobblestone_slab",
-		"mossy_stone_brick_slab",
-		"cut_red_sandstone_slab",
-		"cut_sandstone_slab",
-		"crimson_slab",
-		"warped_slab",
-		"blackstone_slab",
-		"polished_blackstone_slab",
-		"polished_blackstone_brick_slab",
-		"cut_copper_slab",
-		"exposed_cut_copper_slab",
-		"weathered_cut_copper_slab",
-		"oxidized_cut_copper_slab",
-		"waxed_cut_copper_slab",
-		"waxed_exposed_cut_copper_slab",
-		"waxed_weathered_cut_copper_slab",
-		"waxed_oxidized_cut_copper_slab",
-		"cobbled_deepslate_slab",
-		"polished_deepslate_slab",
-		"deepslate_brick_slab",
-		"deepslate_tile_slab"
-		]
+        [
+            "stone_slab",
+            "sandstone_slab",
+            "cobblestone_slab",
+            "brick_slab",
+            "stone_brick_slab",
+            "nether_brick_slab",
+            "quartz_slab",
+            "oak_slab",
+            "spruce_slab",
+            "birch_slab",
+            "jungle_slab",
+            "acacia_slab",
+            "dark_oak_slab",
+            "red_sandstone_slab",
+            "purpur_slab",
+            "prismarine_slab",
+            "dark_prismarine_slab",
+            "prismarine_bricks_slab",
+            "smooth_quartz_slab",
+            "smooth_red_sandstone_slab",
+            "smooth_stone_slab",
+            "smooth_sandstone_slab",
+            "diorite_slab",
+            "granite_slab",
+            "andesite_slab",
+            "polished_andesite_slab",
+            "polished_granite_slab",
+            "polished_diorite_slab",
+            "red_nether_brick_slab",
+            "end_stone_brick_slab",
+            "mossy_cobblestone_slab",
+            "mossy_stone_brick_slab",
+            "cut_red_sandstone_slab",
+            "cut_sandstone_slab",
+            "crimson_slab",
+            "warped_slab",
+            "blackstone_slab",
+            "polished_blackstone_slab",
+            "polished_blackstone_brick_slab",
+            "cut_copper_slab",
+            "exposed_cut_copper_slab",
+            "weathered_cut_copper_slab",
+            "oxidized_cut_copper_slab",
+            "waxed_cut_copper_slab",
+            "waxed_exposed_cut_copper_slab",
+            "waxed_weathered_cut_copper_slab",
+            "waxed_oxidized_cut_copper_slab",
+            "cobbled_deepslate_slab",
+            "polished_deepslate_slab",
+            "deepslate_brick_slab",
+            "deepslate_tile_slab"
+        ]
     ]
 }

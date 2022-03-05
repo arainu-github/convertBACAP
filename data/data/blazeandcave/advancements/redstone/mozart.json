@@ -3,13 +3,17 @@
         "icon": {
             "item": "minecraft:note_block"
         },
-        "title": {"translate":"Mozart"},
-        "description": {"translate":"Craft a note block"},
+        "title": {
+            "translate": "モーツァルト"
+        },
+        "description": {
+            "translate": "Craft a note block"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:redstone/root",
-	"rewards": {
-		"function": "bc_rewards:redstone/mozart"
+    "rewards": {
+        "function": "bc_rewards:redstone/mozart"
     },
     "criteria": {
         "noteblock": {
@@ -17,9 +21,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:note_block"
-						]
+                        "items": [
+                            "minecraft:note_block"
+                        ]
                     }
                 ]
             }

@@ -3,15 +3,20 @@
         "icon": {
             "item": "minecraft:shulker_shell"
         },
-        "title": {"translate":"I'm in Space!"},
-        "description": {"color":"#FF2A2A","translate":"Levitate up a distance of 256 blocks"},
+        "title": {
+            "translate": "I'm in Space!"
+        },
+        "description": {
+            "color": "#FF2A2A",
+            "translate": "I'm in Space!"
+        },
         "announce_to_chat": false,
         "frame": "challenge"
     },
     "parent": "blazeandcave:challenges/ad_astra",
-	"rewards": {
-		"function": "bc_rewards:challenges/im_in_space"
-    },	
+    "rewards": {
+        "function": "bc_rewards:challenges/im_in_space"
+    },
     "criteria": {
         "levitated": {
             "trigger": "minecraft:levitation",

@@ -3,14 +3,18 @@
         "icon": {
             "item": "minecraft:light_gray_carpet"
         },
-        "title": {"translate":"Stay Calmer"},
-        "description": {"translate":"Tame a llama"},
+        "title": {
+            "translate": "ラマったりと落ち着いて"
+        },
+        "description": {
+            "translate": "Tame a llama"
+        },
         "announce_to_chat": false
     },
     "parent": "minecraft:husbandry/root",
-	"rewards": {
-		"function": "bc_rewards:animal/stay_calmer"
-    },		
+    "rewards": {
+        "function": "bc_rewards:animal/stay_calmer"
+    },
     "criteria": {
         "tamed_animal": {
             "trigger": "minecraft:tame_animal",
@@ -18,7 +22,7 @@
                 "entity": {
                     "type": "#blazeandcave:llamas"
                 }
-			}
+            }
         }
     }
 }

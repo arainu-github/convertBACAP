@@ -3,15 +3,19 @@
         "icon": {
             "item": "minecraft:wither_skeleton_skull"
         },
-        "title": {"translate":"Camouflage"},
-        "description": {"translate":"Kill a mob while wearing the same type of mob head"},
+        "title": {
+            "translate": "カモフラージュ"
+        },
+        "description": {
+            "translate": "Kill a mob while wearing the same type of mob head"
+        },
         "announce_to_chat": false,
-		"frame": "challenge"
+        "frame": "challenge"
     },
     "parent": "blazeandcave:monsters/creepy_heads",
     "rewards": {
         "function": "bc_rewards:monsters/camouflage"
-    },		
+    },
     "criteria": {
         "creeper": {
             "trigger": "minecraft:player_killed_entity",
@@ -64,14 +68,14 @@
                     }
                 }
             }
-        }	
+        }
     },
     "requirements": [
-		[
-        "creeper",
-        "zombie",
-		"skeleton",
-		"wither_skeleton"
-		]
+        [
+            "creeper",
+            "zombie",
+            "skeleton",
+            "wither_skeleton"
+        ]
     ]
 }

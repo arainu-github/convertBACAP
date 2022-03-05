@@ -3,23 +3,27 @@
         "icon": {
             "item": "minecraft:polished_diorite"
         },
-        "title": {"translate":"Rock Polish"},
-        "description": {"translate":"Craft every type of polished block"},
+        "title": {
+            "translate": "Rock Polish"
+        },
+        "description": {
+            "translate": "Rock Polish"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:building/rock_collection",
     "rewards": {
         "function": "bc_rewards:building/rock_polish"
-    },		
+    },
     "criteria": {
         "polished_granite": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:polished_granite"
-						]
+                        "items": [
+                            "minecraft:polished_granite"
+                        ]
                     }
                 ]
             }
@@ -29,9 +33,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:polished_diorite"
-						]
+                        "items": [
+                            "minecraft:polished_diorite"
+                        ]
                     }
                 ]
             }
@@ -41,9 +45,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:polished_andesite"
-						]
+                        "items": [
+                            "minecraft:polished_andesite"
+                        ]
                     }
                 ]
             }
@@ -53,9 +57,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:polished_deepslate"
-						]
+                        "items": [
+                            "minecraft:polished_deepslate"
+                        ]
                     }
                 ]
             }
@@ -65,9 +69,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:polished_basalt"
-						]
+                        "items": [
+                            "minecraft:polished_basalt"
+                        ]
                     }
                 ]
             }
@@ -77,12 +81,12 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:polished_blackstone"
-						]
+                        "items": [
+                            "minecraft:polished_blackstone"
+                        ]
                     }
                 ]
             }
         }
-	}		
+    }
 }

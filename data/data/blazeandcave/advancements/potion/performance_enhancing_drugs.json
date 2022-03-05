@@ -3,14 +3,18 @@
         "icon": {
             "item": "minecraft:sugar"
         },
-        "title": {"translate":"Performance-Enhancing Drugs"},
-        "description": {"translate":"Brew a Speed Potion for cheating on athletics"},
+        "title": {
+            "translate": "ドーピング"
+        },
+        "description": {
+            "translate": "Brew a Speed Potion for cheating on athletics"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:potion/root",
-	"rewards": {
-		"function": "bc_rewards:potion/performance_enhancing_drugs"
-    },	
+    "rewards": {
+        "function": "bc_rewards:potion/performance_enhancing_drugs"
+    },
     "criteria": {
         "swiftness": {
             "trigger": "minecraft:brewed_potion",
@@ -31,11 +35,11 @@
             }
         }
     },
-	"requirements": [
-		[
-			"swiftness",
-			"long_swiftness",
-			"strong_swiftness"
-		]
-	]
+    "requirements": [
+        [
+            "swiftness",
+            "long_swiftness",
+            "strong_swiftness"
+        ]
+    ]
 }

@@ -1,6 +1,11 @@
 import glob
 import json
 import os
+import shutil
+
+if os.path.isdir("data"):
+    shutil.rmtree("data")
+shutil.copytree("before_translate","data")
 
 dirs = glob.glob("data/data/*")
 with open("ja_jp.json") as f:

@@ -3,23 +3,27 @@
         "icon": {
             "item": "minecraft:daylight_detector"
         },
-        "title": {"translate":"Solar Power"},
-        "description": {"translate":"Craft a daylight sensor"},
+        "title": {
+            "translate": "太陽光発電"
+        },
+        "description": {
+            "translate": "Craft a daylight sensor"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:redstone/comparing_comparator",
-	"rewards": {
-		"function": "bc_rewards:redstone/solar_power"
-    },	
+    "rewards": {
+        "function": "bc_rewards:redstone/solar_power"
+    },
     "criteria": {
         "daylight_detector": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:daylight_detector"
-						]
+                        "items": [
+                            "minecraft:daylight_detector"
+                        ]
                     }
                 ]
             }

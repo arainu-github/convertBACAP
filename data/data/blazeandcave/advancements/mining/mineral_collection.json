@@ -3,24 +3,29 @@
         "icon": {
             "item": "minecraft:raw_gold_block"
         },
-        "title": {"translate":"Mineral Collection"},
-        "description": {"color":"#75E1FF","translate":"Craft every type of mineral block"},
+        "title": {
+            "translate": "ミネラルコレクション"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Craft every type of mineral block"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "blazeandcave:mining/diamond_miner",
     "rewards": {
-		"function": "bc_rewards:mining/mineral_collection"
-    },			
+        "function": "bc_rewards:mining/mineral_collection"
+    },
     "criteria": {
         "coal_block": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:coal_block"
-						]
+                        "items": [
+                            "minecraft:coal_block"
+                        ]
                     }
                 ]
             }
@@ -30,9 +35,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:iron_block"
-						]
+                        "items": [
+                            "minecraft:iron_block"
+                        ]
                     }
                 ]
             }
@@ -42,9 +47,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:gold_block"
-						]
+                        "items": [
+                            "minecraft:gold_block"
+                        ]
                     }
                 ]
             }
@@ -54,9 +59,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:lapis_block"
-						]
+                        "items": [
+                            "minecraft:lapis_block"
+                        ]
                     }
                 ]
             }
@@ -66,9 +71,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:redstone_block"
-						]
+                        "items": [
+                            "minecraft:redstone_block"
+                        ]
                     }
                 ]
             }
@@ -78,9 +83,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:diamond_block"
-						]
+                        "items": [
+                            "minecraft:diamond_block"
+                        ]
                     }
                 ]
             }
@@ -90,9 +95,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:emerald_block"
-						]
+                        "items": [
+                            "minecraft:emerald_block"
+                        ]
                     }
                 ]
             }
@@ -102,9 +107,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:quartz_block"
-						]
+                        "items": [
+                            "minecraft:quartz_block"
+                        ]
                     }
                 ]
             }
@@ -114,9 +119,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:netherite_block"
-						]
+                        "items": [
+                            "minecraft:netherite_block"
+                        ]
                     }
                 ]
             }
@@ -126,9 +131,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:copper_block"
-						]
+                        "items": [
+                            "minecraft:copper_block"
+                        ]
                     }
                 ]
             }
@@ -138,9 +143,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:amethyst_block"
-						]
+                        "items": [
+                            "minecraft:amethyst_block"
+                        ]
                     }
                 ]
             }
@@ -150,9 +155,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:raw_copper_block"
-						]
+                        "items": [
+                            "minecraft:raw_copper_block"
+                        ]
                     }
                 ]
             }
@@ -162,9 +167,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:raw_iron_block"
-						]
+                        "items": [
+                            "minecraft:raw_iron_block"
+                        ]
                     }
                 ]
             }
@@ -174,9 +179,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:raw_gold_block"
-						]
+                        "items": [
+                            "minecraft:raw_gold_block"
+                        ]
                     }
                 ]
             }

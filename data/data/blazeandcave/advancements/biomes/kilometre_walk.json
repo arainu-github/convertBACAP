@@ -3,36 +3,48 @@
         "icon": {
             "item": "minecraft:leather_boots"
         },
-        "title": {"translate":"Kilometre Walk"},
-        "description": {"translate":"Travel at least 1000 blocks from the centre of the world in any direction.","extra":[{"text":"\n"},{"translate":"It's not that far in real life"}]},
+        "title": {
+            "translate": "キロメートルの道程"
+        },
+        "description": {
+            "translate": "Travel at least 1000 blocks from the centre of the world in any direction.",
+            "extra": [
+                {
+                    "text": "\n"
+                },
+                {
+                    "translate": "It's not that far in real life"
+                }
+            ]
+        },
         "announce_to_chat": false,
         "frame": "task"
     },
     "parent": "blazeandcave:biomes/root",
     "rewards": {
         "function": "bc_rewards:biomes/kilometre_walk"
-    },		
+    },
     "criteria": {
         "outer_pos_x": {
             "trigger": "minecraft:location",
             "conditions": {
-				"position": {
-					"x": {
-						"min": 1000.0
-					}
-				},
+                "position": {
+                    "x": {
+                        "min": 1000.0
+                    }
+                },
                 "player": [
                     {
                         "condition": "minecraft:inverted",
                         "term": {
                             "condition": "minecraft:entity_properties",
-						    "entity": "this",
-						    "predicate": {
-						    	"player": {
-						    		"gamemode": "spectator"
-			    				}
+                            "entity": "this",
+                            "predicate": {
+                                "player": {
+                                    "gamemode": "spectator"
+                                }
                             }
-						}
+                        }
                     }
                 ]
             }
@@ -40,23 +52,23 @@
         "outer_pos_z": {
             "trigger": "minecraft:location",
             "conditions": {
-				"position": {
-					"z": {
-						"min": 1000.0
-					}
-				},
+                "position": {
+                    "z": {
+                        "min": 1000.0
+                    }
+                },
                 "player": [
                     {
                         "condition": "minecraft:inverted",
                         "term": {
                             "condition": "minecraft:entity_properties",
-						    "entity": "this",
-						    "predicate": {
-						    	"player": {
-						    		"gamemode": "spectator"
-			    				}
+                            "entity": "this",
+                            "predicate": {
+                                "player": {
+                                    "gamemode": "spectator"
+                                }
                             }
-						}
+                        }
                     }
                 ]
             }
@@ -64,23 +76,23 @@
         "outer_neg_x": {
             "trigger": "minecraft:location",
             "conditions": {
-				"position": {
-					"x": {
-						"max": -1000.0
-					}
-				},
+                "position": {
+                    "x": {
+                        "max": -1000.0
+                    }
+                },
                 "player": [
                     {
                         "condition": "minecraft:inverted",
                         "term": {
                             "condition": "minecraft:entity_properties",
-						    "entity": "this",
-						    "predicate": {
-						    	"player": {
-						    		"gamemode": "spectator"
-			    				}
+                            "entity": "this",
+                            "predicate": {
+                                "player": {
+                                    "gamemode": "spectator"
+                                }
                             }
-						}
+                        }
                     }
                 ]
             }
@@ -88,27 +100,27 @@
         "outer_neg_z": {
             "trigger": "minecraft:location",
             "conditions": {
-				"position": {
-					"z": {
-						"max": -1000.0
-					}
-				},
+                "position": {
+                    "z": {
+                        "max": -1000.0
+                    }
+                },
                 "player": [
                     {
                         "condition": "minecraft:inverted",
                         "term": {
                             "condition": "minecraft:entity_properties",
-						    "entity": "this",
-						    "predicate": {
-						    	"player": {
-						    		"gamemode": "spectator"
-			    				}
+                            "entity": "this",
+                            "predicate": {
+                                "player": {
+                                    "gamemode": "spectator"
+                                }
                             }
-						}
+                        }
                     }
                 ]
             }
-        }	
+        }
     },
     "requirements": [
         [

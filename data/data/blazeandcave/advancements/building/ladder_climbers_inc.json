@@ -3,19 +3,23 @@
         "icon": {
             "item": "minecraft:ladder"
         },
-        "title": {"translate":"Ladder Climbers Inc."},
-        "description": {"translate":"Climb the ladder!"},
+        "title": {
+            "translate": "梯子登山株式会社"
+        },
+        "description": {
+            "translate": "Climb the ladder!"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:building/your_door_was_locked",
-	"rewards": {
-		"function": "bc_rewards:building/ladder_climbers_inc"
+    "rewards": {
+        "function": "bc_rewards:building/ladder_climbers_inc"
     },
     "criteria": {
         "enter_ladder": {
             "trigger": "minecraft:enter_block",
             "conditions": {
-				"block": "minecraft:ladder"
+                "block": "minecraft:ladder"
             }
         }
     }

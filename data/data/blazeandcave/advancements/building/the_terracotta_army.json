@@ -3,24 +3,29 @@
         "icon": {
             "item": "minecraft:magenta_terracotta"
         },
-        "title": {"translate":"The Terracotta Army"},
-        "description": {"color":"#75E1FF","translate":"Craft all 16 colors of terracotta (stained clay)"},
+        "title": {
+            "translate": "テラコッタ軍"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Craft all 16 colors of terracotta (stained clay)"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "blazeandcave:building/pot_planter",
     "rewards": {
-		"function": "bc_rewards:building/the_terracotta_army"
-    },		
+        "function": "bc_rewards:building/the_terracotta_army"
+    },
     "criteria": {
         "white_terracotta": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:white_terracotta"
-						]
+                        "items": [
+                            "minecraft:white_terracotta"
+                        ]
                     }
                 ]
             }
@@ -30,9 +35,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:orange_terracotta"
-						]
+                        "items": [
+                            "minecraft:orange_terracotta"
+                        ]
                     }
                 ]
             }
@@ -42,9 +47,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:magenta_terracotta"
-						]
+                        "items": [
+                            "minecraft:magenta_terracotta"
+                        ]
                     }
                 ]
             }
@@ -54,9 +59,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:light_blue_terracotta"
-						]
+                        "items": [
+                            "minecraft:light_blue_terracotta"
+                        ]
                     }
                 ]
             }
@@ -66,9 +71,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:yellow_terracotta"
-						]
+                        "items": [
+                            "minecraft:yellow_terracotta"
+                        ]
                     }
                 ]
             }
@@ -78,9 +83,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:lime_terracotta"
-						]
+                        "items": [
+                            "minecraft:lime_terracotta"
+                        ]
                     }
                 ]
             }
@@ -90,9 +95,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:pink_terracotta"
-						]
+                        "items": [
+                            "minecraft:pink_terracotta"
+                        ]
                     }
                 ]
             }
@@ -102,9 +107,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:gray_terracotta"
-						]
+                        "items": [
+                            "minecraft:gray_terracotta"
+                        ]
                     }
                 ]
             }
@@ -114,9 +119,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:light_gray_terracotta"
-						]
+                        "items": [
+                            "minecraft:light_gray_terracotta"
+                        ]
                     }
                 ]
             }
@@ -126,9 +131,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cyan_terracotta"
-						]
+                        "items": [
+                            "minecraft:cyan_terracotta"
+                        ]
                     }
                 ]
             }
@@ -138,9 +143,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:purple_terracotta"
-						]
+                        "items": [
+                            "minecraft:purple_terracotta"
+                        ]
                     }
                 ]
             }
@@ -150,9 +155,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:blue_terracotta"
-						]
+                        "items": [
+                            "minecraft:blue_terracotta"
+                        ]
                     }
                 ]
             }
@@ -162,9 +167,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:brown_terracotta"
-						]
+                        "items": [
+                            "minecraft:brown_terracotta"
+                        ]
                     }
                 ]
             }
@@ -174,9 +179,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:green_terracotta"
-						]
+                        "items": [
+                            "minecraft:green_terracotta"
+                        ]
                     }
                 ]
             }
@@ -186,9 +191,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:red_terracotta"
-						]
+                        "items": [
+                            "minecraft:red_terracotta"
+                        ]
                     }
                 ]
             }
@@ -198,9 +203,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:black_terracotta"
-						]
+                        "items": [
+                            "minecraft:black_terracotta"
+                        ]
                     }
                 ]
             }

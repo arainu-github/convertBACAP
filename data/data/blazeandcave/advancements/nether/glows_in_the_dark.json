@@ -3,14 +3,18 @@
         "icon": {
             "item": "minecraft:spectral_arrow"
         },
-        "title": {"translate":"Glows in the Dark"},
-        "description": {"translate":"Shoot a mob with a spectral arrow"},
+        "title": {
+            "translate": "闇に光る"
+        },
+        "description": {
+            "translate": "Shoot a mob with a spectral arrow"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:nether/seeing_stars",
-	"rewards": {
-		"function": "bc_rewards:nether/glows_in_the_dark"
-    },	
+    "rewards": {
+        "function": "bc_rewards:nether/glows_in_the_dark"
+    },
     "criteria": {
         "spectral_arrow": {
             "trigger": "minecraft:player_hurt_entity",

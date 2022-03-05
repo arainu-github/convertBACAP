@@ -3,15 +3,20 @@
         "icon": {
             "item": "minecraft:soul_soil"
         },
-        "title": {"translate":"The Devil's Distance"},
-        "description": {"color":"#FF2A2A","translate":"Use the Nether to travel 666km in the Overworld"},
+        "title": {
+            "translate": "The Devil's Distance"
+        },
+        "description": {
+            "color": "#FF2A2A",
+            "translate": "The Devil's Distance"
+        },
         "announce_to_chat": false,
         "frame": "challenge"
     },
     "parent": "blazeandcave:challenges/im_in_space",
-	"rewards": {
-		"function": "bc_rewards:challenges/the_devils_distance"
-    },	
+    "rewards": {
+        "function": "bc_rewards:challenges/the_devils_distance"
+    },
     "criteria": {
         "travelled": {
             "trigger": "minecraft:nether_travel",

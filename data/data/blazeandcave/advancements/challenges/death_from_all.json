@@ -3,15 +3,20 @@
         "icon": {
             "item": "minecraft:mossy_cobblestone_wall"
         },
-        "title": {"translate":"Death From All"},
-        "description": {"color":"#FF2A2A","translate":"Get killed by every mob that can kill you. (Ignore in hardcore mode)"},
+        "title": {
+            "translate": "Death From All"
+        },
+        "description": {
+            "color": "#FF2A2A",
+            "translate": "Death From All"
+        },
         "announce_to_chat": false,
-		"frame": "challenge"
+        "frame": "challenge"
     },
     "parent": "blazeandcave:challenges/immortal",
     "rewards": {
         "function": "bc_rewards:challenges/death_from_all"
-    },		
+    },
     "criteria": {
         "pufferfish": {
             "trigger": "minecraft:entity_killed_player",

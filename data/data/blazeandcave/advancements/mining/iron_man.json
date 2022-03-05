@@ -3,14 +3,19 @@
         "icon": {
             "item": "minecraft:iron_helmet"
         },
-        "title": {"translate":"Iron Man"},
-        "description": {"color":"#75E1FF","translate":"Wear a full suit of iron armor"},
+        "title": {
+            "translate": "アイアンマン"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Wear a full suit of iron armor"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "minecraft:story/obtain_armor",
-	"rewards": {
-		"function": "bc_rewards:mining/iron_man"
+    "rewards": {
+        "function": "bc_rewards:mining/iron_man"
     },
     "criteria": {
         "iron_armor": {
@@ -19,31 +24,31 @@
                 "player": [
                     {
                         "condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"equipment": {
-								"head": {
-									"items": [
-										"minecraft:iron_helmet"
-									]
-								},
-								"chest": {
-									"items": [
-										"minecraft:iron_chestplate"
-									]
-								},
-								"legs": {
-									"items": [
-										"minecraft:iron_leggings"
-									]
-								},
-								"feet": {
-									"items": [
-										"minecraft:iron_boots"
-									]
-								}
-							}
-						}
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "head": {
+                                    "items": [
+                                        "minecraft:iron_helmet"
+                                    ]
+                                },
+                                "chest": {
+                                    "items": [
+                                        "minecraft:iron_chestplate"
+                                    ]
+                                },
+                                "legs": {
+                                    "items": [
+                                        "minecraft:iron_leggings"
+                                    ]
+                                },
+                                "feet": {
+                                    "items": [
+                                        "minecraft:iron_boots"
+                                    ]
+                                }
+                            }
+                        }
                     }
                 ]
             }

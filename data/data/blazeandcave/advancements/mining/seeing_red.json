@@ -3,13 +3,17 @@
         "icon": {
             "item": "minecraft:redstone"
         },
-        "title": {"translate":"Seeing Red"},
-        "description": {"translate":"Mine some redstone from the deepest caves"},
+        "title": {
+            "translate": "朱を注ぐ"
+        },
+        "description": {
+            "translate": "Mine some redstone from the deepest caves"
+        },
         "announce_to_chat": false
     },
     "parent": "minecraft:story/iron_tools",
-	"rewards": {
-		"function": "bc_rewards:mining/seeing_red"
+    "rewards": {
+        "function": "bc_rewards:mining/seeing_red"
     },
     "criteria": {
         "redstone": {
@@ -17,9 +21,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:redstone"
-						]
+                        "items": [
+                            "minecraft:redstone"
+                        ]
                     }
                 ]
             }

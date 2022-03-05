@@ -3,25 +3,29 @@
         "icon": {
             "item": "minecraft:iron_sword"
         },
-        "title": {"translate":"War is Coming"},
-        "description": {"translate":"Defeat enough Illager Patrol leaders to attain the highest level of Bad Omen"},
+        "title": {
+            "translate": "戦乱は近い..."
+        },
+        "description": {
+            "translate": "Defeat enough Illager Patrol leaders to attain the highest level of Bad Omen"
+        },
         "announce_to_chat": false,
-		"frame": "challenge"
+        "frame": "challenge"
     },
     "parent": "blazeandcave:adventure/buy_low_sell_high",
     "rewards": {
-		"function": "bc_rewards:adventure/war_is_coming"
-    },		
+        "function": "bc_rewards:adventure/war_is_coming"
+    },
     "criteria": {
         "bad_omen": {
             "trigger": "minecraft:effects_changed",
             "conditions": {
                 "effects": {
                     "minecraft:bad_omen": {
-						"amplifier": {
-							"min": 4
-						}
-					}
+                        "amplifier": {
+                            "min": 4
+                        }
+                    }
                 }
             }
         }

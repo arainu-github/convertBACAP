@@ -3,32 +3,36 @@
         "icon": {
             "item": "minecraft:stone_sword"
         },
-        "title": {"translate":"Mob Hunter"},
-        "description": {"translate":"Defeat 250 mobs"},
+        "title": {
+            "translate": "Mob Hunter"
+        },
+        "description": {
+            "translate": "Mob Hunter"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:statistics/root",
-	"rewards": {
-		"function": "bc_rewards:statistics/mob_hunter"
-    },		
+    "rewards": {
+        "function": "bc_rewards:statistics/mob_hunter"
+    },
     "criteria": {
         "trigger": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"stats": [
-							{
-								"type": "minecraft:custom",
-								"stat": "minecraft:mob_kills",
-								"value": {
-									"min": 250
-								}
-							}
-						]
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:custom",
+                                "stat": "minecraft:mob_kills",
+                                "value": {
+                                    "min": 250
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
         }
     }
 }

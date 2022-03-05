@@ -3,15 +3,20 @@
         "icon": {
             "item": "minecraft:netherite_boots"
         },
-        "title": {"translate":"Explorer of Worlds"},
-        "description": {"color":"#FF2A2A","translate":"Discover every biome in every dimension"},
+        "title": {
+            "translate": "世界旅行"
+        },
+        "description": {
+            "color": "#FF2A2A",
+            "translate": "Discover every biome in every dimension"
+        },
         "announce_to_chat": false,
         "frame": "challenge"
     },
-    "parent": "blazeandcave:challenges/a_million_blocks_away",	
+    "parent": "blazeandcave:challenges/a_million_blocks_away",
     "rewards": {
-		"function": "bc_rewards:challenges/explorer_of_worlds"
-    },	
+        "function": "bc_rewards:challenges/explorer_of_worlds"
+    },
     "criteria": {
         "river": {
             "trigger": "minecraft:location",

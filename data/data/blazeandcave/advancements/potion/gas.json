@@ -2,27 +2,32 @@
     "display": {
         "icon": {
             "item": "minecraft:lingering_potion",
-			"nbt": "{Potion:\"minecraft:harming\"}"
+            "nbt": "{Potion:\"minecraft:harming\"}"
         },
-        "title": {"translate":"Gas!"},
-        "description": {"color":"#75E1FF","translate":"Kill a mob using a lingering potion"},
+        "title": {
+            "translate": "ガス！"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Kill a mob using a lingering potion"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "blazeandcave:potion/noxious_fumes",
-	"rewards": {
-		"function": "bc_rewards:potion/gas"
-    },	
+    "rewards": {
+        "function": "bc_rewards:potion/gas"
+    },
     "criteria": {
         "kill_magic": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
-				"killing_blow": {
-					"is_magic": "true",
-					"direct_entity": {
-						"type": "minecraft:area_effect_cloud"
-					}
-				}
+                "killing_blow": {
+                    "is_magic": "true",
+                    "direct_entity": {
+                        "type": "minecraft:area_effect_cloud"
+                    }
+                }
             }
         }
     }

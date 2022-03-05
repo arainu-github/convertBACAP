@@ -3,22 +3,27 @@
         "icon": {
             "item": "minecraft:cobweb"
         },
-        "title": {"translate":"Spider-skeleton"},
-        "description": {"color":"#75E1FF","translate":"Does whatever a spider can"},
+        "title": {
+            "translate": "Spider-skeleton"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Spider-skeleton"
+        },
         "announce_to_chat": false,
         "frame": "goal"
     },
     "parent": "blazeandcave:monsters/spider_smasher",
-	"rewards": {
-		"function": "bc_rewards:monsters/spider_skeleton"
-    },	
+    "rewards": {
+        "function": "bc_rewards:monsters/spider_skeleton"
+    },
     "criteria": {
         "spider": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
                     "type": "spider",
-					"nbt": "{Passengers:[{id:\"minecraft:skeleton\"}]}"
+                    "nbt": "{Passengers:[{id:\"minecraft:skeleton\"}]}"
                 }
             }
         },
@@ -27,17 +32,17 @@
             "conditions": {
                 "entity": {
                     "type": "skeleton",
-					"vehicle": {
-						"type": "spider"
-					}
+                    "vehicle": {
+                        "type": "spider"
+                    }
                 }
             }
         }
     },
-	"requirements": [
-		[
-			"spider",
-			"skeleton"
-		]
-	]
+    "requirements": [
+        [
+            "spider",
+            "skeleton"
+        ]
+    ]
 }

@@ -3,13 +3,17 @@
         "icon": {
             "item": "minecraft:detector_rail"
         },
-        "title": {"translate":"Pressure Detector"},
-        "description": {"translate":"Use a pressure plate to craft a detector rail"},
+        "title": {
+            "translate": "圧力形受振器"
+        },
+        "description": {
+            "translate": "Use a pressure plate to craft a detector rail"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:redstone/under_pressure",
-	"rewards": {
-		"function": "bc_rewards:redstone/pressure_detector"
+    "rewards": {
+        "function": "bc_rewards:redstone/pressure_detector"
     },
     "criteria": {
         "detector_rail": {
@@ -17,9 +21,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:detector_rail"
-						]
+                        "items": [
+                            "minecraft:detector_rail"
+                        ]
                     }
                 ]
             }

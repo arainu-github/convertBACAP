@@ -3,13 +3,17 @@
         "icon": {
             "item": "minecraft:golden_chestplate"
         },
-        "title": {"translate":"Living Like Kings"},
-        "description": {"translate":"Make yourself shiny with golden armor"},
+        "title": {
+            "translate": "王のように佇む"
+        },
+        "description": {
+            "translate": "Make yourself shiny with golden armor"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:mining/gold_rush",
-	"rewards": {
-		"function": "bc_rewards:mining/living_like_kings"
+    "rewards": {
+        "function": "bc_rewards:mining/living_like_kings"
     },
     "criteria": {
         "golden_helmet": {
@@ -18,16 +22,16 @@
                 "player": [
                     {
                         "condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"equipment": {
-								"head": {
-									"items": [
-										"minecraft:golden_helmet"
-									]
-								}
-							}
-						}
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "head": {
+                                    "items": [
+                                        "minecraft:golden_helmet"
+                                    ]
+                                }
+                            }
+                        }
                     }
                 ]
             }
@@ -38,16 +42,16 @@
                 "player": [
                     {
                         "condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"equipment": {
-								"chest": {
-									"items": [
-										"minecraft:golden_chestplate"
-									]
-								}
-							}
-						}
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "chest": {
+                                    "items": [
+                                        "minecraft:golden_chestplate"
+                                    ]
+                                }
+                            }
+                        }
                     }
                 ]
             }
@@ -58,16 +62,16 @@
                 "player": [
                     {
                         "condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"equipment": {
-								"legs": {
-									"items": [
-										"minecraft:golden_leggings"
-									]
-								}
-							}
-						}
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "legs": {
+                                    "items": [
+                                        "minecraft:golden_leggings"
+                                    ]
+                                }
+                            }
+                        }
                     }
                 ]
             }
@@ -78,16 +82,16 @@
                 "player": [
                     {
                         "condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"equipment": {
-								"feet": {
-									"items": [
-										"minecraft:golden_boots"
-									]
-								}
-							}
-						}
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "feet": {
+                                    "items": [
+                                        "minecraft:golden_boots"
+                                    ]
+                                }
+                            }
+                        }
                     }
                 ]
             }

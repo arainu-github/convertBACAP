@@ -3,32 +3,36 @@
         "icon": {
             "item": "minecraft:twisting_vines"
         },
-        "title": {"translate":"Twisted"},
-        "description": {"translate":"Climb on some Twisting Vines in a Warped Forest"},
+        "title": {
+            "translate": "Twisted"
+        },
+        "description": {
+            "translate": "Twisted"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:nether/dont_blink",
-	"rewards": {
-		"function": "bc_rewards:nether/twisted"
+    "rewards": {
+        "function": "bc_rewards:nether/twisted"
     },
     "criteria": {
         "twisting_vines_plant": {
             "trigger": "minecraft:enter_block",
             "conditions": {
-				"block": "minecraft:twisting_vines_plant"
+                "block": "minecraft:twisting_vines_plant"
             }
         },
         "twisting_vines": {
             "trigger": "minecraft:enter_block",
             "conditions": {
-				"block": "minecraft:twisting_vines"
+                "block": "minecraft:twisting_vines"
             }
         }
     },
-	"requirements": [
-		[
-			"twisting_vines_plant",
-			"twisting_vines"
-		]
-	]
+    "requirements": [
+        [
+            "twisting_vines_plant",
+            "twisting_vines"
+        ]
+    ]
 }

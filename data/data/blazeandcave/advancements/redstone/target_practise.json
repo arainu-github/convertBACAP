@@ -3,78 +3,83 @@
         "icon": {
             "item": "minecraft:trident"
         },
-        "title": {"translate":"Target Practise"},
-        "description": {"color":"#75E1FF","translate":"Hit a Target with all types of projectiles"},
+        "title": {
+            "translate": "Target Practise"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Target Practise"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "blazeandcave:redstone/target_acquired",
-	"rewards": {
-		"function": "bc_rewards:redstone/target_practise"
-    },	
+    "rewards": {
+        "function": "bc_rewards:redstone/target_practise"
+    },
     "criteria": {
         "arrow": {
             "trigger": "minecraft:target_hit",
             "conditions": {
                 "projectile": {
-					"type": "minecraft:arrow"
-				}
+                    "type": "minecraft:arrow"
+                }
             }
         },
         "trident": {
             "trigger": "minecraft:target_hit",
             "conditions": {
                 "projectile": {
-					"type": "minecraft:trident"
-				}
+                    "type": "minecraft:trident"
+                }
             }
         },
         "egg": {
             "trigger": "minecraft:target_hit",
             "conditions": {
                 "projectile": {
-					"type": "minecraft:egg"
-				}
+                    "type": "minecraft:egg"
+                }
             }
         },
         "snowball": {
             "trigger": "minecraft:target_hit",
             "conditions": {
                 "projectile": {
-					"type": "minecraft:snowball"
-				}
+                    "type": "minecraft:snowball"
+                }
             }
         },
         "potion": {
             "trigger": "minecraft:target_hit",
             "conditions": {
                 "projectile": {
-					"type": "minecraft:potion"
-				}
+                    "type": "minecraft:potion"
+                }
             }
         },
         "firework_rocket": {
             "trigger": "minecraft:target_hit",
             "conditions": {
                 "projectile": {
-					"type": "minecraft:firework_rocket"
-				}
+                    "type": "minecraft:firework_rocket"
+                }
             }
         },
         "experience_bottle": {
             "trigger": "minecraft:target_hit",
             "conditions": {
                 "projectile": {
-					"type": "minecraft:experience_bottle"
-				}
+                    "type": "minecraft:experience_bottle"
+                }
             }
         },
         "ender_pearl": {
             "trigger": "minecraft:target_hit",
             "conditions": {
                 "projectile": {
-					"type": "minecraft:ender_pearl"
-				}
+                    "type": "minecraft:ender_pearl"
+                }
             }
         }
     }

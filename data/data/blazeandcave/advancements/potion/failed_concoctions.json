@@ -2,16 +2,20 @@
     "display": {
         "icon": {
             "item": "minecraft:potion",
-			"nbt": "{Potion:\"minecraft:thick\"}"
+            "nbt": "{Potion:\"minecraft:thick\"}"
         },
-        "title": {"translate":"Failed Concoctions"},
-        "description": {"translate":"Brew a mundane and thick potion"},
+        "title": {
+            "translate": "Failed Concoctions"
+        },
+        "description": {
+            "translate": "Failed Concoctions"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:potion/root",
-	"rewards": {
-		"function": "bc_rewards:potion/failed_concoctions"
-    },	
+    "rewards": {
+        "function": "bc_rewards:potion/failed_concoctions"
+    },
     "criteria": {
         "thick_potion": {
             "trigger": "minecraft:brewed_potion",

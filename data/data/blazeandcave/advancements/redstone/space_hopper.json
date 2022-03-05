@@ -3,13 +3,17 @@
         "icon": {
             "item": "minecraft:hopper"
         },
-        "title": {"translate":"Space Hopper"},
-        "description": {"translate":"Craft a hopper for item transportation"},
+        "title": {
+            "translate": "空き場にホップ！"
+        },
+        "description": {
+            "translate": "Craft a hopper for item transportation"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:redstone/root",
-	"rewards": {
-		"function": "bc_rewards:redstone/space_hopper"
+    "rewards": {
+        "function": "bc_rewards:redstone/space_hopper"
     },
     "criteria": {
         "hopper": {
@@ -17,9 +21,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:hopper"
-						]
+                        "items": [
+                            "minecraft:hopper"
+                        ]
                     }
                 ]
             }

@@ -3,22 +3,26 @@
         "icon": {
             "item": "minecraft:big_dripleaf"
         },
-        "title": {"translate":"Leaflet Drop"},
-        "description": {"translate":"Fall through a Big Dripleaf"},
+        "title": {
+            "translate": "リーフレットから落ちる"
+        },
+        "description": {
+            "translate": "Fall through a Big Dripleaf"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:mining/this_dirt_is_dirtier",
-	"rewards": {
-		"function": "bc_rewards:mining/leaflet_drop"
+    "rewards": {
+        "function": "bc_rewards:mining/leaflet_drop"
     },
     "criteria": {
         "big_dripleaf": {
             "trigger": "minecraft:enter_block",
             "conditions": {
-				"block": "minecraft:big_dripleaf",
-				"state": {
-					"tilt": "full"
-				}
+                "block": "minecraft:big_dripleaf",
+                "state": {
+                    "tilt": "full"
+                }
             }
         }
     }

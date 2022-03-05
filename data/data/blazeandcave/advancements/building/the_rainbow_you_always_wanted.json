@@ -3,24 +3,29 @@
         "icon": {
             "item": "minecraft:magenta_concrete"
         },
-        "title": {"translate":"The Rainbow You Always Wanted"},
-        "description": {"color":"#75E1FF","translate":"Craft all 16 colors of concrete"},
+        "title": {
+            "translate": "常に望んでいた虹"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Craft all 16 colors of concrete"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "blazeandcave:building/concrete_evidence",
     "rewards": {
-		"function": "bc_rewards:building/the_rainbow_you_always_wanted"
-    },		
+        "function": "bc_rewards:building/the_rainbow_you_always_wanted"
+    },
     "criteria": {
         "white_concrete": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:white_concrete"
-						]
+                        "items": [
+                            "minecraft:white_concrete"
+                        ]
                     }
                 ]
             }
@@ -30,9 +35,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:orange_concrete"
-						]
+                        "items": [
+                            "minecraft:orange_concrete"
+                        ]
                     }
                 ]
             }
@@ -42,9 +47,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:magenta_concrete"
-						]
+                        "items": [
+                            "minecraft:magenta_concrete"
+                        ]
                     }
                 ]
             }
@@ -54,9 +59,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:light_blue_concrete"
-						]
+                        "items": [
+                            "minecraft:light_blue_concrete"
+                        ]
                     }
                 ]
             }
@@ -66,9 +71,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:yellow_concrete"
-						]
+                        "items": [
+                            "minecraft:yellow_concrete"
+                        ]
                     }
                 ]
             }
@@ -78,9 +83,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:lime_concrete"
-						]
+                        "items": [
+                            "minecraft:lime_concrete"
+                        ]
                     }
                 ]
             }
@@ -90,9 +95,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:pink_concrete"
-						]
+                        "items": [
+                            "minecraft:pink_concrete"
+                        ]
                     }
                 ]
             }
@@ -102,9 +107,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:gray_concrete"
-						]
+                        "items": [
+                            "minecraft:gray_concrete"
+                        ]
                     }
                 ]
             }
@@ -114,9 +119,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:light_gray_concrete"
-						]
+                        "items": [
+                            "minecraft:light_gray_concrete"
+                        ]
                     }
                 ]
             }
@@ -126,9 +131,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cyan_concrete"
-						]
+                        "items": [
+                            "minecraft:cyan_concrete"
+                        ]
                     }
                 ]
             }
@@ -138,9 +143,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:purple_concrete"
-						]
+                        "items": [
+                            "minecraft:purple_concrete"
+                        ]
                     }
                 ]
             }
@@ -150,9 +155,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:blue_concrete"
-						]
+                        "items": [
+                            "minecraft:blue_concrete"
+                        ]
                     }
                 ]
             }
@@ -162,9 +167,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:brown_concrete"
-						]
+                        "items": [
+                            "minecraft:brown_concrete"
+                        ]
                     }
                 ]
             }
@@ -174,9 +179,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:green_concrete"
-						]
+                        "items": [
+                            "minecraft:green_concrete"
+                        ]
                     }
                 ]
             }
@@ -186,9 +191,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:red_concrete"
-						]
+                        "items": [
+                            "minecraft:red_concrete"
+                        ]
                     }
                 ]
             }
@@ -198,9 +203,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:black_concrete"
-						]
+                        "items": [
+                            "minecraft:black_concrete"
+                        ]
                     }
                 ]
             }

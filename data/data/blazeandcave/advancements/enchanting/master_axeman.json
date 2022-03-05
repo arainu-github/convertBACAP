@@ -2,46 +2,50 @@
     "display": {
         "icon": {
             "item": "minecraft:diamond_axe",
-			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+            "nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
         },
-        "title": {"translate":"Master Axeman"},
-        "description": {"translate":"Create an axe with all possible enchantments at max level"},
+        "title": {
+            "translate": "Master Axeman"
+        },
+        "description": {
+            "translate": "Master Axeman"
+        },
         "announce_to_chat": false,
-		"frame": "challenge"
+        "frame": "challenge"
     },
     "parent": "blazeandcave:enchanting/master_digger",
     "rewards": {
-		"function": "bc_rewards:enchanting/master_axeman"
-    },		
+        "function": "bc_rewards:enchanting/master_axeman"
+    },
     "criteria": {
         "perfect_axe_fortune": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-				"items": [
+                "items": [
                     {
                         "tag": "blazeandcave:master_axes",
-						"enchantments": [
-							{
-								"enchantment": "minecraft:sharpness",
-								"levels": 5
-							},
-							{
-								"enchantment": "minecraft:efficiency",
-								"levels": 5
-							},
-							{
-								"enchantment": "minecraft:fortune",
-								"levels": 3
-							},
-							{
-								"enchantment": "minecraft:unbreaking",
-								"levels": 3
-							},
-							{
-								"enchantment": "minecraft:mending",
-								"levels": 1
-							}	
-						]
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:sharpness",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "minecraft:efficiency",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "minecraft:fortune",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            }
+                        ]
                     }
                 ]
             }
@@ -49,31 +53,31 @@
         "perfect_axe_silk_touch": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-				"items": [
+                "items": [
                     {
                         "tag": "blazeandcave:master_axes",
-						"enchantments": [
-							{
-								"enchantment": "minecraft:sharpness",
-								"levels": 5
-							},
-							{
-								"enchantment": "minecraft:efficiency",
-								"levels": 5
-							},
-							{
-								"enchantment": "minecraft:silk_touch",
-								"levels": 1
-							},
-							{
-								"enchantment": "minecraft:unbreaking",
-								"levels": 3
-							},
-							{
-								"enchantment": "minecraft:mending",
-								"levels": 1
-							}	
-						]
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:sharpness",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "minecraft:efficiency",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "minecraft:silk_touch",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            }
+                        ]
                     }
                 ]
             }
@@ -81,31 +85,31 @@
         "perfect_axe_fortune_smite": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-				"items": [
+                "items": [
                     {
                         "tag": "blazeandcave:master_axes",
-						"enchantments": [
-							{
-								"enchantment": "minecraft:smite",
-								"levels": 5
-							},
-							{
-								"enchantment": "minecraft:efficiency",
-								"levels": 5
-							},
-							{
-								"enchantment": "minecraft:fortune",
-								"levels": 3
-							},
-							{
-								"enchantment": "minecraft:unbreaking",
-								"levels": 3
-							},
-							{
-								"enchantment": "minecraft:mending",
-								"levels": 1
-							}	
-						]
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:smite",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "minecraft:efficiency",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "minecraft:fortune",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            }
+                        ]
                     }
                 ]
             }
@@ -113,31 +117,31 @@
         "perfect_axe_silk_touch_smite": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-				"items": [
+                "items": [
                     {
                         "tag": "blazeandcave:master_axes",
-						"enchantments": [
-							{
-								"enchantment": "minecraft:smite",
-								"levels": 5
-							},
-							{
-								"enchantment": "minecraft:efficiency",
-								"levels": 5
-							},
-							{
-								"enchantment": "minecraft:silk_touch",
-								"levels": 1
-							},
-							{
-								"enchantment": "minecraft:unbreaking",
-								"levels": 3
-							},
-							{
-								"enchantment": "minecraft:mending",
-								"levels": 1
-							}	
-						]
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:smite",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "minecraft:efficiency",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "minecraft:silk_touch",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            }
+                        ]
                     }
                 ]
             }
@@ -145,31 +149,31 @@
         "perfect_axe_fortune_bane": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-				"items": [
+                "items": [
                     {
                         "tag": "blazeandcave:master_axes",
-						"enchantments": [
-							{
-								"enchantment": "minecraft:bane_of_arthropods",
-								"levels": 5
-							},
-							{
-								"enchantment": "minecraft:efficiency",
-								"levels": 5
-							},
-							{
-								"enchantment": "minecraft:fortune",
-								"levels": 3
-							},
-							{
-								"enchantment": "minecraft:unbreaking",
-								"levels": 3
-							},
-							{
-								"enchantment": "minecraft:mending",
-								"levels": 1
-							}	
-						]
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:bane_of_arthropods",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "minecraft:efficiency",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "minecraft:fortune",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            }
+                        ]
                     }
                 ]
             }
@@ -177,36 +181,36 @@
         "perfect_axe_silk_touch_bane": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-				"items": [
+                "items": [
                     {
                         "tag": "blazeandcave:master_axes",
-						"enchantments": [
-							{
-								"enchantment": "minecraft:bane_of_arthropods",
-								"levels": 5
-							},
-							{
-								"enchantment": "minecraft:efficiency",
-								"levels": 5
-							},
-							{
-								"enchantment": "minecraft:silk_touch",
-								"levels": 1
-							},
-							{
-								"enchantment": "minecraft:unbreaking",
-								"levels": 3
-							},
-							{
-								"enchantment": "minecraft:mending",
-								"levels": 1
-							}	
-						]
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:bane_of_arthropods",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "minecraft:efficiency",
+                                "levels": 5
+                            },
+                            {
+                                "enchantment": "minecraft:silk_touch",
+                                "levels": 1
+                            },
+                            {
+                                "enchantment": "minecraft:unbreaking",
+                                "levels": 3
+                            },
+                            {
+                                "enchantment": "minecraft:mending",
+                                "levels": 1
+                            }
+                        ]
                     }
                 ]
             }
         }
-    },	
+    },
     "requirements": [
         [
             "perfect_axe_fortune",
@@ -215,6 +219,6 @@
             "perfect_axe_silk_touch_smite",
             "perfect_axe_fortune_bane",
             "perfect_axe_silk_touch_bane"
-		]
+        ]
     ]
 }

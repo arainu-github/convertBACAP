@@ -3,23 +3,27 @@
         "icon": {
             "item": "minecraft:quartz"
         },
-        "title": {"translate":"Quirky Quartz"},
-        "description": {"translate":"Mine Nether Quartz from the Nether"},
+        "title": {
+            "translate": "奇妙な水晶"
+        },
+        "description": {
+            "translate": "Mine Nether Quartz from the Nether"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:redstone/repeating_repeater",
-	"rewards": {
-		"function": "bc_rewards:redstone/quirky_quartz"
-    },	
+    "rewards": {
+        "function": "bc_rewards:redstone/quirky_quartz"
+    },
     "criteria": {
         "quartz": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:quartz"
-						]
+                        "items": [
+                            "minecraft:quartz"
+                        ]
                     }
                 ]
             }

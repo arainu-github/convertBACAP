@@ -3,14 +3,18 @@
         "icon": {
             "item": "minecraft:cobblestone"
         },
-        "title": {"translate":"Mining"},
-        "description": {"translate":"Dig underground, gather resources"},
-		"background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+        "title": {
+            "translate": "採掘"
+        },
+        "description": {
+            "translate": "Dig underground, gather resources"
+        },
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
         "show_toast": false,
         "announce_to_chat": false
     },
-	"rewards": {
-		"function": "bc_rewards:mining/root"
+    "rewards": {
+        "function": "bc_rewards:mining/root"
     },
     "criteria": {
         "pickaxe": {
@@ -18,8 +22,8 @@
             "conditions": {
                 "items": [
                     {
-						"tag": "minecraft:pickaxes"
-					}
+                        "tag": "minecraft:pickaxes"
+                    }
                 ]
             }
         }

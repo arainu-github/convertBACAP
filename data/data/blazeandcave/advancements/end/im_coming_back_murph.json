@@ -3,25 +3,30 @@
         "icon": {
             "item": "minecraft:chorus_flower"
         },
-        "title": {"translate":"I'm Coming Back, Murph!"},
-        "description": {"color":"#75E1FF","translate":"Travel far into the End dimension"},
+        "title": {
+            "translate": "ただいま、マーフィ！"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Travel far into the End dimension"
+        },
         "announce_to_chat": false,
         "frame": "goal"
     },
     "parent": "blazeandcave:end/in_your_face_neil_armstrong",
     "rewards": {
         "function": "bc_rewards:end/im_coming_back_murph"
-    },		
+    },
     "criteria": {
         "outer_pos_x": {
             "trigger": "minecraft:location",
             "conditions": {
-				"dimension": "the_end",
-				"position": {
-					"x": {
-						"min": 10000.0
-					}
-				},
+                "dimension": "the_end",
+                "position": {
+                    "x": {
+                        "min": 10000.0
+                    }
+                },
                 "player": [
                     {
                         "condition": "minecraft:inverted",
@@ -41,12 +46,12 @@
         "outer_pos_z": {
             "trigger": "minecraft:location",
             "conditions": {
-				"dimension": "the_end",
-				"position": {
-					"z": {
-						"min": 10000.0
-					}
-				},
+                "dimension": "the_end",
+                "position": {
+                    "z": {
+                        "min": 10000.0
+                    }
+                },
                 "player": [
                     {
                         "condition": "minecraft:inverted",
@@ -66,12 +71,12 @@
         "outer_neg_x": {
             "trigger": "minecraft:location",
             "conditions": {
-				"dimension": "the_end",
-				"position": {
-					"x": {
-						"max": -10000.0
-					}
-				},
+                "dimension": "the_end",
+                "position": {
+                    "x": {
+                        "max": -10000.0
+                    }
+                },
                 "player": [
                     {
                         "condition": "minecraft:inverted",
@@ -91,12 +96,12 @@
         "outer_neg_z": {
             "trigger": "minecraft:location",
             "conditions": {
-				"dimension": "the_end",
-				"position": {
-					"z": {
-						"max": -10000.0
-					}
-				},
+                "dimension": "the_end",
+                "position": {
+                    "z": {
+                        "max": -10000.0
+                    }
+                },
                 "player": [
                     {
                         "condition": "minecraft:inverted",
@@ -112,7 +117,7 @@
                     }
                 ]
             }
-        }	
+        }
     },
     "requirements": [
         [

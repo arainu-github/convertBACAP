@@ -3,23 +3,27 @@
         "icon": {
             "item": "minecraft:prismarine_bricks"
         },
-        "title": {"translate":"Fake monument"},
-        "description": {"translate":"Craft or collect all forms of prismarine blocks"},
+        "title": {
+            "translate": "偽神殿"
+        },
+        "description": {
+            "translate": "Craft or collect all forms of prismarine blocks"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:building/greek_art_decor",
     "rewards": {
         "function": "bc_rewards:building/fake_monument"
-    },		
+    },
     "criteria": {
         "prismarine": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:prismarine"
-						]
+                        "items": [
+                            "minecraft:prismarine"
+                        ]
                     }
                 ]
             }
@@ -29,21 +33,21 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:prismarine_bricks"
-						]
+                        "items": [
+                            "minecraft:prismarine_bricks"
+                        ]
                     }
                 ]
             }
         },
-		"dark_prismarine": {
+        "dark_prismarine": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:dark_prismarine"
-						]
+                        "items": [
+                            "minecraft:dark_prismarine"
+                        ]
                     }
                 ]
             }
@@ -53,9 +57,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:prismarine_slab"
-						]
+                        "items": [
+                            "minecraft:prismarine_slab"
+                        ]
                     }
                 ]
             }
@@ -65,21 +69,21 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:prismarine_brick_slab"
-						]
+                        "items": [
+                            "minecraft:prismarine_brick_slab"
+                        ]
                     }
                 ]
             }
         },
-		"dark_prismarine_slab": {
+        "dark_prismarine_slab": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:dark_prismarine_slab"
-						]
+                        "items": [
+                            "minecraft:dark_prismarine_slab"
+                        ]
                     }
                 ]
             }
@@ -89,9 +93,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:prismarine_stairs"
-						]
+                        "items": [
+                            "minecraft:prismarine_stairs"
+                        ]
                     }
                 ]
             }
@@ -101,21 +105,21 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:prismarine_brick_stairs"
-						]
+                        "items": [
+                            "minecraft:prismarine_brick_stairs"
+                        ]
                     }
                 ]
             }
         },
-		"dark_prismarine_stairs": {
+        "dark_prismarine_stairs": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:dark_prismarine_stairs"
-						]
+                        "items": [
+                            "minecraft:dark_prismarine_stairs"
+                        ]
                     }
                 ]
             }
@@ -125,12 +129,12 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:prismarine_wall"
-						]
+                        "items": [
+                            "minecraft:prismarine_wall"
+                        ]
                     }
                 ]
             }
         }
-	}		
+    }
 }

@@ -3,33 +3,37 @@
         "icon": {
             "item": "minecraft:egg"
         },
-        "title": {"translate":"STONKS!"},
-        "description": {"translate":"Trade with villagers 2500 times"},
+        "title": {
+            "translate": "STONKS!"
+        },
+        "description": {
+            "translate": "STONKS!"
+        },
         "announce_to_chat": false,
-		"frame": "challenge"
+        "frame": "challenge"
     },
     "parent": "blazeandcave:statistics/big_spender",
-	"rewards": {
-		"function": "bc_rewards:statistics/stonks"
-    },		
+    "rewards": {
+        "function": "bc_rewards:statistics/stonks"
+    },
     "criteria": {
         "trigger": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"stats": [
-							{
-								"type": "minecraft:custom",
-								"stat": "minecraft:traded_with_villager",
-								"value": {
-									"min": 2500
-								}
-							}
-						]
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:custom",
+                                "stat": "minecraft:traded_with_villager",
+                                "value": {
+                                    "min": 2500
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
         }
     }
 }

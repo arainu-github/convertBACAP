@@ -3,25 +3,30 @@
         "icon": {
             "item": "minecraft:squid_spawn_egg"
         },
-        "title": {"translate":"Squid Game"},
-        "description": {"color":"#75E1FF","translate":"Hunt enough Squids to collect a stack of Ink Sacs"},
+        "title": {
+            "translate": "Squid Game"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Squid Game"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "blazeandcave:farming/its_full_of_ink",
-	"rewards": {
-		"function": "bc_rewards:farming/squid_game"
-    },		
+    "rewards": {
+        "function": "bc_rewards:farming/squid_game"
+    },
     "criteria": {
         "ink_sac": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:ink_sac"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:ink_sac"
+                        ],
+                        "count": 64
                     }
                 ]
             }

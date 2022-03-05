@@ -3,33 +3,37 @@
         "icon": {
             "item": "minecraft:lava_bucket"
         },
-        "title": {"translate":"Taking It In Stride"},
-        "description": {"translate":"Ride 100m on a Strider"},
+        "title": {
+            "translate": "Taking It In Stride"
+        },
+        "description": {
+            "translate": "Taking It In Stride"
+        },
         "announce_to_chat": false,
-		"frame": "task"
+        "frame": "task"
     },
     "parent": "blazeandcave:statistics/root",
-	"rewards": {
-		"function": "bc_rewards:statistics/taking_it_in_stride"
-    },		
+    "rewards": {
+        "function": "bc_rewards:statistics/taking_it_in_stride"
+    },
     "criteria": {
         "trigger": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"stats": [
-							{
-								"type": "minecraft:custom",
-								"stat": "minecraft:strider_one_cm",
-								"value": {
-									"min": 10000
-								}
-							}
-						]
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:custom",
+                                "stat": "minecraft:strider_one_cm",
+                                "value": {
+                                    "min": 10000
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
         }
     }
 }

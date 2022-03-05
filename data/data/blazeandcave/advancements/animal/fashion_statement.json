@@ -2,16 +2,20 @@
     "display": {
         "icon": {
             "item": "minecraft:leather_leggings",
-			"nbt": "{display:{color:13061821}}"
+            "nbt": "{display:{color:13061821}}"
         },
-        "title": {"translate":"Fashion Statement"},
-        "description": {"translate":"Dye some leather pants with one color, then put them on"},
+        "title": {
+            "translate": "流行の最先端"
+        },
+        "description": {
+            "translate": "Dye some leather pants with one color, then put them on"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:animal/cool_kids",
-	"rewards": {
-		"function": "bc_rewards:animal/fashion_statement"
-    },		
+    "rewards": {
+        "function": "bc_rewards:animal/fashion_statement"
+    },
     "criteria": {
         "white": {
             "trigger": "minecraft:inventory_changed",
@@ -19,17 +23,17 @@
                 "player": [
                     {
                         "condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"equipment": {
-								"legs": {
-									"items": [
-										"minecraft:leather_leggings"
-									],
-									"nbt": "{display:{color:16383998}}"
-								}
-							}
-						}
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "legs": {
+                                    "items": [
+                                        "minecraft:leather_leggings"
+                                    ],
+                                    "nbt": "{display:{color:16383998}}"
+                                }
+                            }
+                        }
                     }
                 ]
             }
@@ -40,17 +44,17 @@
                 "player": [
                     {
                         "condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"equipment": {
-								"legs": {
-									"items": [
-										"minecraft:leather_leggings"
-									],
-									"nbt": "{display:{color:16351261}}"
-								}
-							}
-						}
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "legs": {
+                                    "items": [
+                                        "minecraft:leather_leggings"
+                                    ],
+                                    "nbt": "{display:{color:16351261}}"
+                                }
+                            }
+                        }
                     }
                 ]
             }
@@ -61,17 +65,17 @@
                 "player": [
                     {
                         "condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"equipment": {
-								"legs": {
-									"items": [
-										"minecraft:leather_leggings"
-									],
-									"nbt": "{display:{color:13061821}}"
-								}
-							}
-						}
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "legs": {
+                                    "items": [
+                                        "minecraft:leather_leggings"
+                                    ],
+                                    "nbt": "{display:{color:13061821}}"
+                                }
+                            }
+                        }
                     }
                 ]
             }
@@ -82,17 +86,17 @@
                 "player": [
                     {
                         "condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"equipment": {
-								"legs": {
-									"items": [
-										"minecraft:leather_leggings"
-									],
-									"nbt": "{display:{color:3847130}}"
-								}
-							}
-						}
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "legs": {
+                                    "items": [
+                                        "minecraft:leather_leggings"
+                                    ],
+                                    "nbt": "{display:{color:3847130}}"
+                                }
+                            }
+                        }
                     }
                 ]
             }
@@ -103,17 +107,17 @@
                 "player": [
                     {
                         "condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"equipment": {
-								"legs": {
-									"items": [
-										"minecraft:leather_leggings"
-									],
-									"nbt": "{display:{color:16701501}}"
-								}
-							}
-						}
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "legs": {
+                                    "items": [
+                                        "minecraft:leather_leggings"
+                                    ],
+                                    "nbt": "{display:{color:16701501}}"
+                                }
+                            }
+                        }
                     }
                 ]
             }
@@ -124,17 +128,17 @@
                 "player": [
                     {
                         "condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"equipment": {
-								"legs": {
-									"items": [
-										"minecraft:leather_leggings"
-									],
-									"nbt": "{display:{color:8439583}}"
-								}
-							}
-						}
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "legs": {
+                                    "items": [
+                                        "minecraft:leather_leggings"
+                                    ],
+                                    "nbt": "{display:{color:8439583}}"
+                                }
+                            }
+                        }
                     }
                 ]
             }
@@ -145,17 +149,17 @@
                 "player": [
                     {
                         "condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"equipment": {
-								"legs": {
-									"items": [
-										"minecraft:leather_leggings"
-									],
-									"nbt": "{display:{color:15961002}}"
-								}
-							}
-						}
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "legs": {
+                                    "items": [
+                                        "minecraft:leather_leggings"
+                                    ],
+                                    "nbt": "{display:{color:15961002}}"
+                                }
+                            }
+                        }
                     }
                 ]
             }
@@ -166,17 +170,17 @@
                 "player": [
                     {
                         "condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"equipment": {
-								"legs": {
-									"items": [
-										"minecraft:leather_leggings"
-									],
-									"nbt": "{display:{color:4673362}}"
-								}
-							}
-						}
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "legs": {
+                                    "items": [
+                                        "minecraft:leather_leggings"
+                                    ],
+                                    "nbt": "{display:{color:4673362}}"
+                                }
+                            }
+                        }
                     }
                 ]
             }
@@ -187,17 +191,17 @@
                 "player": [
                     {
                         "condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"equipment": {
-								"legs": {
-									"items": [
-										"minecraft:leather_leggings"
-									],
-									"nbt": "{display:{color:10329495}}"
-								}
-							}
-						}
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "legs": {
+                                    "items": [
+                                        "minecraft:leather_leggings"
+                                    ],
+                                    "nbt": "{display:{color:10329495}}"
+                                }
+                            }
+                        }
                     }
                 ]
             }
@@ -208,17 +212,17 @@
                 "player": [
                     {
                         "condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"equipment": {
-								"legs": {
-									"items": [
-										"minecraft:leather_leggings"
-									],
-									"nbt": "{display:{color:1481884}}"
-								}
-							}
-						}
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "legs": {
+                                    "items": [
+                                        "minecraft:leather_leggings"
+                                    ],
+                                    "nbt": "{display:{color:1481884}}"
+                                }
+                            }
+                        }
                     }
                 ]
             }
@@ -229,17 +233,17 @@
                 "player": [
                     {
                         "condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"equipment": {
-								"legs": {
-									"items": [
-										"minecraft:leather_leggings"
-									],
-									"nbt": "{display:{color:8991416}}"
-								}
-							}
-						}
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "legs": {
+                                    "items": [
+                                        "minecraft:leather_leggings"
+                                    ],
+                                    "nbt": "{display:{color:8991416}}"
+                                }
+                            }
+                        }
                     }
                 ]
             }
@@ -250,17 +254,17 @@
                 "player": [
                     {
                         "condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"equipment": {
-								"legs": {
-									"items": [
-										"minecraft:leather_leggings"
-									],
-									"nbt": "{display:{color:3949738}}"
-								}
-							}
-						}
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "legs": {
+                                    "items": [
+                                        "minecraft:leather_leggings"
+                                    ],
+                                    "nbt": "{display:{color:3949738}}"
+                                }
+                            }
+                        }
                     }
                 ]
             }
@@ -271,17 +275,17 @@
                 "player": [
                     {
                         "condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"equipment": {
-								"legs": {
-									"items": [
-										"minecraft:leather_leggings"
-									],
-									"nbt": "{display:{color:8606770}}"
-								}
-							}
-						}
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "legs": {
+                                    "items": [
+                                        "minecraft:leather_leggings"
+                                    ],
+                                    "nbt": "{display:{color:8606770}}"
+                                }
+                            }
+                        }
                     }
                 ]
             }
@@ -292,17 +296,17 @@
                 "player": [
                     {
                         "condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"equipment": {
-								"legs": {
-									"items": [
-										"minecraft:leather_leggings"
-									],
-									"nbt": "{display:{color:6192150}}"
-								}
-							}
-						}
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "legs": {
+                                    "items": [
+                                        "minecraft:leather_leggings"
+                                    ],
+                                    "nbt": "{display:{color:6192150}}"
+                                }
+                            }
+                        }
                     }
                 ]
             }
@@ -313,17 +317,17 @@
                 "player": [
                     {
                         "condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"equipment": {
-								"legs": {
-									"items": [
-										"minecraft:leather_leggings"
-									],
-									"nbt": "{display:{color:11546150}}"
-								}
-							}
-						}
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "legs": {
+                                    "items": [
+                                        "minecraft:leather_leggings"
+                                    ],
+                                    "nbt": "{display:{color:11546150}}"
+                                }
+                            }
+                        }
                     }
                 ]
             }
@@ -334,40 +338,40 @@
                 "player": [
                     {
                         "condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"equipment": {
-								"legs": {
-									"items": [
-										"minecraft:leather_leggings"
-									],
-									"nbt": "{display:{color:1908001}}"
-								}
-							}
-						}
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "legs": {
+                                    "items": [
+                                        "minecraft:leather_leggings"
+                                    ],
+                                    "nbt": "{display:{color:1908001}}"
+                                }
+                            }
+                        }
                     }
                 ]
             }
         }
     },
-	"requirements": [
-		[
-		"white",
-		"orange",
-		"magenta",
-		"light_blue",
-		"yellow",
-		"lime",
-		"pink",
-		"gray",
-		"light_gray",
-		"cyan",
-		"purple",
-		"blue",
-		"brown",
-		"green",
-		"red",
-		"black"
-		]
-	]
+    "requirements": [
+        [
+            "white",
+            "orange",
+            "magenta",
+            "light_blue",
+            "yellow",
+            "lime",
+            "pink",
+            "gray",
+            "light_gray",
+            "cyan",
+            "purple",
+            "blue",
+            "brown",
+            "green",
+            "red",
+            "black"
+        ]
+    ]
 }

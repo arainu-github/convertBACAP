@@ -3,29 +3,34 @@
         "icon": {
             "item": "minecraft:bedrock"
         },
-        "title": {"translate":"Unbreakable"},
-        "description": {"color":"#75E1FF","translate":"Obtain Mending on an item"},
+        "title": {
+            "translate": "もう壊れない"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Obtain Mending on an item"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "blazeandcave:enchanting/heavy_metal",
-	"rewards": {
-		"function": "bc_rewards:enchanting/unbreakable"
+    "rewards": {
+        "function": "bc_rewards:enchanting/unbreakable"
     },
     "criteria": {
         "mending": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-				"items": [
-					{
-						"enchantments": [
-							{
-								"enchantment": "minecraft:mending"
-							}
-						]
-					}
-				]
-			}
-		}
+                "items": [
+                    {
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:mending"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
     }
 }

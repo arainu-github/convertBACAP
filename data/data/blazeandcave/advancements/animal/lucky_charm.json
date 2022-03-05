@@ -3,23 +3,27 @@
         "icon": {
             "item": "minecraft:rabbit_foot"
         },
-        "title": {"translate":"Lucky Charm"},
-        "description": {"translate":"Get a rabbit's foot"},
+        "title": {
+            "translate": "幸運のお守り"
+        },
+        "description": {
+            "translate": "Get a rabbit's foot"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:animal/theyre_breeding_like_rabbits",
-	"rewards": {
-		"function": "bc_rewards:animal/lucky_charm"
-    },		
+    "rewards": {
+        "function": "bc_rewards:animal/lucky_charm"
+    },
     "criteria": {
         "rabbit_foot": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:rabbit_foot"
-						]
+                        "items": [
+                            "minecraft:rabbit_foot"
+                        ]
                     }
                 ]
             }

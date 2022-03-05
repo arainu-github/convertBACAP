@@ -2,26 +2,30 @@
     "display": {
         "icon": {
             "item": "minecraft:tipped_arrow",
-			"nbt": "{Potion:\"minecraft:poison\"}"
+            "nbt": "{Potion:\"minecraft:poison\"}"
         },
-        "title": {"translate":"Poison Dart"},
-        "description": {"translate":"Craft tipped arrows of poison"},
+        "title": {
+            "translate": "毒ダーツ"
+        },
+        "description": {
+            "translate": "Craft tipped arrows of poison"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:potion/gas",
-	"rewards": {
-		"function": "bc_rewards:potion/poison_dart"
-    },	
+    "rewards": {
+        "function": "bc_rewards:potion/poison_dart"
+    },
     "criteria": {
         "normal_poison": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:tipped_arrow"
-						],
-						"potion": "minecraft:poison"
+                        "items": [
+                            "minecraft:tipped_arrow"
+                        ],
+                        "potion": "minecraft:poison"
                     }
                 ]
             }
@@ -31,10 +35,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:tipped_arrow"
-						],
-						"potion": "minecraft:long_poison"
+                        "items": [
+                            "minecraft:tipped_arrow"
+                        ],
+                        "potion": "minecraft:long_poison"
                     }
                 ]
             }
@@ -44,14 +48,14 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:tipped_arrow"
-						],
-						"potion": "minecraft:strong_poison"
+                        "items": [
+                            "minecraft:tipped_arrow"
+                        ],
+                        "potion": "minecraft:strong_poison"
                     }
                 ]
             }
-        }		
+        }
     },
     "requirements": [
         [

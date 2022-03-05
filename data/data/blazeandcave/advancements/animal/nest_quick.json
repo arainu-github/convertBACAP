@@ -3,25 +3,29 @@
         "icon": {
             "item": "minecraft:bee_spawn_egg"
         },
-        "title": {"translate":"Nest, Quick!"},
-        "description": {"translate":"Collect a stack of empty bee nests"},
+        "title": {
+            "translate": "巣早く！"
+        },
+        "description": {
+            "translate": "Collect a stack of empty bee nests"
+        },
         "announce_to_chat": false,
-		"frame": "challenge"
+        "frame": "challenge"
     },
     "parent": "minecraft:husbandry/silk_touch_nest",
-	"rewards": {
-		"function": "bc_rewards:animal/nest_quick"
-    },		
+    "rewards": {
+        "function": "bc_rewards:animal/nest_quick"
+    },
     "criteria": {
         "bee_nest": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:bee_nest"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:bee_nest"
+                        ],
+                        "count": 64
                     }
                 ]
             }

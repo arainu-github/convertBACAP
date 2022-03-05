@@ -3,15 +3,20 @@
         "icon": {
             "item": "minecraft:iron_sword"
         },
-        "title": {"translate":"Night Runner"},
-        "description": {"color":"#75E1FF","translate":"Defeat all kinds of Overworld night mobs"},
+        "title": {
+            "translate": "夜の旅人"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Defeat all kinds of Overworld night mobs"
+        },
         "announce_to_chat": false,
         "frame": "goal"
     },
     "parent": "minecraft:adventure/kill_a_mob",
     "rewards": {
-		"function": "bc_rewards:monsters/night_runner"
-    },	
+        "function": "bc_rewards:monsters/night_runner"
+    },
     "criteria": {
         "spider": {
             "trigger": "minecraft:player_killed_entity",
@@ -114,6 +119,6 @@
                     "type": "drowned"
                 }
             }
-        }		
+        }
     }
 }

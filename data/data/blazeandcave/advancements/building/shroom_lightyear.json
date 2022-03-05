@@ -3,19 +3,23 @@
         "icon": {
             "item": "minecraft:shroomlight"
         },
-        "title": {"translate":"Shroom Lightyear"},
-        "description": {"translate":"Light up the area with Shroomlight!"},
+        "title": {
+            "translate": "Shroom Lightyear"
+        },
+        "description": {
+            "translate": "Shroom Lightyear"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:building/glowing",
-	"rewards": {
-		"function": "bc_rewards:building/shroom_lightyear"
-    },		
+    "rewards": {
+        "function": "bc_rewards:building/shroom_lightyear"
+    },
     "criteria": {
         "shroomlight": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-				"block": "minecraft:shroomlight"
+                "block": "minecraft:shroomlight"
             }
         }
     }

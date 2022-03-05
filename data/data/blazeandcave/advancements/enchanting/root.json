@@ -3,15 +3,19 @@
         "icon": {
             "item": "minecraft:enchanting_table"
         },
-        "title": {"translate":"Enchanting"},
-        "description": {"translate":"Enchant items to give them magical abilities"},
-		"background": "minecraft:textures/block/obsidian.png",
+        "title": {
+            "translate": "エンチャント"
+        },
+        "description": {
+            "translate": "Enchant items to give them magical abilities"
+        },
+        "background": "minecraft:textures/block/obsidian.png",
         "show_toast": false,
         "announce_to_chat": false
     },
     "rewards": {
-		"function": "bc_rewards:enchanting/root"
-    },			
+        "function": "bc_rewards:enchanting/root"
+    },
     "criteria": {
         "enchanted_item": {
             "trigger": "minecraft:enchanted_item"

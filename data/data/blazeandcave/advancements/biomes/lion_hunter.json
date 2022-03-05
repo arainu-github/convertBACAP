@@ -3,31 +3,35 @@
         "icon": {
             "item": "minecraft:cod"
         },
-        "title": {"translate":"Lion Hunter"},
-        "description": {"translate":"Feed an Ocelot fish to try and gain its trust"},
+        "title": {
+            "translate": "Lion Hunter"
+        },
+        "description": {
+            "translate": "Lion Hunter"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:biomes/tarzan",
-	"rewards": {
-		"function": "bc_rewards:biomes/lion_hunter"
-    },		
+    "rewards": {
+        "function": "bc_rewards:biomes/lion_hunter"
+    },
     "criteria": {
-		"ocelot": {
-			"trigger": "minecraft:player_interacted_with_entity",
-			"conditions": {
-				"item": {
-					"tag": "blazeandcave:ocelot_feedable"
-				},
-				"entity": [
-					{
-						"condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"type": "minecraft:ocelot"
-						}
-					}
-				]
-			}
-		}
+        "ocelot": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "item": {
+                    "tag": "blazeandcave:ocelot_feedable"
+                },
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:ocelot"
+                        }
+                    }
+                ]
+            }
+        }
     }
 }

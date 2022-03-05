@@ -2,27 +2,32 @@
     "display": {
         "icon": {
             "item": "minecraft:leather_horse_armor",
-			"nbt": "{display:{color:16701501}}"
+            "nbt": "{display:{color:16701501}}"
         },
-        "title": {"translate":"Colorful Cavalry"},
-        "description": {"color":"#75E1FF","translate":"Dye 16 sets of leather horse armor each with one of the individual colors"},
+        "title": {
+            "translate": "虹兵"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Dye 16 sets of leather horse armor each with one of the individual colors"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "blazeandcave:animal/horse_armorer",
-	"rewards": {
-		"function": "bc_rewards:animal/colorful_cavalry"
-    },		
+    "rewards": {
+        "function": "bc_rewards:animal/colorful_cavalry"
+    },
     "criteria": {
         "white": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:leather_horse_armor"
-						],
-						"nbt": "{display:{color:16383998}}"
+                        "items": [
+                            "minecraft:leather_horse_armor"
+                        ],
+                        "nbt": "{display:{color:16383998}}"
                     }
                 ]
             }
@@ -32,10 +37,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:leather_horse_armor"
-						],
-						"nbt": "{display:{color:16351261}}"
+                        "items": [
+                            "minecraft:leather_horse_armor"
+                        ],
+                        "nbt": "{display:{color:16351261}}"
                     }
                 ]
             }
@@ -45,10 +50,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:leather_horse_armor"
-						],
-						"nbt": "{display:{color:13061821}}"
+                        "items": [
+                            "minecraft:leather_horse_armor"
+                        ],
+                        "nbt": "{display:{color:13061821}}"
                     }
                 ]
             }
@@ -58,10 +63,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:leather_horse_armor"
-						],
-						"nbt": "{display:{color:3847130}}"
+                        "items": [
+                            "minecraft:leather_horse_armor"
+                        ],
+                        "nbt": "{display:{color:3847130}}"
                     }
                 ]
             }
@@ -71,10 +76,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:leather_horse_armor"
-						],
-						"nbt": "{display:{color:16701501}}"
+                        "items": [
+                            "minecraft:leather_horse_armor"
+                        ],
+                        "nbt": "{display:{color:16701501}}"
                     }
                 ]
             }
@@ -84,10 +89,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:leather_horse_armor"
-						],
-						"nbt": "{display:{color:8439583}}"
+                        "items": [
+                            "minecraft:leather_horse_armor"
+                        ],
+                        "nbt": "{display:{color:8439583}}"
                     }
                 ]
             }
@@ -97,10 +102,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:leather_horse_armor"
-						],
-						"nbt": "{display:{color:15961002}}"
+                        "items": [
+                            "minecraft:leather_horse_armor"
+                        ],
+                        "nbt": "{display:{color:15961002}}"
                     }
                 ]
             }
@@ -110,10 +115,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:leather_horse_armor"
-						],
-						"nbt": "{display:{color:4673362}}"
+                        "items": [
+                            "minecraft:leather_horse_armor"
+                        ],
+                        "nbt": "{display:{color:4673362}}"
                     }
                 ]
             }
@@ -123,10 +128,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:leather_horse_armor"
-						],
-						"nbt": "{display:{color:10329495}}"
+                        "items": [
+                            "minecraft:leather_horse_armor"
+                        ],
+                        "nbt": "{display:{color:10329495}}"
                     }
                 ]
             }
@@ -136,10 +141,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:leather_horse_armor"
-						],
-						"nbt": "{display:{color:1481884}}"
+                        "items": [
+                            "minecraft:leather_horse_armor"
+                        ],
+                        "nbt": "{display:{color:1481884}}"
                     }
                 ]
             }
@@ -149,10 +154,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:leather_horse_armor"
-						],
-						"nbt": "{display:{color:8991416}}"
+                        "items": [
+                            "minecraft:leather_horse_armor"
+                        ],
+                        "nbt": "{display:{color:8991416}}"
                     }
                 ]
             }
@@ -162,10 +167,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:leather_horse_armor"
-						],
-						"nbt": "{display:{color:3949738}}"
+                        "items": [
+                            "minecraft:leather_horse_armor"
+                        ],
+                        "nbt": "{display:{color:3949738}}"
                     }
                 ]
             }
@@ -175,10 +180,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:leather_horse_armor"
-						],
-						"nbt": "{display:{color:8606770}}"
+                        "items": [
+                            "minecraft:leather_horse_armor"
+                        ],
+                        "nbt": "{display:{color:8606770}}"
                     }
                 ]
             }
@@ -188,10 +193,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:leather_horse_armor"
-						],
-						"nbt": "{display:{color:6192150}}"
+                        "items": [
+                            "minecraft:leather_horse_armor"
+                        ],
+                        "nbt": "{display:{color:6192150}}"
                     }
                 ]
             }
@@ -201,10 +206,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:leather_horse_armor"
-						],
-						"nbt": "{display:{color:11546150}}"
+                        "items": [
+                            "minecraft:leather_horse_armor"
+                        ],
+                        "nbt": "{display:{color:11546150}}"
                     }
                 ]
             }
@@ -214,10 +219,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:leather_horse_armor"
-						],
-						"nbt": "{display:{color:1908001}}"
+                        "items": [
+                            "minecraft:leather_horse_armor"
+                        ],
+                        "nbt": "{display:{color:1908001}}"
                     }
                 ]
             }

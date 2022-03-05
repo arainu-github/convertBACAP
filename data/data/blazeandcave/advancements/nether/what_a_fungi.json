@@ -3,14 +3,18 @@
         "icon": {
             "item": "minecraft:warped_fungus"
         },
-        "title": {"translate":"What a Fungi!"},
-        "description": {"translate":"Pick up Crimson or Warped Fungus"},
+        "title": {
+            "translate": "What a Fungi!"
+        },
+        "description": {
+            "translate": "What a Fungi!"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:nether/stem_research",
-	"rewards": {
-		"function": "bc_rewards:nether/what_a_fungi"
-    },	
+    "rewards": {
+        "function": "bc_rewards:nether/what_a_fungi"
+    },
     "criteria": {
         "nether_fungus": {
             "trigger": "minecraft:inventory_changed",

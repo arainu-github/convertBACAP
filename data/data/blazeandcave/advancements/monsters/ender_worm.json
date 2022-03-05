@@ -3,14 +3,18 @@
         "icon": {
             "item": "minecraft:purple_dye"
         },
-        "title": {"translate":"Ender Worm"},
-        "description": {"translate":"Prevent an endermite from maturing"},
+        "title": {
+            "translate": "エンダーワーム"
+        },
+        "description": {
+            "translate": "Prevent an endermite from maturing"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:monsters/the_ender_of_ender",
     "rewards": {
         "function": "bc_rewards:monsters/ender_worm"
-    },		
+    },
     "criteria": {
         "endermite": {
             "trigger": "minecraft:player_killed_entity",

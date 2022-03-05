@@ -3,19 +3,23 @@
         "icon": {
             "item": "minecraft:soul_sand"
         },
-        "title": {"translate":"Quicksand"},
-        "description": {"translate":"You sink like quicksand and move slow like mud"},
+        "title": {
+            "translate": "流砂"
+        },
+        "description": {
+            "translate": "You sink like quicksand and move slow like mud"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:nether/nugget_in_a_biscuit",
-	"rewards": {
-		"function": "bc_rewards:nether/quicksand"
-    },		
+    "rewards": {
+        "function": "bc_rewards:nether/quicksand"
+    },
     "criteria": {
         "soul_sand": {
             "trigger": "minecraft:enter_block",
             "conditions": {
-				"block": "minecraft:soul_sand"
+                "block": "minecraft:soul_sand"
             }
         }
     }

@@ -3,15 +3,19 @@
         "icon": {
             "item": "minecraft:drowned_spawn_egg"
         },
-        "title": {"translate":"Sleep with the Fishes"},
-        "description": {"translate":"Spend a day underwater"},
+        "title": {
+            "translate": "Sleep with the Fishes"
+        },
+        "description": {
+            "translate": "Sleep with the Fishes"
+        },
         "announce_to_chat": false,
-		"frame": "challenge"
+        "frame": "challenge"
     },
     "parent": "blazeandcave:biomes/free_diver",
-	"rewards": {
-		"function": "bc_rewards:biomes/sleep_with_the_fishes"
-    },		
+    "rewards": {
+        "function": "bc_rewards:biomes/sleep_with_the_fishes"
+    },
     "criteria": {
         "trigger": {
             "trigger": "minecraft:impossible"

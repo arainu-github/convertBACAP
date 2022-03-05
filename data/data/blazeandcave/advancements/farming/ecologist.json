@@ -3,50 +3,55 @@
         "icon": {
             "item": "minecraft:jungle_sapling"
         },
-        "title": {"translate":"Ecologist"},
-        "description": {"color":"#75E1FF","translate":"Plant down all six types of sapling"},
+        "title": {
+            "translate": "生態学者"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Plant down all six types of sapling"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "blazeandcave:farming/ultra_hardcore",
-	"rewards": {
-		"function": "bc_rewards:farming/ecologist"
+    "rewards": {
+        "function": "bc_rewards:farming/ecologist"
     },
     "criteria": {
         "oak_sapling": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-				"block": "minecraft:oak_sapling"
+                "block": "minecraft:oak_sapling"
             }
         },
         "spruce_sapling": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-				"block": "minecraft:spruce_sapling"
+                "block": "minecraft:spruce_sapling"
             }
         },
         "birch_sapling": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-				"block": "minecraft:birch_sapling"
+                "block": "minecraft:birch_sapling"
             }
         },
         "jungle_sapling": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-				"block": "minecraft:jungle_sapling"
+                "block": "minecraft:jungle_sapling"
             }
         },
         "acacia_sapling": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-				"block": "minecraft:acacia_sapling"
+                "block": "minecraft:acacia_sapling"
             }
         },
         "dark_oak_sapling": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-				"block": "minecraft:dark_oak_sapling"
+                "block": "minecraft:dark_oak_sapling"
             }
         }
     }

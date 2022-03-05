@@ -3,23 +3,27 @@
         "icon": {
             "item": "minecraft:cut_copper"
         },
-        "title": {"translate":"Don’t Come a Copper!"},
-        "description": {"translate":"Craft some Cut Copper"},
+        "title": {
+            "translate": "Don’t Come a Copper!"
+        },
+        "description": {
+            "translate": "Don’t Come a Copper!"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:mining/youll_never_take_me_alive_copper",
     "rewards": {
-		"function": "bc_rewards:mining/dont_come_a_copper"
-    },		
+        "function": "bc_rewards:mining/dont_come_a_copper"
+    },
     "criteria": {
         "cut_copper": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cut_copper"
-						]
+                        "items": [
+                            "minecraft:cut_copper"
+                        ]
                     }
                 ]
             }
@@ -29,9 +33,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:exposed_cut_copper"
-						]
+                        "items": [
+                            "minecraft:exposed_cut_copper"
+                        ]
                     }
                 ]
             }
@@ -41,9 +45,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:weathered_cut_copper"
-						]
+                        "items": [
+                            "minecraft:weathered_cut_copper"
+                        ]
                     }
                 ]
             }
@@ -53,9 +57,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:oxidized_cut_copper"
-						]
+                        "items": [
+                            "minecraft:oxidized_cut_copper"
+                        ]
                     }
                 ]
             }
@@ -65,9 +69,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cut_copper_stairs"
-						]
+                        "items": [
+                            "minecraft:cut_copper_stairs"
+                        ]
                     }
                 ]
             }
@@ -77,9 +81,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:exposed_cut_copper_stairs"
-						]
+                        "items": [
+                            "minecraft:exposed_cut_copper_stairs"
+                        ]
                     }
                 ]
             }
@@ -89,9 +93,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:weathered_cut_copper_stairs"
-						]
+                        "items": [
+                            "minecraft:weathered_cut_copper_stairs"
+                        ]
                     }
                 ]
             }
@@ -101,9 +105,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:oxidized_cut_copper_stairs"
-						]
+                        "items": [
+                            "minecraft:oxidized_cut_copper_stairs"
+                        ]
                     }
                 ]
             }
@@ -113,9 +117,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cut_copper_slab"
-						]
+                        "items": [
+                            "minecraft:cut_copper_slab"
+                        ]
                     }
                 ]
             }
@@ -125,9 +129,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:exposed_cut_copper_slab"
-						]
+                        "items": [
+                            "minecraft:exposed_cut_copper_slab"
+                        ]
                     }
                 ]
             }
@@ -137,9 +141,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:weathered_cut_copper_slab"
-						]
+                        "items": [
+                            "minecraft:weathered_cut_copper_slab"
+                        ]
                     }
                 ]
             }
@@ -149,9 +153,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:oxidized_cut_copper_slab"
-						]
+                        "items": [
+                            "minecraft:oxidized_cut_copper_slab"
+                        ]
                     }
                 ]
             }
@@ -161,9 +165,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cut_copper"
-						]
+                        "items": [
+                            "minecraft:cut_copper"
+                        ]
                     }
                 ]
             }
@@ -173,9 +177,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:waxed_exposed_cut_copper"
-						]
+                        "items": [
+                            "minecraft:waxed_exposed_cut_copper"
+                        ]
                     }
                 ]
             }
@@ -185,9 +189,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:waxed_weathered_cut_copper"
-						]
+                        "items": [
+                            "minecraft:waxed_weathered_cut_copper"
+                        ]
                     }
                 ]
             }
@@ -197,9 +201,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:waxed_oxidized_cut_copper"
-						]
+                        "items": [
+                            "minecraft:waxed_oxidized_cut_copper"
+                        ]
                     }
                 ]
             }
@@ -209,9 +213,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cut_copper_stairs"
-						]
+                        "items": [
+                            "minecraft:cut_copper_stairs"
+                        ]
                     }
                 ]
             }
@@ -221,9 +225,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:waxed_exposed_cut_copper_stairs"
-						]
+                        "items": [
+                            "minecraft:waxed_exposed_cut_copper_stairs"
+                        ]
                     }
                 ]
             }
@@ -233,9 +237,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:waxed_weathered_cut_copper_stairs"
-						]
+                        "items": [
+                            "minecraft:waxed_weathered_cut_copper_stairs"
+                        ]
                     }
                 ]
             }
@@ -245,9 +249,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:waxed_oxidized_cut_copper_stairs"
-						]
+                        "items": [
+                            "minecraft:waxed_oxidized_cut_copper_stairs"
+                        ]
                     }
                 ]
             }
@@ -257,9 +261,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cut_copper_slab"
-						]
+                        "items": [
+                            "minecraft:cut_copper_slab"
+                        ]
                     }
                 ]
             }
@@ -269,9 +273,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:waxed_exposed_cut_copper_slab"
-						]
+                        "items": [
+                            "minecraft:waxed_exposed_cut_copper_slab"
+                        ]
                     }
                 ]
             }
@@ -281,9 +285,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:waxed_weathered_cut_copper_slab"
-						]
+                        "items": [
+                            "minecraft:waxed_weathered_cut_copper_slab"
+                        ]
                     }
                 ]
             }
@@ -293,40 +297,40 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:waxed_oxidized_cut_copper_slab"
-						]
+                        "items": [
+                            "minecraft:waxed_oxidized_cut_copper_slab"
+                        ]
                     }
                 ]
             }
         }
     },
-	"requirements": [
-		[
-			"cut_copper",
-			"exposed_cut_copper",
-			"weathered_cut_copper",
-			"oxidized_cut_copper",
-			"cut_copper_stairs",
-			"exposed_cut_copper_stairs",
-			"weathered_cut_copper_stairs",
-			"oxidized_cut_copper_stairs",
-			"cut_copper_slab",
-			"exposed_cut_copper_slab",
-			"weathered_cut_copper_slab",
-			"oxidized_cut_copper_slab",
-			"waxed_cut_copper",
-			"waxed_exposed_cut_copper",
-			"waxed_weathered_cut_copper",
-			"waxed_oxidized_cut_copper",
-			"waxed_cut_copper_stairs",
-			"waxed_exposed_cut_copper_stairs",
-			"waxed_weathered_cut_copper_stairs",
-			"waxed_oxidized_cut_copper_stairs",
-			"waxed_cut_copper_slab",
-			"waxed_exposed_cut_copper_slab",
-			"waxed_weathered_cut_copper_slab",
-			"waxed_oxidized_cut_copper_slab"
-		]
-	]
+    "requirements": [
+        [
+            "cut_copper",
+            "exposed_cut_copper",
+            "weathered_cut_copper",
+            "oxidized_cut_copper",
+            "cut_copper_stairs",
+            "exposed_cut_copper_stairs",
+            "weathered_cut_copper_stairs",
+            "oxidized_cut_copper_stairs",
+            "cut_copper_slab",
+            "exposed_cut_copper_slab",
+            "weathered_cut_copper_slab",
+            "oxidized_cut_copper_slab",
+            "waxed_cut_copper",
+            "waxed_exposed_cut_copper",
+            "waxed_weathered_cut_copper",
+            "waxed_oxidized_cut_copper",
+            "waxed_cut_copper_stairs",
+            "waxed_exposed_cut_copper_stairs",
+            "waxed_weathered_cut_copper_stairs",
+            "waxed_oxidized_cut_copper_stairs",
+            "waxed_cut_copper_slab",
+            "waxed_exposed_cut_copper_slab",
+            "waxed_weathered_cut_copper_slab",
+            "waxed_oxidized_cut_copper_slab"
+        ]
+    ]
 }

@@ -3,15 +3,20 @@
         "icon": {
             "item": "minecraft:jungle_boat"
         },
-        "title": {"translate":"Swine Sailing"},
-        "description": {"color":"#75E1FF","translate":"Ride a saddled pig in a boat in a minecart"},
+        "title": {
+            "translate": "Swine Sailing"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Swine Sailing"
+        },
         "announce_to_chat": false,
         "frame": "goal"
     },
     "parent": "blazeandcave:animal/pig_slaughterer",
     "rewards": {
         "function": "bc_rewards:animal/swine_sailing"
-    },		
+    },
     "criteria": {
         "swine_sailing": {
             "trigger": "minecraft:started_riding",
@@ -19,21 +24,21 @@
                 "player": [
                     {
                         "condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"vehicle": {
-								"type": "pig",
-								"vehicle": {
-									"type": "boat",
-									"vehicle": {
-										"type": "minecart"
-									}
-								}
-							}
-						}
+                        "entity": "this",
+                        "predicate": {
+                            "vehicle": {
+                                "type": "pig",
+                                "vehicle": {
+                                    "type": "boat",
+                                    "vehicle": {
+                                        "type": "minecart"
+                                    }
+                                }
+                            }
+                        }
                     }
                 ]
             }
-		}
+        }
     }
 }

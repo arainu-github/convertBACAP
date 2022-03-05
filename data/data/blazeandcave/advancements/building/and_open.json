@@ -3,20 +3,24 @@
         "icon": {
             "item": "minecraft:iron_door"
         },
-        "title": {"translate":"Aaaaaand... OPEN!"},
-        "description": {"translate":"Craft and place an iron door"},
+        "title": {
+            "translate": "Aaaaaand... OPEN!"
+        },
+        "description": {
+            "translate": "Aaaaaand... OPEN!"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:building/its_a_trap",
-	"rewards": {
-		"function": "bc_rewards:building/and_open"
-    },		
+    "rewards": {
+        "function": "bc_rewards:building/and_open"
+    },
     "criteria": {
         "iron_door": {
             "trigger": "minecraft:placed_block",
             "conditions": {
-				"block": "minecraft:iron_door"
+                "block": "minecraft:iron_door"
             }
-        }		
+        }
     }
 }

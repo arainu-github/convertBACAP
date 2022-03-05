@@ -3,23 +3,27 @@
         "icon": {
             "item": "minecraft:light_blue_concrete"
         },
-        "title": {"translate":"Concrete Evidence"},
-        "description": {"translate":"Create concrete from concrete powder by dropping it into water"},
+        "title": {
+            "translate": "コンクリの形跡"
+        },
+        "description": {
+            "translate": "Create concrete from concrete powder by dropping it into water"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:building/rainbow_sand",
-	"rewards": {
-		"function": "bc_rewards:building/concrete_evidence"
-    },		
+    "rewards": {
+        "function": "bc_rewards:building/concrete_evidence"
+    },
     "criteria": {
         "white_concrete": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:white_concrete"
-						]
+                        "items": [
+                            "minecraft:white_concrete"
+                        ]
                     }
                 ]
             }
@@ -29,9 +33,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:orange_concrete"
-						]
+                        "items": [
+                            "minecraft:orange_concrete"
+                        ]
                     }
                 ]
             }
@@ -41,9 +45,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:magenta_concrete"
-						]
+                        "items": [
+                            "minecraft:magenta_concrete"
+                        ]
                     }
                 ]
             }
@@ -53,9 +57,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:light_blue_concrete"
-						]
+                        "items": [
+                            "minecraft:light_blue_concrete"
+                        ]
                     }
                 ]
             }
@@ -65,9 +69,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:yellow_concrete"
-						]
+                        "items": [
+                            "minecraft:yellow_concrete"
+                        ]
                     }
                 ]
             }
@@ -77,9 +81,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:lime_concrete"
-						]
+                        "items": [
+                            "minecraft:lime_concrete"
+                        ]
                     }
                 ]
             }
@@ -89,9 +93,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:pink_concrete"
-						]
+                        "items": [
+                            "minecraft:pink_concrete"
+                        ]
                     }
                 ]
             }
@@ -101,9 +105,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:gray_concrete"
-						]
+                        "items": [
+                            "minecraft:gray_concrete"
+                        ]
                     }
                 ]
             }
@@ -113,9 +117,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:light_gray_concrete"
-						]
+                        "items": [
+                            "minecraft:light_gray_concrete"
+                        ]
                     }
                 ]
             }
@@ -125,9 +129,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cyan_concrete"
-						]
+                        "items": [
+                            "minecraft:cyan_concrete"
+                        ]
                     }
                 ]
             }
@@ -137,9 +141,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:purple_concrete"
-						]
+                        "items": [
+                            "minecraft:purple_concrete"
+                        ]
                     }
                 ]
             }
@@ -149,9 +153,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:blue_concrete"
-						]
+                        "items": [
+                            "minecraft:blue_concrete"
+                        ]
                     }
                 ]
             }
@@ -161,9 +165,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:brown_concrete"
-						]
+                        "items": [
+                            "minecraft:brown_concrete"
+                        ]
                     }
                 ]
             }
@@ -173,9 +177,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:green_concrete"
-						]
+                        "items": [
+                            "minecraft:green_concrete"
+                        ]
                     }
                 ]
             }
@@ -185,9 +189,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:red_concrete"
-						]
+                        "items": [
+                            "minecraft:red_concrete"
+                        ]
                     }
                 ]
             }
@@ -197,32 +201,32 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:black_concrete"
-						]
+                        "items": [
+                            "minecraft:black_concrete"
+                        ]
                     }
                 ]
             }
         }
     },
     "requirements": [
-		[
-        "white_concrete",
-        "orange_concrete",
-        "magenta_concrete",
-        "light_blue_concrete",
-        "yellow_concrete",
-        "lime_concrete",
-        "pink_concrete",
-        "gray_concrete",
-        "light_gray_concrete",
-        "cyan_concrete",
-        "purple_concrete",
-        "blue_concrete",
-        "brown_concrete",
-        "green_concrete",
-        "red_concrete",
-        "black_concrete"
-		]
-	]
+        [
+            "white_concrete",
+            "orange_concrete",
+            "magenta_concrete",
+            "light_blue_concrete",
+            "yellow_concrete",
+            "lime_concrete",
+            "pink_concrete",
+            "gray_concrete",
+            "light_gray_concrete",
+            "cyan_concrete",
+            "purple_concrete",
+            "blue_concrete",
+            "brown_concrete",
+            "green_concrete",
+            "red_concrete",
+            "black_concrete"
+        ]
+    ]
 }

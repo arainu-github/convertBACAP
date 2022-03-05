@@ -3,24 +3,29 @@
         "icon": {
             "item": "minecraft:netherite_pickaxe"
         },
-        "title": {"translate":"MOAR Upgraded Tools"},
-        "description": {"color":"#75E1FF","translate":"Craft a Netherite Pickaxe, Axe, Shovel and Hoe"},
+        "title": {
+            "translate": "MOAR Upgraded Tools"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "MOAR Upgraded Tools"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "blazeandcave:nether/diamonds_are_not_forever",
     "rewards": {
-		"function": "bc_rewards:nether/moar_upgraded_tools"
-    },			
+        "function": "bc_rewards:nether/moar_upgraded_tools"
+    },
     "criteria": {
         "netherite_pickaxe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:netherite_pickaxe"
-						]
+                        "items": [
+                            "minecraft:netherite_pickaxe"
+                        ]
                     }
                 ]
             }
@@ -30,9 +35,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:netherite_axe"
-						]
+                        "items": [
+                            "minecraft:netherite_axe"
+                        ]
                     }
                 ]
             }
@@ -42,9 +47,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:netherite_shovel"
-						]
+                        "items": [
+                            "minecraft:netherite_shovel"
+                        ]
                     }
                 ]
             }
@@ -54,9 +59,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:netherite_hoe"
-						]
+                        "items": [
+                            "minecraft:netherite_hoe"
+                        ]
                     }
                 ]
             }

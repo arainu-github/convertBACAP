@@ -3,51 +3,56 @@
         "icon": {
             "item": "minecraft:iron_pickaxe"
         },
-        "title": {"translate":"Super Efficient"},
-        "description": {"color":"#75E1FF","translate":"Obtain Efficiency V"},
+        "title": {
+            "translate": "圧倒的効率"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Obtain Efficiency V"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "blazeandcave:enchanting/librarian",
     "rewards": {
-		"function": "bc_rewards:enchanting/super_efficient"
-    },			
+        "function": "bc_rewards:enchanting/super_efficient"
+    },
     "criteria": {
         "efficiency": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-				"items": [
-					{
-						"enchantments": [
-							{
-								"enchantment": "minecraft:efficiency",
-								"levels": 5
-							}
-						]
-					}
-				]
-			}
-		},
+                "items": [
+                    {
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:efficiency",
+                                "levels": 5
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
         "efficiency_book": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
-				"items": [
-					{
-						"stored_enchantments": [
-							{
-								"enchantment": "minecraft:efficiency",
-								"levels": 5
-							}
-						]
-					}
-				]
-			}
-		}
-    },	
+                "items": [
+                    {
+                        "stored_enchantments": [
+                            {
+                                "enchantment": "minecraft:efficiency",
+                                "levels": 5
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
     "requirements": [
         [
             "efficiency",
             "efficiency_book"
-		]
+        ]
     ]
 }

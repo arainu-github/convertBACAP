@@ -3,24 +3,28 @@
         "icon": {
             "item": "minecraft:dried_kelp_block"
         },
-        "title": {"translate":"Aquatic Biofuel"},
-        "description": {"translate":"Craft a dried kelp block for use as a great fuel source"},
+        "title": {
+            "translate": "水生バイオ"
+        },
+        "description": {
+            "translate": "Craft a dried kelp block for use as a great fuel source"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:farming/kelp_me",
-	"rewards": {
-		"function": "bc_rewards:farming/aquatic_biofuel"
-    },		
+    "rewards": {
+        "function": "bc_rewards:farming/aquatic_biofuel"
+    },
     "criteria": {
         "dried_kelp_block": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:dried_kelp_block"
-						]
-					}
+                        "items": [
+                            "minecraft:dried_kelp_block"
+                        ]
+                    }
                 ]
             }
         }

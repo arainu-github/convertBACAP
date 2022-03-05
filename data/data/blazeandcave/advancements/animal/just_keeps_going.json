@@ -3,15 +3,19 @@
         "icon": {
             "item": "minecraft:bowl"
         },
-        "title": {"translate":"Just Keeps Going"},
-        "description": {"translate":"Eat Rabbit Stew, then avoid eating for the next 3 in-game days"},
+        "title": {
+            "translate": "そのまま進め！"
+        },
+        "description": {
+            "translate": "Eat Rabbit Stew, then avoid eating for the next 3 in-game days"
+        },
         "announce_to_chat": false,
-		"frame": "challenge"
+        "frame": "challenge"
     },
     "parent": "blazeandcave:animal/going_down_the_rabbit_hole",
-	"rewards": {
-		"function": "bc_rewards:animal/just_keeps_going"
-    },		
+    "rewards": {
+        "function": "bc_rewards:animal/just_keeps_going"
+    },
     "criteria": {
         "just_keeps_going": {
             "trigger": "minecraft:impossible"

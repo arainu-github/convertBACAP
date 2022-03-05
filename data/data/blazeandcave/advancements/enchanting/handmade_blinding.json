@@ -2,16 +2,21 @@
     "display": {
         "icon": {
             "item": "minecraft:carved_pumpkin",
-			"nbt": "{Enchantments:[{id:\"minecraft:binding_curse\",lvl:1}]}"
+            "nbt": "{Enchantments:[{id:\"minecraft:binding_curse\",lvl:1}]}"
         },
-        "title": {"translate":"Handmade Blinding"},
-        "description": {"color":"#75E1FF","translate":"Wear a carved pumpkin enchanted with Curse of Binding"},
+        "title": {
+            "translate": "Handmade Blinding"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Handmade Blinding"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "blazeandcave:enchanting/curses",
-	"rewards": {
-		"function": "bc_rewards:enchanting/handmade_blinding"
+    "rewards": {
+        "function": "bc_rewards:enchanting/handmade_blinding"
     },
     "criteria": {
         "binding_pumpkin": {
@@ -20,21 +25,21 @@
                 "player": [
                     {
                         "condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"equipment": {
-								"head": {
-									"items": [
-										"minecraft:carved_pumpkin"
-									],
-									"enchantments": [
-										{
-											"enchantment": "minecraft:binding_curse"
-										}
-									]
-								}
-							}
-						}
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "head": {
+                                    "items": [
+                                        "minecraft:carved_pumpkin"
+                                    ],
+                                    "enchantments": [
+                                        {
+                                            "enchantment": "minecraft:binding_curse"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
                     }
                 ]
             }

@@ -3,25 +3,30 @@
         "icon": {
             "item": "minecraft:dragon_head"
         },
-        "title": {"translate":"Dragon Army"},
-        "description": {"color":"#FF2A2A","translate":"Obtain a stack of Ender Dragon Heads"},
+        "title": {
+            "translate": "Dragon Army"
+        },
+        "description": {
+            "color": "#FF2A2A",
+            "translate": "Dragon Army"
+        },
         "announce_to_chat": false,
-		"frame": "challenge"
+        "frame": "challenge"
     },
     "parent": "blazeandcave:challenges/creepergeddon",
-	"rewards": {
-		"function": "bc_rewards:challenges/dragon_army"
-    },		
+    "rewards": {
+        "function": "bc_rewards:challenges/dragon_army"
+    },
     "criteria": {
         "dragon_head": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:dragon_head"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:dragon_head"
+                        ],
+                        "count": 64
                     }
                 ]
             }

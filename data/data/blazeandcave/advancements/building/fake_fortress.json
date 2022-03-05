@@ -3,23 +3,27 @@
         "icon": {
             "item": "minecraft:red_nether_bricks"
         },
-        "title": {"translate":"Fake fortress"},
-        "description": {"translate":"Craft or collect all forms of nether brick and red nether brick"},
+        "title": {
+            "translate": "偽ネザー要塞"
+        },
+        "description": {
+            "translate": "Craft or collect all forms of nether brick and red nether brick"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:building/deepslate_conspiracy",
     "rewards": {
         "function": "bc_rewards:building/fake_fortress"
-    },		
+    },
     "criteria": {
         "nether_brick": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:nether_bricks"
-						]
+                        "items": [
+                            "minecraft:nether_bricks"
+                        ]
                     }
                 ]
             }
@@ -29,21 +33,21 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:nether_brick_slab"
-						]
+                        "items": [
+                            "minecraft:nether_brick_slab"
+                        ]
                     }
                 ]
             }
         },
-		"nether_brick_stairs": {
+        "nether_brick_stairs": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:nether_brick_stairs"
-						]
+                        "items": [
+                            "minecraft:nether_brick_stairs"
+                        ]
                     }
                 ]
             }
@@ -53,9 +57,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:nether_brick_fence"
-						]
+                        "items": [
+                            "minecraft:nether_brick_fence"
+                        ]
                     }
                 ]
             }
@@ -65,21 +69,21 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:nether_brick_wall"
-						]
+                        "items": [
+                            "minecraft:nether_brick_wall"
+                        ]
                     }
                 ]
             }
         },
-		"red_nether_brick": {
+        "red_nether_brick": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:red_nether_bricks"
-						]
+                        "items": [
+                            "minecraft:red_nether_bricks"
+                        ]
                     }
                 ]
             }
@@ -89,21 +93,21 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:red_nether_brick_slab"
-						]
+                        "items": [
+                            "minecraft:red_nether_brick_slab"
+                        ]
                     }
                 ]
             }
         },
-		"red_nether_brick_stairs": {
+        "red_nether_brick_stairs": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:red_nether_brick_stairs"
-						]
+                        "items": [
+                            "minecraft:red_nether_brick_stairs"
+                        ]
                     }
                 ]
             }
@@ -113,9 +117,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:red_nether_brick_wall"
-						]
+                        "items": [
+                            "minecraft:red_nether_brick_wall"
+                        ]
                     }
                 ]
             }
@@ -125,9 +129,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cracked_nether_bricks"
-						]
+                        "items": [
+                            "minecraft:cracked_nether_bricks"
+                        ]
                     }
                 ]
             }
@@ -137,12 +141,12 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:chiseled_nether_bricks"
-						]
+                        "items": [
+                            "minecraft:chiseled_nether_bricks"
+                        ]
                     }
                 ]
             }
         }
-	}		
+    }
 }

@@ -3,23 +3,27 @@
         "icon": {
             "item": "minecraft:polished_blackstone_bricks"
         },
-        "title": {"translate":"Blackstonehenge"},
-        "description": {"translate":"Craft or collect all forms of Blackstone, Polished Blackstone and Polished Blackstone Bricks"},
+        "title": {
+            "translate": "Blackstonehenge"
+        },
+        "description": {
+            "translate": "Blackstonehenge"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:building/no_chain_no_gain",
     "rewards": {
         "function": "bc_rewards:building/blackstonehenge"
-    },		
+    },
     "criteria": {
         "blackstone": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:blackstone"
-						]
+                        "items": [
+                            "minecraft:blackstone"
+                        ]
                     }
                 ]
             }
@@ -29,9 +33,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:blackstone_slab"
-						]
+                        "items": [
+                            "minecraft:blackstone_slab"
+                        ]
                     }
                 ]
             }
@@ -41,9 +45,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:blackstone_stairs"
-						]
+                        "items": [
+                            "minecraft:blackstone_stairs"
+                        ]
                     }
                 ]
             }
@@ -53,9 +57,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:blackstone_wall"
-						]
+                        "items": [
+                            "minecraft:blackstone_wall"
+                        ]
                     }
                 ]
             }
@@ -65,9 +69,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:polished_blackstone"
-						]
+                        "items": [
+                            "minecraft:polished_blackstone"
+                        ]
                     }
                 ]
             }
@@ -77,9 +81,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:polished_blackstone_slab"
-						]
+                        "items": [
+                            "minecraft:polished_blackstone_slab"
+                        ]
                     }
                 ]
             }
@@ -89,9 +93,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:polished_blackstone_stairs"
-						]
+                        "items": [
+                            "minecraft:polished_blackstone_stairs"
+                        ]
                     }
                 ]
             }
@@ -101,9 +105,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:polished_blackstone_wall"
-						]
+                        "items": [
+                            "minecraft:polished_blackstone_wall"
+                        ]
                     }
                 ]
             }
@@ -113,9 +117,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:polished_blackstone_bricks"
-						]
+                        "items": [
+                            "minecraft:polished_blackstone_bricks"
+                        ]
                     }
                 ]
             }
@@ -125,9 +129,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:polished_blackstone_brick_slab"
-						]
+                        "items": [
+                            "minecraft:polished_blackstone_brick_slab"
+                        ]
                     }
                 ]
             }
@@ -137,9 +141,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:polished_blackstone_brick_stairs"
-						]
+                        "items": [
+                            "minecraft:polished_blackstone_brick_stairs"
+                        ]
                     }
                 ]
             }
@@ -149,9 +153,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:polished_blackstone_brick_wall"
-						]
+                        "items": [
+                            "minecraft:polished_blackstone_brick_wall"
+                        ]
                     }
                 ]
             }
@@ -161,9 +165,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cracked_polished_blackstone_bricks"
-						]
+                        "items": [
+                            "minecraft:cracked_polished_blackstone_bricks"
+                        ]
                     }
                 ]
             }
@@ -173,9 +177,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:chiseled_polished_blackstone"
-						]
+                        "items": [
+                            "minecraft:chiseled_polished_blackstone"
+                        ]
                     }
                 ]
             }
@@ -185,12 +189,12 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:gilded_blackstone"
-						]
+                        "items": [
+                            "minecraft:gilded_blackstone"
+                        ]
                     }
                 ]
             }
         }
-	}		
+    }
 }

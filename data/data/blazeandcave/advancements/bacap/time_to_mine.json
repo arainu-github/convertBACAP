@@ -3,23 +3,27 @@
         "icon": {
             "item": "minecraft:wooden_pickaxe"
         },
-        "title": {"translate":"Time to Mine!"},
-        "description": {"translate":"Use planks and sticks to make a pickaxe"},
+        "title": {
+            "translate": "いざ採掘！"
+        },
+        "description": {
+            "translate": "Use planks and sticks to make a pickaxe"
+        },
         "announce_to_chat": false
     },
     "parent": "minecraft:story/root",
-	"rewards": {
-		"function": "bc_rewards:bacap/time_to_mine"
-    },		
+    "rewards": {
+        "function": "bc_rewards:bacap/time_to_mine"
+    },
     "criteria": {
         "wooden_pickaxe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:wooden_pickaxe"
-						]
+                        "items": [
+                            "minecraft:wooden_pickaxe"
+                        ]
                     }
                 ]
             }
@@ -29,9 +33,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:stone_pickaxe"
-						]
+                        "items": [
+                            "minecraft:stone_pickaxe"
+                        ]
                     }
                 ]
             }
@@ -41,9 +45,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:iron_pickaxe"
-						]
+                        "items": [
+                            "minecraft:iron_pickaxe"
+                        ]
                     }
                 ]
             }
@@ -53,9 +57,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:diamond_pickaxe"
-						]
+                        "items": [
+                            "minecraft:diamond_pickaxe"
+                        ]
                     }
                 ]
             }
@@ -65,9 +69,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:golden_pickaxe"
-						]
+                        "items": [
+                            "minecraft:golden_pickaxe"
+                        ]
                     }
                 ]
             }
@@ -77,22 +81,22 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:netherite_pickaxe"
-						]
+                        "items": [
+                            "minecraft:netherite_pickaxe"
+                        ]
                     }
                 ]
             }
         }
     },
     "requirements": [
-		[
-        "wooden_pickaxe",
-        "stone_pickaxe",
-		"iron_pickaxe",
-		"diamond_pickaxe",
-		"golden_pickaxe",
-		"netherite_pickaxe"
-		]
+        [
+            "wooden_pickaxe",
+            "stone_pickaxe",
+            "iron_pickaxe",
+            "diamond_pickaxe",
+            "golden_pickaxe",
+            "netherite_pickaxe"
+        ]
     ]
 }

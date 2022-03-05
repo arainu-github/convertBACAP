@@ -3,23 +3,27 @@
         "icon": {
             "item": "minecraft:wooden_shovel"
         },
-        "title": {"translate":"Time to Dig!"},
-        "description": {"translate":"Use planks and sticks to make a shovel"},
+        "title": {
+            "translate": "Time to Dig!"
+        },
+        "description": {
+            "translate": "Time to Dig!"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:bacap/time_to_chop",
-	"rewards": {
-		"function": "bc_rewards:bacap/time_to_dig"
-    },		
+    "rewards": {
+        "function": "bc_rewards:bacap/time_to_dig"
+    },
     "criteria": {
         "wooden_shovel": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:wooden_shovel"
-						]
+                        "items": [
+                            "minecraft:wooden_shovel"
+                        ]
                     }
                 ]
             }
@@ -29,9 +33,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:stone_shovel"
-						]
+                        "items": [
+                            "minecraft:stone_shovel"
+                        ]
                     }
                 ]
             }
@@ -41,9 +45,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:iron_shovel"
-						]
+                        "items": [
+                            "minecraft:iron_shovel"
+                        ]
                     }
                 ]
             }
@@ -53,9 +57,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:diamond_shovel"
-						]
+                        "items": [
+                            "minecraft:diamond_shovel"
+                        ]
                     }
                 ]
             }
@@ -65,9 +69,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:golden_shovel"
-						]
+                        "items": [
+                            "minecraft:golden_shovel"
+                        ]
                     }
                 ]
             }
@@ -77,22 +81,22 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:netherite_shovel"
-						]
+                        "items": [
+                            "minecraft:netherite_shovel"
+                        ]
                     }
                 ]
             }
         }
     },
     "requirements": [
-		[
-        "wooden_shovel",
-        "stone_shovel",
-		"iron_shovel",
-		"diamond_shovel",
-		"golden_shovel",
-		"netherite_shovel"
-		]
+        [
+            "wooden_shovel",
+            "stone_shovel",
+            "iron_shovel",
+            "diamond_shovel",
+            "golden_shovel",
+            "netherite_shovel"
+        ]
     ]
 }

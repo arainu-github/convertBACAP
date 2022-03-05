@@ -3,27 +3,31 @@
         "icon": {
             "item": "minecraft:apple"
         },
-        "title": {"translate":"Artificial Selection"},
-        "description": {"translate":"Breed a horse and a donkey to get a mule"},
+        "title": {
+            "translate": "人工的選択"
+        },
+        "description": {
+            "translate": "Breed a horse and a donkey to get a mule"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:animal/are_we_there_yet",
-	"rewards": {
-		"function": "bc_rewards:animal/artificial_selection"
-    },		
+    "rewards": {
+        "function": "bc_rewards:animal/artificial_selection"
+    },
     "criteria": {
         "mule": {
             "trigger": "minecraft:bred_animals",
             "conditions": {
-				"parent": {
-					"type": "minecraft:horse"
-				},
-				"partner": {
-					"type": "minecraft:donkey"
-				},
-				"child": {
-					"type": "minecraft:mule"
-				}
+                "parent": {
+                    "type": "minecraft:horse"
+                },
+                "partner": {
+                    "type": "minecraft:donkey"
+                },
+                "child": {
+                    "type": "minecraft:mule"
+                }
             }
         }
     }

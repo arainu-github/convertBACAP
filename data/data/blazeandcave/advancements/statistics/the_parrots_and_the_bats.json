@@ -3,32 +3,36 @@
         "icon": {
             "item": "minecraft:porkchop"
         },
-        "title": {"translate":"The Parrots and the Bats"},
-        "description": {"translate":"Breed 100 animals"},
+        "title": {
+            "translate": "The Parrots and the Bats"
+        },
+        "description": {
+            "translate": "The Parrots and the Bats"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:statistics/root",
-	"rewards": {
-		"function": "bc_rewards:statistics/the_parrots_and_the_bats"
-    },		
+    "rewards": {
+        "function": "bc_rewards:statistics/the_parrots_and_the_bats"
+    },
     "criteria": {
         "trigger": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"stats": [
-							{
-								"type": "minecraft:custom",
-								"stat": "minecraft:animals_bred",
-								"value": {
-									"min": 100
-								}
-							}
-						]
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "stats": [
+                            {
+                                "type": "minecraft:custom",
+                                "stat": "minecraft:animals_bred",
+                                "value": {
+                                    "min": 100
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
         }
     }
 }

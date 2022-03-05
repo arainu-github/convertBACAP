@@ -3,24 +3,29 @@
         "icon": {
             "item": "minecraft:crimson_planks"
         },
-        "title": {"translate":"What about Corruption Planks?"},
-        "description": {"color":"#75E1FF","translate":"Craft every item made out of crimson wood"},
+        "title": {
+            "translate": "What about Corruption Planks?"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "What about Corruption Planks?"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "blazeandcave:nether/twisted",
     "rewards": {
-		"function": "bc_rewards:nether/what_about_corruption_planks"
-    },		
+        "function": "bc_rewards:nether/what_about_corruption_planks"
+    },
     "criteria": {
         "crimson_planks": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:crimson_planks"
-						]
+                        "items": [
+                            "minecraft:crimson_planks"
+                        ]
                     }
                 ]
             }
@@ -30,9 +35,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:crimson_stem"
-						]
+                        "items": [
+                            "minecraft:crimson_stem"
+                        ]
                     }
                 ]
             }
@@ -42,9 +47,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:stripped_crimson_stem"
-						]
+                        "items": [
+                            "minecraft:stripped_crimson_stem"
+                        ]
                     }
                 ]
             }
@@ -54,9 +59,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:crimson_hyphae"
-						]
+                        "items": [
+                            "minecraft:crimson_hyphae"
+                        ]
                     }
                 ]
             }
@@ -66,9 +71,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:stripped_crimson_hyphae"
-						]
+                        "items": [
+                            "minecraft:stripped_crimson_hyphae"
+                        ]
                     }
                 ]
             }
@@ -78,9 +83,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:crimson_slab"
-						]
+                        "items": [
+                            "minecraft:crimson_slab"
+                        ]
                     }
                 ]
             }
@@ -90,9 +95,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:crimson_pressure_plate"
-						]
+                        "items": [
+                            "minecraft:crimson_pressure_plate"
+                        ]
                     }
                 ]
             }
@@ -102,9 +107,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:crimson_fence"
-						]
+                        "items": [
+                            "minecraft:crimson_fence"
+                        ]
                     }
                 ]
             }
@@ -114,9 +119,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:crimson_trapdoor"
-						]
+                        "items": [
+                            "minecraft:crimson_trapdoor"
+                        ]
                     }
                 ]
             }
@@ -126,9 +131,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:crimson_fence_gate"
-						]
+                        "items": [
+                            "minecraft:crimson_fence_gate"
+                        ]
                     }
                 ]
             }
@@ -138,9 +143,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:crimson_stairs"
-						]
+                        "items": [
+                            "minecraft:crimson_stairs"
+                        ]
                     }
                 ]
             }
@@ -150,9 +155,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:crimson_button"
-						]
+                        "items": [
+                            "minecraft:crimson_button"
+                        ]
                     }
                 ]
             }
@@ -162,9 +167,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:crimson_door"
-						]
+                        "items": [
+                            "minecraft:crimson_door"
+                        ]
                     }
                 ]
             }
@@ -174,9 +179,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:crimson_sign"
-						]
+                        "items": [
+                            "minecraft:crimson_sign"
+                        ]
                     }
                 ]
             }

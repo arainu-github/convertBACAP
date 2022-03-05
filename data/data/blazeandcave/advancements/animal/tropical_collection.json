@@ -3,25 +3,29 @@
         "icon": {
             "item": "minecraft:tropical_fish_bucket"
         },
-        "title": {"translate":"Tropical Collection"},
-        "description": {"translate":"Collect all 22 of the common types of tropical fish"},
+        "title": {
+            "translate": "トロピカルコレクション"
+        },
+        "description": {
+            "translate": "Collect all 22 of the common types of tropical fish"
+        },
         "announce_to_chat": false,
-		"frame": "challenge"
+        "frame": "challenge"
     },
     "parent": "blazeandcave:animal/aquarium",
-	"rewards": {
-		"function": "bc_rewards:animal/tropical_collection"
-    },		
+    "rewards": {
+        "function": "bc_rewards:animal/tropical_collection"
+    },
     "criteria": {
         "fish1": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:tropical_fish_bucket"
-						],
-						"nbt": "{BucketVariantTag:65536}"
+                        "items": [
+                            "minecraft:tropical_fish_bucket"
+                        ],
+                        "nbt": "{BucketVariantTag:65536}"
                     }
                 ]
             }
@@ -31,10 +35,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:tropical_fish_bucket"
-						],
-						"nbt": "{BucketVariantTag:917504}"
+                        "items": [
+                            "minecraft:tropical_fish_bucket"
+                        ],
+                        "nbt": "{BucketVariantTag:917504}"
                     }
                 ]
             }
@@ -44,10 +48,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:tropical_fish_bucket"
-						],
-						"nbt": "{BucketVariantTag:918273}"
+                        "items": [
+                            "minecraft:tropical_fish_bucket"
+                        ],
+                        "nbt": "{BucketVariantTag:918273}"
                     }
                 ]
             }
@@ -57,10 +61,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:tropical_fish_bucket"
-						],
-						"nbt": "{BucketVariantTag:918529}"
+                        "items": [
+                            "minecraft:tropical_fish_bucket"
+                        ],
+                        "nbt": "{BucketVariantTag:918529}"
                     }
                 ]
             }
@@ -70,10 +74,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:tropical_fish_bucket"
-						],
-						"nbt": "{BucketVariantTag:16778497}"
+                        "items": [
+                            "minecraft:tropical_fish_bucket"
+                        ],
+                        "nbt": "{BucketVariantTag:16778497}"
                     }
                 ]
             }
@@ -83,10 +87,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:tropical_fish_bucket"
-						],
-						"nbt": "{BucketVariantTag:50660352}"
+                        "items": [
+                            "minecraft:tropical_fish_bucket"
+                        ],
+                        "nbt": "{BucketVariantTag:50660352}"
                     }
                 ]
             }
@@ -96,10 +100,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:tropical_fish_bucket"
-						],
-						"nbt": "{BucketVariantTag:50726144}"
+                        "items": [
+                            "minecraft:tropical_fish_bucket"
+                        ],
+                        "nbt": "{BucketVariantTag:50726144}"
                     }
                 ]
             }
@@ -109,10 +113,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:tropical_fish_bucket"
-						],
-						"nbt": "{BucketVariantTag:67108865}"
+                        "items": [
+                            "minecraft:tropical_fish_bucket"
+                        ],
+                        "nbt": "{BucketVariantTag:67108865}"
                     }
                 ]
             }
@@ -122,10 +126,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:tropical_fish_bucket"
-						],
-						"nbt": "{BucketVariantTag:67110144}"
+                        "items": [
+                            "minecraft:tropical_fish_bucket"
+                        ],
+                        "nbt": "{BucketVariantTag:67110144}"
                     }
                 ]
             }
@@ -135,10 +139,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:tropical_fish_bucket"
-						],
-						"nbt": "{BucketVariantTag:67371009}"
+                        "items": [
+                            "minecraft:tropical_fish_bucket"
+                        ],
+                        "nbt": "{BucketVariantTag:67371009}"
                     }
                 ]
             }
@@ -148,10 +152,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:tropical_fish_bucket"
-						],
-						"nbt": "{BucketVariantTag:67764993}"
+                        "items": [
+                            "minecraft:tropical_fish_bucket"
+                        ],
+                        "nbt": "{BucketVariantTag:67764993}"
                     }
                 ]
             }
@@ -161,10 +165,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:tropical_fish_bucket"
-						],
-						"nbt": "{BucketVariantTag:101253888}"
+                        "items": [
+                            "minecraft:tropical_fish_bucket"
+                        ],
+                        "nbt": "{BucketVariantTag:101253888}"
                     }
                 ]
             }
@@ -174,10 +178,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:tropical_fish_bucket"
-						],
-						"nbt": "{BucketVariantTag:117441025}"
+                        "items": [
+                            "minecraft:tropical_fish_bucket"
+                        ],
+                        "nbt": "{BucketVariantTag:117441025}"
                     }
                 ]
             }
@@ -187,10 +191,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:tropical_fish_bucket"
-						],
-						"nbt": "{BucketVariantTag:67699456}"
+                        "items": [
+                            "minecraft:tropical_fish_bucket"
+                        ],
+                        "nbt": "{BucketVariantTag:67699456}"
                     }
                 ]
             }
@@ -200,10 +204,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:tropical_fish_bucket"
-						],
-						"nbt": "{BucketVariantTag:117441793}"
+                        "items": [
+                            "minecraft:tropical_fish_bucket"
+                        ],
+                        "nbt": "{BucketVariantTag:117441793}"
                     }
                 ]
             }
@@ -213,10 +217,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:tropical_fish_bucket"
-						],
-						"nbt": "{BucketVariantTag:117506305}"
+                        "items": [
+                            "minecraft:tropical_fish_bucket"
+                        ],
+                        "nbt": "{BucketVariantTag:117506305}"
                     }
                 ]
             }
@@ -226,10 +230,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:tropical_fish_bucket"
-						],
-						"nbt": "{BucketVariantTag:117899265}"
+                        "items": [
+                            "minecraft:tropical_fish_bucket"
+                        ],
+                        "nbt": "{BucketVariantTag:117899265}"
                     }
                 ]
             }
@@ -239,10 +243,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:tropical_fish_bucket"
-						],
-						"nbt": "{BucketVariantTag:118161664}"
+                        "items": [
+                            "minecraft:tropical_fish_bucket"
+                        ],
+                        "nbt": "{BucketVariantTag:118161664}"
                     }
                 ]
             }
@@ -252,10 +256,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:tropical_fish_bucket"
-						],
-						"nbt": "{BucketVariantTag:459008}"
+                        "items": [
+                            "minecraft:tropical_fish_bucket"
+                        ],
+                        "nbt": "{BucketVariantTag:459008}"
                     }
                 ]
             }
@@ -265,10 +269,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:tropical_fish_bucket"
-						],
-						"nbt": "{BucketVariantTag:185008129}"
+                        "items": [
+                            "minecraft:tropical_fish_bucket"
+                        ],
+                        "nbt": "{BucketVariantTag:185008129}"
                     }
                 ]
             }
@@ -278,10 +282,10 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:tropical_fish_bucket"
-						],
-						"nbt": "{BucketVariantTag:234882305}"
+                        "items": [
+                            "minecraft:tropical_fish_bucket"
+                        ],
+                        "nbt": "{BucketVariantTag:234882305}"
                     }
                 ]
             }
@@ -291,13 +295,13 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:tropical_fish_bucket"
-						],
-						"nbt": "{BucketVariantTag:235340288}"
+                        "items": [
+                            "minecraft:tropical_fish_bucket"
+                        ],
+                        "nbt": "{BucketVariantTag:235340288}"
                     }
                 ]
             }
-        }		
+        }
     }
 }

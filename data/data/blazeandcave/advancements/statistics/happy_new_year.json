@@ -3,15 +3,19 @@
         "icon": {
             "item": "minecraft:firework_rocket"
         },
-        "title": {"translate":"Happy New Year!"},
-        "description": {"translate":"Play for a whole Minecraft year"},
+        "title": {
+            "translate": "Happy New Year!"
+        },
+        "description": {
+            "translate": "Happy New Year!"
+        },
         "announce_to_chat": false,
-		"frame": "challenge"
+        "frame": "challenge"
     },
     "parent": "blazeandcave:statistics/passing_the_time",
-	"rewards": {
-		"function": "bc_rewards:statistics/happy_new_year"
-    },		
+    "rewards": {
+        "function": "bc_rewards:statistics/happy_new_year"
+    },
     "criteria": {
         "trigger": {
             "trigger": "minecraft:impossible"

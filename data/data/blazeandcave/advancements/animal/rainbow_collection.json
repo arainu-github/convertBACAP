@@ -3,24 +3,29 @@
         "icon": {
             "item": "minecraft:light_blue_wool"
         },
-        "title": {"translate":"Rainbow Collection"},
-        "description": {"color":"#75E1FF","translate":"Gather all 16 colors of wool"},
+        "title": {
+            "translate": "虹色コレクション"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Gather all 16 colors of wool"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "blazeandcave:animal/live_and_let_dye",
     "rewards": {
-		"function": "bc_rewards:animal/rainbow_collection"
-    },		
+        "function": "bc_rewards:animal/rainbow_collection"
+    },
     "criteria": {
         "white_wool": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:white_wool"
-						]
+                        "items": [
+                            "minecraft:white_wool"
+                        ]
                     }
                 ]
             }
@@ -30,9 +35,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:orange_wool"
-						]
+                        "items": [
+                            "minecraft:orange_wool"
+                        ]
                     }
                 ]
             }
@@ -42,9 +47,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:magenta_wool"
-						]
+                        "items": [
+                            "minecraft:magenta_wool"
+                        ]
                     }
                 ]
             }
@@ -54,9 +59,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:light_blue_wool"
-						]
+                        "items": [
+                            "minecraft:light_blue_wool"
+                        ]
                     }
                 ]
             }
@@ -66,9 +71,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:yellow_wool"
-						]
+                        "items": [
+                            "minecraft:yellow_wool"
+                        ]
                     }
                 ]
             }
@@ -78,9 +83,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:lime_wool"
-						]
+                        "items": [
+                            "minecraft:lime_wool"
+                        ]
                     }
                 ]
             }
@@ -90,9 +95,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:pink_wool"
-						]
+                        "items": [
+                            "minecraft:pink_wool"
+                        ]
                     }
                 ]
             }
@@ -102,9 +107,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:gray_wool"
-						]
+                        "items": [
+                            "minecraft:gray_wool"
+                        ]
                     }
                 ]
             }
@@ -114,9 +119,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:light_gray_wool"
-						]
+                        "items": [
+                            "minecraft:light_gray_wool"
+                        ]
                     }
                 ]
             }
@@ -126,9 +131,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:cyan_wool"
-						]
+                        "items": [
+                            "minecraft:cyan_wool"
+                        ]
                     }
                 ]
             }
@@ -138,9 +143,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:purple_wool"
-						]
+                        "items": [
+                            "minecraft:purple_wool"
+                        ]
                     }
                 ]
             }
@@ -150,9 +155,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:blue_wool"
-						]
+                        "items": [
+                            "minecraft:blue_wool"
+                        ]
                     }
                 ]
             }
@@ -162,9 +167,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:brown_wool"
-						]
+                        "items": [
+                            "minecraft:brown_wool"
+                        ]
                     }
                 ]
             }
@@ -174,9 +179,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:green_wool"
-						]
+                        "items": [
+                            "minecraft:green_wool"
+                        ]
                     }
                 ]
             }
@@ -186,9 +191,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:red_wool"
-						]
+                        "items": [
+                            "minecraft:red_wool"
+                        ]
                     }
                 ]
             }
@@ -198,9 +203,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:black_wool"
-						]
+                        "items": [
+                            "minecraft:black_wool"
+                        ]
                     }
                 ]
             }

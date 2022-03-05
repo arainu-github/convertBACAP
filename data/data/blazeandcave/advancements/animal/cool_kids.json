@@ -3,14 +3,18 @@
         "icon": {
             "item": "minecraft:leather_chestplate"
         },
-        "title": {"translate":"Cool Kids"},
-        "description": {"translate":"Craft and wear a leather jacket"},
+        "title": {
+            "translate": "カワいい服"
+        },
+        "description": {
+            "translate": "Craft and wear a leather jacket"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:animal/cow_tipper",
-	"rewards": {
-		"function": "bc_rewards:animal/cool_kids"
-    },		
+    "rewards": {
+        "function": "bc_rewards:animal/cool_kids"
+    },
     "criteria": {
         "leather_chestplate": {
             "trigger": "minecraft:inventory_changed",
@@ -18,16 +22,16 @@
                 "player": [
                     {
                         "condition": "minecraft:entity_properties",
-						"entity": "this",
-						"predicate": {
-							"equipment": {
-								"chest": {
-									"items": [
-										"minecraft:leather_chestplate"
-									]
-								}
-							}
-						}
+                        "entity": "this",
+                        "predicate": {
+                            "equipment": {
+                                "chest": {
+                                    "items": [
+                                        "minecraft:leather_chestplate"
+                                    ]
+                                }
+                            }
+                        }
                     }
                 ]
             }

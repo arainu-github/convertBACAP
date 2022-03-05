@@ -1,17 +1,17 @@
 {
-	"parent": "blazeandcave:challenges/biological_warfare",	
-	"criteria": {
+    "parent": "blazeandcave:challenges/biological_warfare",
+    "criteria": {
         "root": {
             "trigger": "minecraft:location",
-			"conditions": {
-				"player":  {
-					"player": {
-						"advancements": {
-							"blazeandcave:challenges/root": "true"
-						}
-					}
-				}
-			}
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "blazeandcave:challenges/root": "true"
+                        }
+                    }
+                }
+            }
         }
     }
 }

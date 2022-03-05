@@ -3,23 +3,27 @@
         "icon": {
             "item": "minecraft:wooden_hoe"
         },
-        "title": {"translate":"Time to Farm!"},
-        "description": {"translate":"Use planks and sticks to make a hoe"},
+        "title": {
+            "translate": "いざ農業！"
+        },
+        "description": {
+            "translate": "Use planks and sticks to make a hoe"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:bacap/time_to_dig",
-	"rewards": {
-		"function": "bc_rewards:bacap/time_to_farm"
-    },		
+    "rewards": {
+        "function": "bc_rewards:bacap/time_to_farm"
+    },
     "criteria": {
         "wooden_hoe": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:wooden_hoe"
-						]
+                        "items": [
+                            "minecraft:wooden_hoe"
+                        ]
                     }
                 ]
             }
@@ -29,9 +33,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:stone_hoe"
-						]
+                        "items": [
+                            "minecraft:stone_hoe"
+                        ]
                     }
                 ]
             }
@@ -41,9 +45,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:iron_hoe"
-						]
+                        "items": [
+                            "minecraft:iron_hoe"
+                        ]
                     }
                 ]
             }
@@ -53,9 +57,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:diamond_hoe"
-						]
+                        "items": [
+                            "minecraft:diamond_hoe"
+                        ]
                     }
                 ]
             }
@@ -65,9 +69,9 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:golden_hoe"
-						]
+                        "items": [
+                            "minecraft:golden_hoe"
+                        ]
                     }
                 ]
             }
@@ -77,22 +81,22 @@
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:netherite_hoe"
-						]
+                        "items": [
+                            "minecraft:netherite_hoe"
+                        ]
                     }
                 ]
             }
         }
     },
     "requirements": [
-		[
-        "wooden_hoe",
-        "stone_hoe",
-		"iron_hoe",
-		"diamond_hoe",
-		"golden_hoe",
-		"netherite_hoe"
-		]
+        [
+            "wooden_hoe",
+            "stone_hoe",
+            "iron_hoe",
+            "diamond_hoe",
+            "golden_hoe",
+            "netherite_hoe"
+        ]
     ]
 }

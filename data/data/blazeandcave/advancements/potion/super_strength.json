@@ -3,14 +3,18 @@
         "icon": {
             "item": "minecraft:blaze_powder"
         },
-        "title": {"translate":"Super Strength"},
-        "description": {"translate":"Brew a Strength Potion for cheating on weightlifting"},
+        "title": {
+            "translate": "超最強"
+        },
+        "description": {
+            "translate": "Brew a Strength Potion for cheating on weightlifting"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:potion/performance_enhancing_drugs",
-	"rewards": {
-		"function": "bc_rewards:potion/super_strength"
-    },	
+    "rewards": {
+        "function": "bc_rewards:potion/super_strength"
+    },
     "criteria": {
         "strength": {
             "trigger": "minecraft:brewed_potion",
@@ -31,11 +35,11 @@
             }
         }
     },
-	"requirements": [
-		[
-			"strength",
-			"long_strength",
-			"strong_strength"
-		]
-	]
+    "requirements": [
+        [
+            "strength",
+            "long_strength",
+            "strong_strength"
+        ]
+    ]
 }

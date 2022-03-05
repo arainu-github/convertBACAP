@@ -3,15 +3,20 @@
         "icon": {
             "item": "minecraft:blaze_rod"
         },
-        "title": {"translate":"Hell Hunter"},
-        "description": {"color":"#75E1FF","translate":"Defeat all kinds of Nether mobs"},
+        "title": {
+            "translate": "地獄の狩人"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Defeat all kinds of Nether mobs"
+        },
         "announce_to_chat": false,
         "frame": "goal"
     },
     "parent": "blazeandcave:monsters/night_runner",
     "rewards": {
-		"function": "bc_rewards:monsters/hell_hunter"
-    },	
+        "function": "bc_rewards:monsters/hell_hunter"
+    },
     "criteria": {
         "zombified_piglin": {
             "trigger": "minecraft:player_killed_entity",

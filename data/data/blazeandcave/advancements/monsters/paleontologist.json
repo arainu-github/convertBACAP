@@ -3,28 +3,33 @@
         "icon": {
             "item": "minecraft:bone_block"
         },
-        "title": {"translate":"Paleontologist"},
-        "description": {"color":"#75E1FF","translate":"Craft or mine a stack of bone blocks"},
+        "title": {
+            "translate": "Paleontologist"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Paleontologist"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "blazeandcave:monsters/skeleton_smiter",
     "rewards": {
-		"function": "bc_rewards:monsters/paleontologist"
-    },		
+        "function": "bc_rewards:monsters/paleontologist"
+    },
     "criteria": {
         "bone_block": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:bone_block"
-						],
-						"count": 64
+                        "items": [
+                            "minecraft:bone_block"
+                        ],
+                        "count": 64
                     }
                 ]
             }
-        }		
-    }	
+        }
+    }
 }

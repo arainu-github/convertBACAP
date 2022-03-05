@@ -3,22 +3,27 @@
         "icon": {
             "item": "minecraft:nautilus_shell"
         },
-        "title": {"translate":"Mollusc Man"},
-        "description": {"color":"#75E1FF","translate":"Defeat a Drowned that is holding a nautilus shell"},
+        "title": {
+            "translate": "軟体生物マン"
+        },
+        "description": {
+            "color": "#75E1FF",
+            "translate": "Defeat a Drowned that is holding a nautilus shell"
+        },
         "announce_to_chat": false,
-		"frame": "goal"
+        "frame": "goal"
     },
     "parent": "blazeandcave:monsters/a_watery_grave",
     "rewards": {
         "function": "bc_rewards:monsters/mollusc_man"
-    },		
+    },
     "criteria": {
         "drowned": {
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
                     "type": "drowned",
-					"nbt": "{HandItems:[{},{id:\"minecraft:nautilus_shell\",Count:1b}]}"
+                    "nbt": "{HandItems:[{},{id:\"minecraft:nautilus_shell\",Count:1b}]}"
                 }
             }
         }

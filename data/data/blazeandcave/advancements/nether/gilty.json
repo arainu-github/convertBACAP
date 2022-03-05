@@ -3,23 +3,27 @@
         "icon": {
             "item": "minecraft:gilded_blackstone"
         },
-        "title": {"translate":"Gilty!"},
-        "description": {"translate":"Mine some Gilded Blackstone from a Bastion Remnant"},
+        "title": {
+            "translate": "Gilty!"
+        },
+        "description": {
+            "translate": "Gilty!"
+        },
         "announce_to_chat": false
     },
     "parent": "minecraft:nether/loot_bastion",
-	"rewards": {
-		"function": "bc_rewards:nether/gilty"
-    },	
+    "rewards": {
+        "function": "bc_rewards:nether/gilty"
+    },
     "criteria": {
         "gilded_blackstone": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:gilded_blackstone"
-						]
+                        "items": [
+                            "minecraft:gilded_blackstone"
+                        ]
                     }
                 ]
             }

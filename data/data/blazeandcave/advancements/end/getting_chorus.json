@@ -3,23 +3,27 @@
         "icon": {
             "item": "minecraft:chorus_fruit"
         },
-        "title": {"translate":"Getting Chorus"},
-        "description": {"translate":"Attack a chorus tree until it collapses"},
+        "title": {
+            "translate": "コーラスを得る"
+        },
+        "description": {
+            "translate": "Attack a chorus tree until it collapses"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:end/end_bricks",
-	"rewards": {
-		"function": "bc_rewards:end/getting_chorus"
-    },	
+    "rewards": {
+        "function": "bc_rewards:end/getting_chorus"
+    },
     "criteria": {
         "chorus_fruit": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-						"items": [
-							"minecraft:chorus_fruit"
-						]
+                        "items": [
+                            "minecraft:chorus_fruit"
+                        ]
                     }
                 ]
             }

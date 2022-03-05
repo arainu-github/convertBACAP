@@ -3,14 +3,18 @@
         "icon": {
             "item": "minecraft:fishing_rod"
         },
-        "title": {"translate":"Hot Reels!"},
-        "description": {"translate":"Reel in a Strider using a Fishing Rod"},
+        "title": {
+            "translate": "Hot Reels!"
+        },
+        "description": {
+            "translate": "Hot Reels!"
+        },
         "announce_to_chat": false
     },
     "parent": "blazeandcave:nether/what_a_fungi",
-	"rewards": {
-		"function": "bc_rewards:nether/hot_reels"
-    },		
+    "rewards": {
+        "function": "bc_rewards:nether/hot_reels"
+    },
     "criteria": {
         "strider": {
             "trigger": "minecraft:fishing_rod_hooked",
